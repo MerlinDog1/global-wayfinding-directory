@@ -169,3 +169,31 @@
     "notes": "Generic info@ inbox inferred from domain. Phone +353 1 452 4152 available. No direct person emails found."
   }
 ]
+,
+  {
+    "companyId": 14,
+    "company": "Taylor Signs",
+    "country": "Ireland",
+    "primaryEmail": "info@taylorsigns.ie",
+    "backupEmail": "",
+    "primaryContactName": "Taylor Signs Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Dublin-based signage company with 70+ years experience. Luxury hotel credentials include The Marker Hotel (5-star), Dublin Airport Authority.",
+    "confidence": "high",
+    "notes": "Direct email info@taylorsigns.ie and phone +353 (1) 460 0640 confirmed from website. No named contacts found."
+  },
+  {
+    "companyId": 15,
+    "company": "Academy Signs",
+    "country": "Ireland",
+    "primaryEmail": "eugene@academysigns.com",
+    "backupEmail": "keith@academysigns.com",
+    "primaryContactName": "Eugene Hynes",
+    "primaryContactRole": "Managing Director",
+    "contactLinkedIn": "",
+    "fitReason": "Dublin-based signage company with 35+ years experience. Luxury project experience includes Paul Sheeran Jewellers (Chatham Street). Named contacts available.",
+    "confidence": "high",
+    "notes": "Multiple named contacts confirmed: Eugene Hynes (MD), Keith Hynes (GM), Patrick Murphy (Sales Director). Direct emails from company website."
+  }
+]

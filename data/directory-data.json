@@ -211,5 +211,39 @@
     "sellsPlaques": false,
     "isWayfinding": true,
     "notes": "Dublin-based architectural signage and wayfinding company. Specialises in premium signage, totems, wall murals and wayfinding systems for commercial spaces."
+  },
+  {
+    "id": 14,
+    "county": "Ireland",
+    "category": "Signage",
+    "company": "Taylor Signs",
+    "website": "https://www.taylorsigns.ie/",
+    "email": "info@taylorsigns.ie",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "phone": "+353 (1) 460 0640",
+    "address": "Ascot House, Kylemore Park North, Kylemore Road, Dublin 10, Ireland",
+    "quality": 0,
+    "sellsPlaques": false,
+    "isWayfinding": true,
+    "notes": "Dublin-based signage company with 70+ years experience. Worked with The Marker Hotel (luxury 5-star), Dublin Airport Authority, and AMGEN. Full service from design to installation."
+  },
+  {
+    "id": 15,
+    "county": "Ireland",
+    "category": "Signage",
+    "company": "Academy Signs",
+    "website": "https://academysigns.com/",
+    "email": "sales@academysigns.com",
+    "linkedin": "https://www.linkedin.com/in/academy-signs-36538143/",
+    "instagram": "https://www.instagram.com/academysigns/",
+    "facebook": null,
+    "phone": "01 493 5188",
+    "address": "Rear 98 Nutgrove Ave, Rathfarnham, Dublin, D14 WF51, Ireland",
+    "quality": 0,
+    "sellsPlaques": false,
+    "isWayfinding": true,
+    "notes": "Dublin-based signage company with 35+ years experience. Worked on Paul Sheeran Jewellers (luxury brand) on Chatham Street, Dublin. Named contacts available."
   }
 ]

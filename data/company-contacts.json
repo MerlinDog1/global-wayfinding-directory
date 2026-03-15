@@ -313,5 +313,55 @@
       }
     ],
     "notes": "Dublin-based architectural signage company. Generic contact email info@addesign.ie. No direct person emails found."
+  },
+  {
+    "companyId": 14,
+    "company": "Taylor Signs",
+    "contacts": [
+      {
+        "name": "Taylor Signs Team",
+        "title": "Project Enquiries",
+        "email": "info@taylorsigns.ie",
+        "linkedin": null,
+        "source": "https://www.taylorsigns.ie/contact-us",
+        "confidence": "high",
+        "notes": "Contact email and phone +353 (1) 460 0640 confirmed from company website."
+      }
+    ],
+    "notes": "Dublin-based signage company with 70+ years experience. Worked with The Marker Hotel (luxury 5-star), Dublin Airport Authority."
+  },
+  {
+    "companyId": 15,
+    "company": "Academy Signs",
+    "contacts": [
+      {
+        "name": "Eugene Hynes",
+        "title": "Managing Director",
+        "email": "eugene@academysigns.com",
+        "linkedin": null,
+        "source": "https://academysigns.com/contact/",
+        "confidence": "high",
+        "notes": "Direct email confirmed from company website."
+      },
+      {
+        "name": "Keith Hynes",
+        "title": "General Manager",
+        "email": "keith@academysigns.com",
+        "linkedin": null,
+        "source": "https://academysigns.com/contact/",
+        "confidence": "high",
+        "notes": "Direct email confirmed from company website."
+      },
+      {
+        "name": "Patrick Murphy",
+        "title": "Sales Director",
+        "email": "patrick@academysigns.com",
+        "linkedin": null,
+        "source": "https://academysigns.com/contact/",
+        "confidence": "high",
+        "notes": "Direct email confirmed from company website."
+      }
+    ],
+    "notes": "Dublin-based signage company with 35+ years experience. Worked on Paul Sheeran Jewellers (luxury brand) project."
   }
 ]
