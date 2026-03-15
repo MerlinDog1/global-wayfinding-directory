@@ -82,7 +82,7 @@
         "confidence": "medium"
       },
       {
-        "name": "Matthew J. Montañes",
+        "name": "Matthew J. Monta\u00f1es",
         "title": "Designer",
         "email": "",
         "linkedin": "https://www.linkedin.com/in/matthew-j-monta%C3%B1es-3a645b24",
@@ -795,5 +795,155 @@
       }
     ],
     "notes": "Beirut-based sign company. Digital printing + custom signage installations."
+  },
+  {
+    "companyId": 43,
+    "company": "Wayfinding Studio",
+    "contacts": [
+      {
+        "name": "Wayfinding Studio Team",
+        "title": "General Contact",
+        "email": "info@wayfindingstudio.fr",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "companyId": 44,
+    "company": "Axone Etude Signal\u00e9tique",
+    "contacts": [
+      {
+        "name": "Axone Team",
+        "title": "General Contact",
+        "email": "contact@axone-environnement.com",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "companyId": 45,
+    "company": "Designers Unit",
+    "contacts": [
+      {
+        "name": "David Lebreton",
+        "title": "Founding Partner",
+        "email": "",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "medium"
+      },
+      {
+        "name": "Emmanuel Labard",
+        "title": "Founding Partner",
+        "email": "",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "companyId": 46,
+    "company": "Studio Gourdin",
+    "contacts": [
+      {
+        "name": "Studio Gourdin Team",
+        "title": "General Contact",
+        "email": "office@studio-gourdin.com",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "companyId": 47,
+    "company": "UV2 Design Berlin",
+    "contacts": [
+      {
+        "name": "Ralph Mehrtens",
+        "title": "Founder",
+        "email": "contact@uv2-design-berlin.de",
+        "linkedin": "https://www.linkedin.com/in/ralph-mehrtens-35004658/",
+        "source": "Company website + LinkedIn",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "companyId": 49,
+    "company": "Mijksenaar",
+    "contacts": [
+      {
+        "name": "Aad Kalkman",
+        "title": "Managing Director",
+        "email": "kalkman@mijksenaar.com",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "high"
+      },
+      {
+        "name": "Stefan Pangratz",
+        "title": "Creative Director",
+        "email": "pangratz@mijksenaar.com",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "companyId": 52,
+    "company": "Signburo",
+    "contacts": [
+      {
+        "name": "Johan Lambrechts",
+        "title": "Director/Owner",
+        "email": "",
+        "linkedin": "",
+        "source": "Company directory",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "companyId": 56,
+    "company": "Forster",
+    "contacts": [
+      {
+        "name": "Forster Team",
+        "title": "General Contact",
+        "email": "",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "companyId": 57,
+    "company": "Signes",
+    "contacts": [
+      {
+        "name": "Alba Monferrer Ramirez",
+        "title": "Wayfinding Manager",
+        "email": "",
+        "linkedin": "",
+        "source": "RocketReach",
+        "confidence": "medium"
+      },
+      {
+        "name": "Mireia Rius Sol",
+        "title": "Project Manager",
+        "email": "",
+        "linkedin": "",
+        "source": "RocketReach",
+        "confidence": "medium"
+      }
+    ]
   }
 ]
