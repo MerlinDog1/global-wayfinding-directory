@@ -624,19 +624,6 @@
     "notes": "Multiple contacts available"
   },
   {
-    "companyId": 50,
-    "company": "Van Beem & Van Haagen",
-    "country": "Netherlands",
-    "primaryEmail": "",
-    "backupEmail": "",
-    "primaryContactName": "",
-    "primaryContactRole": "",
-    "contactLinkedIn": "",
-    "fitReason": "Dutch wayfinding and branding consultancy. Full service design-to-execution.",
-    "confidence": "medium",
-    "notes": "Website contact form only"
-  },
-  {
     "companyId": 51,
     "company": "Van Beem & Van Haagen",
     "country": "Netherlands",
