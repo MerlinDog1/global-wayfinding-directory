@@ -3,14 +3,14 @@
     "companyId": 1,
     "company": "Endpoint",
     "country": "UK",
-    "primaryEmail": "",
-    "backupEmail": "",
-    "primaryContactName": "Lisa Wells",
-    "primaryContactRole": "Signage Design Manager",
-    "contactLinkedIn": "",
+    "primaryEmail": "london@weareendpoint.com",
+    "backupEmail": "dubai@weareendpoint.com",
+    "primaryContactName": "Endpoint London Studio",
+    "primaryContactRole": "Project & Design Enquiries",
+    "contactLinkedIn": "https://uk.linkedin.com/company/endpoint",
     "fitReason": "Established UK wayfinding specialist; direct role evidence on About page quotes. Generic route recommended pending direct person email.",
-    "confidence": "low",
-    "notes": "Endpoint is active at weareendpoint.com, but no direct/public email was confirmed on fetched contact pages; use website contact form and LinkedIn route."
+    "confidence": "high",
+    "notes": "Active Endpoint site is weareendpoint.com. Studio emails publicly listed on About page."
   },
   {
     "companyId": 2,

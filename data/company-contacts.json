@@ -2,7 +2,40 @@
   {
     "companyId": 1,
     "company": "Endpoint",
-    "contacts": [],
+    "contacts": [
+      {
+        "name": "Endpoint London Studio",
+        "title": "General & Project Enquiries",
+        "email": "london@weareendpoint.com",
+        "linkedin": "https://uk.linkedin.com/company/endpoint",
+        "source": "https://www.weareendpoint.com/about",
+        "confidence": "high"
+      },
+      {
+        "name": "Endpoint Dubai Studio",
+        "title": "Regional Enquiries",
+        "email": "dubai@weareendpoint.com",
+        "linkedin": "https://uk.linkedin.com/company/endpoint",
+        "source": "https://www.weareendpoint.com/about",
+        "confidence": "high"
+      },
+      {
+        "name": "Endpoint Communications",
+        "title": "Communications",
+        "email": "communications@weareendpoint.com",
+        "linkedin": "https://uk.linkedin.com/company/endpoint",
+        "source": "https://www.weareendpoint.com/wayfinding-news-and-views/retail-wayfinding",
+        "confidence": "medium"
+      },
+      {
+        "name": "Ollie Singleton",
+        "title": "Technical Designer",
+        "email": "",
+        "linkedin": "https://uk.linkedin.com/in/ollie-singleton",
+        "source": "https://www.weareendpoint.com/about/team/ollie-singleton-technical-designer",
+        "confidence": "medium"
+      }
+    ],
     "notes": "Company appears inactive - website redirects to unrelated US real estate company. No public contacts found."
   },
   {
