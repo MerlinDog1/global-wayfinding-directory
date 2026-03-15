@@ -1,0 +1,154 @@
+[
+  {
+    "companyId": 1,
+    "company": "Endpoint",
+    "emails": [
+      "accessibility@endpoint.com",
+      "closing.eptech@endpoint.com",
+      "closing@endpoint.com",
+      "dataprivacy@endpoint.com",
+      "hello@endpoint.com",
+      "marketing@endpoint.com",
+      "sales@endpoint.com"
+    ],
+    "sources": {
+      "accessibility@endpoint.com": [
+        "https://www.endpoint.com/privacy"
+      ],
+      "closing.eptech@endpoint.com": [
+        "https://www.endpoint.com/contact-us"
+      ],
+      "closing@endpoint.com": [
+        "https://www.endpoint.com/contact-us",
+        "https://www.endpoint.com/sign-in"
+      ],
+      "dataprivacy@endpoint.com": [
+        "https://www.endpoint.com/privacy"
+      ],
+      "hello@endpoint.com": [
+        "https://www.endpoint.com/licenses"
+      ],
+      "marketing@endpoint.com": [
+        "https://www.endpoint.com/contact-us"
+      ],
+      "sales@endpoint.com": [
+        "https://www.endpoint.com/contact-us"
+      ]
+    }
+  },
+  {
+    "companyId": 3,
+    "company": "Two Twelve",
+    "emails": [
+      "info@twotwelve.com",
+      "jobs@twotwelve.com",
+      "marketing@twotwelve.com",
+      "pmena@twotwelve.com"
+    ],
+    "sources": {
+      "info@twotwelve.com": [
+        "https://www.twotwelve.com/terms"
+      ],
+      "jobs@twotwelve.com": [
+        "https://www.twotwelve.com/careers"
+      ],
+      "marketing@twotwelve.com": [
+        "https://www.twotwelve.com/contact"
+      ],
+      "pmena@twotwelve.com": [
+        "https://www.twotwelve.com/contact"
+      ]
+    }
+  },
+  {
+    "companyId": 5,
+    "company": "Spaceagency",
+    "emails": [
+      "info@spaceagency-design.com",
+      "jobs@spaceagency-design.com",
+      "junyi@spaceagency-design.com"
+    ],
+    "sources": {
+      "info@spaceagency-design.com": [
+        "https://www.spaceagency-design.com",
+        "https://www.spaceagency-design.com/"
+      ],
+      "jobs@spaceagency-design.com": [
+        "https://www.spaceagency-design.com/careers"
+      ],
+      "junyi@spaceagency-design.com": [
+        "https://www.spaceagency-design.com/contact"
+      ]
+    }
+  },
+  {
+    "companyId": 6,
+    "company": "Maynard Design",
+    "emails": [
+      "communications@maynard-design.com",
+      "info@maynard-design.com",
+      "jobs@maynard-design.com"
+    ],
+    "sources": {
+      "communications@maynard-design.com": [
+        "https://www.maynard-design.com",
+        "https://www.maynard-design.com/"
+      ],
+      "info@maynard-design.com": [
+        "https://www.maynard-design.com",
+        "https://www.maynard-design.com/"
+      ],
+      "jobs@maynard-design.com": [
+        "https://www.maynard-design.com/contact/"
+      ]
+    }
+  },
+  {
+    "companyId": 8,
+    "company": "The Velvet Principle",
+    "emails": [
+      "ello@thevelvetprinciple.co.uk",
+      "hello@thevelvetprinciple.co.uk",
+      "sian@thevelvetprinciple.com"
+    ],
+    "sources": {
+      "ello@thevelvetprinciple.co.uk": [
+        "https://thevelvetprinciple.com/",
+        "https://thevelvetprinciple.com/20-fenchurch-st-office-wayfinding/"
+      ],
+      "hello@thevelvetprinciple.co.uk": [
+        "https://thevelvetprinciple.com/",
+        "https://thevelvetprinciple.com/20-fenchurch-st-office-wayfinding/"
+      ],
+      "sian@thevelvetprinciple.com": [
+        "https://thevelvetprinciple.com/privacy-policy/"
+      ]
+    }
+  },
+  {
+    "companyId": 9,
+    "company": "THIS WAY",
+    "emails": [
+      "james@thisway.london"
+    ],
+    "sources": {
+      "james@thisway.london": [
+        "https://www.thisway.london",
+        "https://www.thisway.london/"
+      ]
+    }
+  },
+  {
+    "companyId": 10,
+    "company": "Studiomarc",
+    "emails": [
+      "marc@studiomarc.uk"
+    ],
+    "sources": {
+      "marc@studiomarc.uk": [
+        "https://www.studiomarc.uk/about-5",
+        "https://www.studiomarc.uk/contact"
+      ]
+    }
+  }
+]
