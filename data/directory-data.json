@@ -2167,5 +2167,39 @@
     "sellsPlaques": false,
     "isWayfinding": true,
     "notes": "Formerly Steer Davies Gleave. Developed Bogot\u00e1 tourism wayfinding strategy for IDT (Instituto Distrital de Turismo). Transport planning + wayfinding."
+  },
+  {
+    "id": 129,
+    "county": "Peru",
+    "category": "Signage",
+    "company": "Vex Soluciones",
+    "website": "https://www.vexsoluciones.com/",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": null,
+    "phone": "",
+    "address": "Lima, Peru",
+    "quality": 0,
+    "sellsPlaques": false,
+    "isWayfinding": true,
+    "notes": "Peruvian digital signage company with wayfinding capabilities. Focus: hotels, corporate, retail. Digital signage solutions."
+  },
+  {
+    "id": 130,
+    "county": "Peru",
+    "category": "Signage",
+    "company": "CVDI Peru",
+    "website": "",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": null,
+    "phone": "",
+    "address": "Lima, Peru",
+    "quality": 0,
+    "sellsPlaques": false,
+    "isWayfinding": true,
+    "notes": "CVDI - Proyectos de se\u00f1alizaci\u00f3n e imagen corporativa. Wayfinding and signage specialist. Limited web presence."
   }
 ]

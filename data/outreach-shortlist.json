@@ -1662,5 +1662,31 @@
     "fitReason": "International firm with Bogot\u00e1 office. Developed Bogot\u00e1 tourism wayfinding for IDT. Transport planning expertise.",
     "confidence": "medium",
     "notes": "Use global enquiries@steergroup.com as backup."
+  },
+  {
+    "companyId": 129,
+    "company": "Vex Soluciones",
+    "country": "Peru",
+    "primaryEmail": "",
+    "backupEmail": "",
+    "primaryContactName": "Vex Soluciones Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Peruvian digital signage firm with wayfinding services. Focus on hotels, corporate, retail.",
+    "confidence": "low",
+    "notes": "Limited data. Contact via website form."
+  },
+  {
+    "companyId": 130,
+    "company": "CVDI Peru",
+    "country": "Peru",
+    "primaryEmail": "",
+    "backupEmail": "",
+    "primaryContactName": "Paulo Samanez",
+    "primaryContactRole": "Wayfinding and Signage Specialist",
+    "contactLinkedIn": "",
+    "fitReason": "Peruvian wayfinding specialist. Limited company info available.",
+    "confidence": "low",
+    "notes": "No direct contact found. Limited web presence."
   }
 ]

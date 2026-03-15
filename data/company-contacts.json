@@ -2197,5 +2197,35 @@
       }
     ],
     "notes": "Global firm. Bogot\u00e1 office. Contact via global/regional channels."
+  },
+  {
+    "companyId": 129,
+    "company": "Vex Soluciones",
+    "contacts": [
+      {
+        "name": "Vex Soluciones Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.vexsoluciones.com/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Digital signage focus with wayfinding. Limited info available."
+  },
+  {
+    "companyId": 130,
+    "company": "CVDI Peru",
+    "contacts": [
+      {
+        "name": "Paulo Samanez",
+        "title": "Wayfinding and Signage Specialist",
+        "email": "",
+        "linkedin": "",
+        "source": "https://rocketreach.co/paulo-samanez-email_215663968",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Individual contact found via LinkedIn. Company has limited web presence."
   }
 ]
