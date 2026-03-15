@@ -2218,5 +2218,39 @@
     "sellsPlaques": false,
     "isWayfinding": true,
     "notes": "Based in Guatemala, dominant signage provider across Central America (Guatemala, Belize, El Salvador, Honduras, Nicaragua, Costa Rica, Panama). 20+ years. Clients: oil companies, retail, supermarkets, QSR (McDonald's, Pollo Campero). Digital signage capabilities."
+  },
+  {
+    "id": 132,
+    "county": "Costa Rica",
+    "category": "Signage",
+    "company": "RSM Design (LATAM)",
+    "website": "https://rsmdesign.com/",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/company/rsm-design",
+    "instagram": "",
+    "facebook": null,
+    "phone": "",
+    "address": "USA (operates in Costa Rica & LATAM)",
+    "quality": 0,
+    "sellsPlaques": false,
+    "isWayfinding": true,
+    "notes": "US-based design firm with LATAM presence. Completed Oxigeno project in Costa Rica. Focus: luxury hospitality, airports, mixed-use, transit. Strategy + design + fabrication."
+  },
+  {
+    "id": 133,
+    "county": "Costa Rica",
+    "category": "Signage",
+    "company": "Panavision (Central America)",
+    "website": "https://www.panavision.com.gt/",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": null,
+    "phone": "+502 2362-7041",
+    "address": "Guatemala (serves Costa Rica & Central America)",
+    "quality": 0,
+    "sellsPlaques": false,
+    "isWayfinding": true,
+    "notes": "Regional player covering Costa Rica. Based in Guatemala. 20+ years across Central America."
   }
 ]

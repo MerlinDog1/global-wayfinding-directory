@@ -2242,5 +2242,35 @@
       }
     ],
     "notes": "Regional player covering 7 Central American countries. Phone: +502 2362-7041. Guatemala office."
+  },
+  {
+    "companyId": 132,
+    "company": "RSM Design (LATAM)",
+    "contacts": [
+      {
+        "name": "RSM Design Team",
+        "title": "Project Enquiries",
+        "email": "info@rsmdesign.com",
+        "linkedin": "https://www.linkedin.com/company/rsm-design",
+        "source": "https://rsmdesign.com/",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "US firm with LATAM operations. Completed Costa Rica project (Oxigeno). Contact via info@rsmdesign.com."
+  },
+  {
+    "companyId": 133,
+    "company": "Panavision (Central America)",
+    "contacts": [
+      {
+        "name": "Panavision Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.panavision.com.gt/",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "Regional player covering Costa Rica."
   }
 ]

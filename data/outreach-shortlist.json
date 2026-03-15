@@ -1701,5 +1701,31 @@
     "fitReason": "Dominant regional signage provider across Central America (covers Panama). 20+ years. Digital signage capabilities.",
     "confidence": "medium",
     "notes": "Contact: +502 2362-7041. Guatemala HQ. Coverage: Guatemala, Belize, El Salvador, Honduras, Nicaragua, Costa Rica, Panama."
+  },
+  {
+    "companyId": 132,
+    "company": "RSM Design (LATAM)",
+    "country": "Costa Rica",
+    "primaryEmail": "info@rsmdesign.com",
+    "backupEmail": "",
+    "primaryContactName": "RSM Design Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "https://www.linkedin.com/company/rsm-design",
+    "fitReason": "US-based firm with proven LATAM track record. Completed Oxigeno project in Costa Rica. Luxury hospitality, airports, mixed-use expertise.",
+    "confidence": "medium",
+    "notes": "Direct contact: info@rsmdesign.com"
+  },
+  {
+    "companyId": 133,
+    "company": "Panavision (Central America)",
+    "country": "Costa Rica",
+    "primaryEmail": "",
+    "backupEmail": "",
+    "primaryContactName": "Panavision Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Regional firm covering Costa Rica. 20+ years across Central America.",
+    "confidence": "medium",
+    "notes": "Contact: +502 2362-7041 (Guatemala)"
   }
 ]
