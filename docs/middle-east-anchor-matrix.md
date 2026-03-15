@@ -12,6 +12,20 @@ Cross-border wayfinding/signage consultancy players in the GCC region (god-tier 
 | **Projective** | KSA (Jeddah) | KSA, UAE (Dubai, Abu Dhabi, Ajman), Riyadh | Strategy + Fabrication | Mixed-use, luxury hospitality, retail, master-planned communities | High | https://www.projective.design/ |
 | **Dar Al-Handasah** | Lebanon (HQ) | Middle East, Europe, Asia, Africa, Americas | Strategy-only (EGD team within large AE firm) | Transportation, mega-projects, civic, mixed-use | High | https://www.dar.com/work/service/way-finding-and-signage |
 
+## KSA Coverage - Anchor + Delivery Partner Model
+
+### KSA-Based Anchor Consultancies (Strategy-Led)
+| Company | HQ/Base | Active Countries | Service Model | Sector Strengths | Notes |
+|---------|---------|------------------|----------------|------------------|-------|
+| **Projective** | KSA (Jeddah) | KSA, UAE | Strategy + Fabrication | Mixed-use, luxury hospitality, retail, master-planned | KSA-headquartered, Vision 2030 relevant |
+
+### KSA Delivery Partners (Implementation/Fabrication)
+| Company | Location | Credentials | Key Strengths |
+|---------|----------|-------------|---------------|
+| **PHC (Preferred High Construction)** | Riyadh | 20+ years, 7,000 sqm facility | Mall, hospitality, government projects |
+| **SignEx** | Riyadh | ~2 decades under SVCO | Full design-to-install, maintenance |
+| **Professional Signs (ProSigns)** | Riyadh, Jeddah, Red Sea | ISO certified, multi-location | Digital wayfinding, Vision 2030 projects |
+
 ## Notes
 
 ### Tier 1 - God-Tier / Premium Consultancy
@@ -29,8 +43,9 @@ Cross-border wayfinding/signage consultancy players in the GCC region (god-tier 
 1. **UAE is the regional hub** - Most premium consultancies are headquartered in Dubai
 2. **Cross-border capability is key** - Most anchor players operate in 3+ GCC countries
 3. **Strategy-forward firms command premium** - Those offering full "concept to closeout" or BIM integration are differentiated
-4. **KSA expansion is coming** - With Vision 2030 mega-projects, KSA-based firms (like Projective) are growing rapidly
+4. **KSA expansion is accelerating** - With Vision 2030 mega-projects, KSA-based firms (like Projective) are growing rapidly. New delivery partners emerging (PHC, SignEx, ProSigns) to support implementation
 5. **Bilingual Arabic-English expertise is critical** - Differentiator for regional vs international firms
+6. **KSA market has limited native strategy consultancies** - Most strategy work done by UAE-headquartered firms with KSA operations; fabrication done by local KSA players
 
 ### Gaps Identified
 - **Qatar-based specialists**: Limited pure-wayfinding consultancies HQ'd in Qatar (mostly branch offices)

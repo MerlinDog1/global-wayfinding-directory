@@ -258,5 +258,57 @@
     "fitReason": "Full-service consultancy with offices in UAE, Qatar, Lebanon, Egypt, UK. 21 years experience. Concept-to-closeout service. Notable project: Infinity des Lumières.",
     "confidence": "high",
     "notes": "Premium cross-border consultancy. Generic info@ inbox. Office in Dubai Design District."
+  },
+  {
+    "companyId": 21,
+    "company": "Projective",
+    "country": "Saudi Arabia",
+    "primaryEmail": "info@projective.design",
+    "backupEmail": "",
+    "primaryContactName": "Projective Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "https://www.linkedin.com/company/projective-design",
+    "fitReason": "KSA-headquartered wayfinding and signage design consultancy (HQ Jeddah) with presence in Dubai, Abu Dhabi, Ajman, and Riyadh. Strategy-focused with holistic approach. Vision 2030 relevant projects.",
+    "confidence": "high",
+    "notes": "Anchor consultancy. Direct email confirmed from LinkedIn. One of few KSA-native strategy-led wayfinding firms."
+  },
+  {
+    "companyId": 22,
+    "company": "PHC (Preferred High Construction)",
+    "country": "Saudi Arabia",
+    "primaryEmail": "info@phc-sa.com",
+    "backupEmail": "",
+    "primaryContactName": "PHC Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": null,
+    "fitReason": "Riyadh-based delivery partner with 7,000 sqm manufacturing facility. 20+ years KSA market experience. Major mall, hospitality, and government project credentials.",
+    "confidence": "high",
+    "notes": "Delivery partner. Direct email confirmed from website. Strong fabrication capacity."
+  },
+  {
+    "companyId": 23,
+    "company": "SignEx",
+    "country": "Saudi Arabia",
+    "primaryEmail": "info@signexksa.com",
+    "backupEmail": "",
+    "primaryContactName": "SignEx Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": null,
+    "fitReason": "Riyadh-based delivery partner under SVCO with ~2 decades in KSA market. Full end-to-end services: design, fabrication, installation, maintenance.",
+    "confidence": "high",
+    "notes": "Delivery partner. Direct email and phone confirmed. Established credentials in KSA."
+  },
+  {
+    "companyId": 24,
+    "company": "Professional Signs (ProSigns)",
+    "country": "Saudi Arabia",
+    "primaryEmail": "hello@professional-signs.com",
+    "backupEmail": "sales@professionalsigns.com",
+    "primaryContactName": "ProSigns Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": null,
+    "fitReason": "Multi-location delivery partner in KSA (Riyadh, Jeddah, Red Sea) with digital wayfinding capabilities. ISO certified. Active in Vision 2030 projects.",
+    "confidence": "high",
+    "notes": "Delivery partner with wayfinding focus. Direct email and phone confirmed. Multi-location presence across KSA."
   }
 ]

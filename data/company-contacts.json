@@ -443,5 +443,69 @@
       }
     ],
     "notes": "Full-service signage & wayfinding design consultancy with offices in UAE, Qatar, Lebanon, Egypt, UK."
+  },
+  {
+    "companyId": 21,
+    "company": "Projective",
+    "contacts": [
+      {
+        "name": "Projective Team",
+        "title": "Project Enquiries",
+        "email": "info@projective.design",
+        "linkedin": "https://www.linkedin.com/company/projective-design",
+        "source": "https://www.linkedin.com/company/projective-design/",
+        "confidence": "high",
+        "notes": "Generic info@ inbox confirmed from LinkedIn job postings. KSA HQ in Jeddah with UAE presence."
+      }
+    ],
+    "notes": "KSA-headquartered wayfinding and signage design consultancy (HQ Jeddah) with presence in Dubai, Abu Dhabi, Ajman, and Riyadh. 10+ years experience. Strategy-focused with holistic approach."
+  },
+  {
+    "companyId": 22,
+    "company": "PHC (Preferred High Construction)",
+    "contacts": [
+      {
+        "name": "PHC Team",
+        "title": "Project Enquiries",
+        "email": "info@phc-sa.com",
+        "linkedin": null,
+        "source": "https://phc-sa.com/",
+        "confidence": "high",
+        "notes": "Direct email confirmed from company website. Riyadh-based with 7,000 sqm manufacturing facility."
+      }
+    ],
+    "notes": "Riyadh-based signage and wayfinding systems company with 20+ years experience. End-to-end design, fabrication, installation."
+  },
+  {
+    "companyId": 23,
+    "company": "SignEx",
+    "contacts": [
+      {
+        "name": "SignEx Team",
+        "title": "Project Enquiries",
+        "email": "info@signexksa.com",
+        "linkedin": null,
+        "source": "https://www.signexksa.com/contact/",
+        "confidence": "high",
+        "notes": "Direct email and phone +966 570213664 confirmed from contact page. Riyadh-based, under SVCO."
+      }
+    ],
+    "notes": "Riyadh-based signage company operating for ~2 decades under SVCO. Full end-to-end services."
+  },
+  {
+    "companyId": 24,
+    "company": "Professional Signs (ProSigns)",
+    "contacts": [
+      {
+        "name": "ProSigns Team",
+        "title": "Project Enquiries",
+        "email": "hello@professional-signs.com",
+        "linkedin": null,
+        "source": "https://professional-signs.com/contact/",
+        "confidence": "high",
+        "notes": "Direct email and phone +966 55 511 7926 confirmed from contact page. Multi-location (Riyadh, Jeddah, Red Sea)."
+      }
+    ],
+    "notes": "Multi-location digital signage and wayfinding company in KSA. Turnkey solutions including interactive displays and wayfinding systems."
   }
 ]
