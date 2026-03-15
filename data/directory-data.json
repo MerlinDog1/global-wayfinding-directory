@@ -2201,5 +2201,22 @@
     "sellsPlaques": false,
     "isWayfinding": true,
     "notes": "CVDI - Proyectos de se\u00f1alizaci\u00f3n e imagen corporativa. Wayfinding and signage specialist. Limited web presence."
+  },
+  {
+    "id": 131,
+    "county": "Panama",
+    "category": "Signage",
+    "company": "Panavision (Central America)",
+    "website": "https://www.panavision.com.gt/",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": null,
+    "phone": "+502 2362-7041",
+    "address": "Guatemala (serves Panama & Central America)",
+    "quality": 0,
+    "sellsPlaques": false,
+    "isWayfinding": true,
+    "notes": "Based in Guatemala, dominant signage provider across Central America (Guatemala, Belize, El Salvador, Honduras, Nicaragua, Costa Rica, Panama). 20+ years. Clients: oil companies, retail, supermarkets, QSR (McDonald's, Pollo Campero). Digital signage capabilities."
   }
 ]

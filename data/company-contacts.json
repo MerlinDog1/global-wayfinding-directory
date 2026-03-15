@@ -2227,5 +2227,20 @@
       }
     ],
     "notes": "Individual contact found via LinkedIn. Company has limited web presence."
+  },
+  {
+    "companyId": 131,
+    "company": "Panavision (Central America)",
+    "contacts": [
+      {
+        "name": "Panavision Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.panavision.net.gt/contacto",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "Regional player covering 7 Central American countries. Phone: +502 2362-7041. Guatemala office."
   }
 ]

@@ -1688,5 +1688,18 @@
     "fitReason": "Peruvian wayfinding specialist. Limited company info available.",
     "confidence": "low",
     "notes": "No direct contact found. Limited web presence."
+  },
+  {
+    "companyId": 131,
+    "company": "Panavision (Central America)",
+    "country": "Panama",
+    "primaryEmail": "",
+    "backupEmail": "",
+    "primaryContactName": "Panavision Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Dominant regional signage provider across Central America (covers Panama). 20+ years. Digital signage capabilities.",
+    "confidence": "medium",
+    "notes": "Contact: +502 2362-7041. Guatemala HQ. Coverage: Guatemala, Belize, El Salvador, Honduras, Nicaragua, Costa Rica, Panama."
   }
 ]
