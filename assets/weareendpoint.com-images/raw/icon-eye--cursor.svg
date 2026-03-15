@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="27px" viewBox="0 0 51 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon eye</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.3465062,37.4961985 C21.1477209,41.1297112 28.2843365,49.2300346 36.2496419,49.2300346 C44.2457455,49.2300346 51.3594415,41.1411159 54.1534938,37.5038015 C51.3508466,33.8680078 44.2135147,25.7699654 36.2496419,25.7699654 C28.2542545,25.7699654 21.1405585,33.8588841 18.3465062,37.4961985 Z M36.2496419,55.3125 C23.0178236,55.3125 12.8071058,39.888128 12.3787943,39.2304614 L11.25,37.5 L12.3787943,35.7695386 C12.8071058,35.111872 23.0178236,19.6875 36.2496419,19.6875 C49.4821764,19.6875 59.6936104,35.111872 60.1212057,35.7695386 L61.25,37.5 L60.1212057,39.2304614 C59.6936104,39.888128 49.4821764,55.3125 36.2496419,55.3125 Z M42.0192308,37.5003411 C42.0192308,40.6070357 39.4367032,43.125 36.2496502,43.125 C33.0632968,43.125 30.4807692,40.6070357 30.4807692,37.5003411 C30.4807692,34.3936465 33.0632968,31.875 36.2496502,31.875 C39.4367032,31.875 42.0192308,34.3936465 42.0192308,37.5003411 Z" id="path-1"></path>
+    </defs>
+    <g id="Endpoint-Desktop-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Projects-All" transform="translate(-657.000000, -1559.000000)">
+            <g id="Group-7" transform="translate(185.000000, 732.000000)">
+                <g id="Group-2">
+                    <g id="Group" transform="translate(342.000000, 758.000000)">
+                        <g id="icon-eye" transform="translate(119.000000, 50.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Combined-Shape"></g>
+                            <g id="colour-white" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                                <g transform="translate(-56.250000, -56.250000)" id="Rectangle">
+                                    <rect x="0" y="0" width="188" height="188"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
