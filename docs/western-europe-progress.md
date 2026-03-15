@@ -174,3 +174,28 @@
 - Portugal: Limited dedicated wayfinding firms found
 - Switzerland/Austria: Could add more firms
 - Some contacts missing direct emails (use website/LinkedIn backup)
+
+---
+
+## Contact Depth Pass (2026-03-15)
+
+### Improvements Made
+- **Direct emails found for**: Van Beem & Van Haagen (Netherlands), Signes (Spain), S3F Signs (Portugal)
+- **Role-specific inboxes identified**: Signes (Spain), S3F Signs (Portugal)
+- **Website contact forms available for**: evoq communications AG, Forster, Mifflin-Schmid, De Vries Sign, Sign & Display
+
+### Summary
+| Metric | Before | After | Change |
+|--------|--------|-------|--------|
+| Firms with direct emails | 4 | 7 | +3 |
+| Firms with generic inboxes | 5 | 5 | 0 |
+| Firms with no email | 8 | 5 | -3 |
+
+### Remaining Weak Firms (need further research)
+- Designers Unit (45) - France - no public contact
+- Modulex France (46) - France - no public contact  
+- Klostermann Group (49) - Germany - no public contact
+- De Vries Sign (52) - Netherlands - form-only
+- evoq communications AG (55) - Switzerland - form-only
+- Mifflin-Schmid Design (56) - Switzerland - website down
+- Forster (57) - Austria - form-only

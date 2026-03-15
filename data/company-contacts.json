@@ -945,5 +945,110 @@
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "companyId": 51,
+    "company": "Van Beem & Van Haagen",
+    "contacts": [
+      {
+        "name": "Van Beem & Van Haagen Team",
+        "title": "Project Enquiries",
+        "email": "info@vbenvh.nl",
+        "linkedin": "",
+        "source": "Company website contact page",
+        "confidence": "high",
+        "notes": "Direct email confirmed from website. Phone: +31 (0)20 314 09 00"
+      }
+    ],
+    "notes": "Dutch wayfinding and branding consultancy. Link between design, development and execution."
+  },
+  {
+    "companyId": 53,
+    "company": "Signburo",
+    "contacts": [
+      {
+        "name": "Signburo Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "medium",
+        "notes": "Phone: 0479/89 67 00. No direct email found. Website has contact form."
+      }
+    ],
+    "notes": "Belgian wayfinding architects with hospital/civic credentials."
+  },
+  {
+    "companyId": 54,
+    "company": "Sign & Display",
+    "contacts": [
+      {
+        "name": "Sign & Display Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "medium",
+        "notes": "Website has contact form only. No direct email found."
+      }
+    ],
+    "notes": "Belgian signage company with hospital wayfinding specialization."
+  },
+  {
+    "companyId": 55,
+    "company": "evoq communications AG",
+    "contacts": [
+      {
+        "name": "evoq Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "Company website",
+        "confidence": "medium",
+        "notes": "Website has contact form only. No direct email found."
+      }
+    ],
+    "notes": "Z\u00fcrich-based Signaletik specialists."
+  },
+  {
+    "companyId": 58,
+    "company": "Signes",
+    "contacts": [
+      {
+        "name": "Signes Barcelona",
+        "title": "Project Enquiries",
+        "email": "info@signes.es",
+        "linkedin": "",
+        "source": "Company website contact page",
+        "confidence": "high",
+        "notes": "Direct email confirmed. Barcelona: +34 932 061 000"
+      },
+      {
+        "name": "Signes Madrid",
+        "title": "Commercial Enquiries",
+        "email": "info@signes.es",
+        "linkedin": "",
+        "source": "Company website contact page",
+        "confidence": "high",
+        "notes": "Direct email confirmed. Madrid: +34 913 505 364"
+      }
+    ],
+    "notes": "Spanish wayfinding since 1982. Barcelona/Madrid presence."
+  },
+  {
+    "companyId": 59,
+    "company": "S3F Signs",
+    "contacts": [
+      {
+        "name": "S3F Signs Team",
+        "title": "Project Enquiries",
+        "email": "info@s3fsigns.com",
+        "linkedin": "",
+        "source": "Company website contact page",
+        "confidence": "high",
+        "notes": "Direct email confirmed. Phone: +351 253 254 236"
+      }
+    ],
+    "notes": "Portuguese se\u00f1al\u00e9tica since 2006. Accessibility specialization."
   }
 ]
