@@ -232,6 +232,51 @@ body {
 }
 .card-link:hover { border-color: #5b4a1f; color: var(--gold-soft); }
 
+.contacts-panel {
+  margin-top: 12px;
+  border: 1px solid #2f3952;
+  border-radius: 10px;
+  background: #111725;
+}
+
+.contacts-panel > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 9px 12px;
+  color: var(--gold-soft);
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+
+.contacts-panel > summary::-webkit-details-marker { display: none; }
+
+.contacts-list {
+  margin: 0;
+  padding: 0 14px 12px 28px;
+  color: #d5dae6;
+  font-size: 0.84rem;
+}
+
+.contacts-list li { margin: 6px 0; }
+
+.contact-links {
+  margin-top: 3px;
+  font-size: 0.78rem;
+}
+
+.contact-links a {
+  color: #c7d6ff;
+  text-decoration: none;
+}
+
+.contact-links a:hover { color: var(--gold-soft); }
+
+.contacts-empty {
+  color: var(--text-dim);
+  padding: 0 12px 12px;
+  font-size: 0.82rem;
+}
+
 .footer {
   border-top: 1px solid var(--border);
   margin-top: 26px;

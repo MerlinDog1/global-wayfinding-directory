@@ -2,6 +2,7 @@ class BusinessDirectory {
   constructor() {
     this.businesses = [];
     this.filteredBusinesses = [];
+    this.contactsByCompanyId = new Map();
     this.currentView = 'grid';
     this.map = null;
     this.markers = [];
@@ -29,6 +30,7 @@ class BusinessDirectory {
     try {
       this.setupEventListeners();
       await this.loadData();
+      await this.loadContacts();
       this.populateRegionFilter();
       this.populateCountryFilter();
       this.sort();
@@ -83,6 +85,22 @@ class BusinessDirectory {
     } catch (error) {
       console.error('Error loading data:', error);
       this.loading.innerHTML = '<p>Error loading directory data. Please refresh.</p>';
+    }
+  }
+
+  async loadContacts() {
+    try {
+      const response = await fetch('data/company-contacts.json');
+      if (!response.ok) return;
+      const rows = await response.json();
+      this.contactsByCompanyId.clear();
+      rows.forEach(row => {
+        if (typeof row.companyId === 'number' && Array.isArray(row.contacts)) {
+          this.contactsByCompanyId.set(row.companyId, row.contacts);
+        }
+      });
+    } catch (error) {
+      console.warn('Contacts file not loaded:', error);
     }
   }
 
@@ -295,6 +313,7 @@ class BusinessDirectory {
     const wayfindingFlag = this.isWayfindingConsultancy(business)
       ? '<span class="wayfinding-flag">Wayfinding</span>'
       : '';
+    const contactsSection = this.createContactsSectionHTML(business);
 
     return `
       <article class="business-card">
@@ -309,6 +328,7 @@ class BusinessDirectory {
           </div>
         </div>
         <div class="card-links">${links.join('')}</div>
+        ${contactsSection}
       </article>
     `;
   }
@@ -318,6 +338,7 @@ class BusinessDirectory {
     const wayfindingFlag = this.isWayfindingConsultancy(business)
       ? '<span class="wayfinding-flag">Wayfinding</span>'
       : '';
+    const contactsSection = this.createContactsSectionHTML(business);
 
     return `
       <article class="business-list-item">
@@ -331,8 +352,38 @@ class BusinessDirectory {
           <div class="card-links">
             ${business.website ? `<a href="${business.website}" target="_blank" class="card-link">Website</a>` : ''}
           </div>
+          ${contactsSection}
         </div>
       </article>
+    `;
+  }
+
+  createContactsSectionHTML(business) {
+    const contacts = this.contactsByCompanyId.get(business.id) || [];
+    if (!contacts.length) {
+      return `
+        <details class="contacts-panel">
+          <summary>⊕ Contacts</summary>
+          <p class="contacts-empty">No validated person contacts yet.</p>
+        </details>
+      `;
+    }
+
+    const items = contacts.map(c => {
+      const name = this.escapeHtml(c.name || 'Unknown');
+      const title = this.escapeHtml(c.title || '');
+      const email = c.email ? `<a href="mailto:${this.escapeHtml(c.email)}">Email</a>` : '';
+      const linkedin = c.linkedin ? `<a href="${this.escapeHtml(c.linkedin)}" target="_blank">LinkedIn</a>` : '';
+      const source = c.source ? `<a href="${this.escapeHtml(c.source)}" target="_blank">Source</a>` : '';
+      const links = [email, linkedin, source].filter(Boolean).join(' · ');
+      return `<li><strong>${name}</strong>${title ? ` — ${title}` : ''}${links ? `<div class="contact-links">${links}</div>` : ''}</li>`;
+    }).join('');
+
+    return `
+      <details class="contacts-panel">
+        <summary>⊕ Contacts (${contacts.length})</summary>
+        <ul class="contacts-list">${items}</ul>
+      </details>
     `;
   }
 
