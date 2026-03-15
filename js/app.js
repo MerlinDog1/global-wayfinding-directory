@@ -125,7 +125,7 @@ class BusinessDirectory {
   getRegionForCountry(country) {
     const c = (country || '').trim();
     const regionMap = {
-      'UK': 'Europe',
+      'UK': 'United Kingdom',
       'Ireland': 'Europe',
       'France': 'Europe',
       'Germany': 'Europe',
