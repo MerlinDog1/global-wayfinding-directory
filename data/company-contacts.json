@@ -82,7 +82,7 @@
         "confidence": "medium"
       },
       {
-        "name": "Matthew J. Monta\u00f1es",
+        "name": "Matthew J. Montañes",
         "title": "Designer",
         "email": "",
         "linkedin": "https://www.linkedin.com/in/matthew-j-monta%C3%B1es-3a645b24",
@@ -363,5 +363,85 @@
       }
     ],
     "notes": "Dublin-based signage company with 35+ years experience. Worked on Paul Sheeran Jewellers (luxury brand) project."
+  },
+  {
+    "companyId": 16,
+    "company": "LIMAH",
+    "contacts": [
+      {
+        "name": "LIMAH Team",
+        "title": "Project Enquiries",
+        "email": "hello@limahdesign.com",
+        "linkedin": "https://www.linkedin.com/company/limah",
+        "source": "https://www.limahdesign.com/",
+        "confidence": "high",
+        "notes": "Generic hello@ inbox - primary contact route. Website shows studio addresses but no named contacts."
+      }
+    ],
+    "notes": "Pioneer of modern wayfinding in Middle East. Landmark projects: Al Qana (Abu Dhabi), Diyar Al Muharraq (Bahrain), La Mer (Dubai), Bulgari Resort, Yas Bay, Deira Mall."
+  },
+  {
+    "companyId": 17,
+    "company": "GLSW (Genius Loci Signage & Wayfinding)",
+    "contacts": [
+      {
+        "name": "GLSW Team",
+        "title": "Project Enquiries",
+        "email": "hello@gl-sw.com",
+        "linkedin": null,
+        "source": "https://www.gl-sw.com/contact/",
+        "confidence": "high",
+        "notes": "Direct email and phone +971 4 379 4429 confirmed from contact page."
+      }
+    ],
+    "notes": "Wayfinding strategy and signage design firm headquartered in Dubai, operating worldwide."
+  },
+  {
+    "companyId": 18,
+    "company": "Green Vision Consultants (GVC)",
+    "contacts": [
+      {
+        "name": "GVC Team",
+        "title": "Project Enquiries",
+        "email": "info@greenvisioncons.com",
+        "linkedin": "https://www.linkedin.com/company/green-vision-consultants",
+        "source": "https://www.greenvisioncons.com/contact-us/",
+        "confidence": "high",
+        "notes": "Direct email and phone +971 4 229 0965 confirmed from contact page."
+      }
+    ],
+    "notes": "Regional leaders in signage design with projects across UAE, KSA, Qatar, Kuwait, Oman, Bahrain."
+  },
+  {
+    "companyId": 19,
+    "company": "Creative Dialog",
+    "contacts": [
+      {
+        "name": "Creative Dialog Team",
+        "title": "Project Enquiries",
+        "email": "info@creativedialog.ae",
+        "linkedin": "https://www.linkedin.com/company/creative-dialog",
+        "source": "https://creativedialog.ae/",
+        "confidence": "high",
+        "notes": "Generic info@ inbox - primary contact route."
+      }
+    ],
+    "notes": "Dubai's leading wayfinding strategy and design consultancy. 200+ projects for leading developers."
+  },
+  {
+    "companyId": 20,
+    "company": "Dezign Technic",
+    "contacts": [
+      {
+        "name": "Dezign Technic Team",
+        "title": "Project Enquiries",
+        "email": "info@dezigntechnic.com",
+        "linkedin": "https://ae.linkedin.com/company/dezigntechnic",
+        "source": "https://www.dezigntechnic.com/contact",
+        "confidence": "high",
+        "notes": "Generic info@ inbox - primary contact route. Office in Dubai Design District."
+      }
+    ],
+    "notes": "Full-service signage & wayfinding design consultancy with offices in UAE, Qatar, Lebanon, Egypt, UK."
   }
 ]

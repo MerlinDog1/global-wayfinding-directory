@@ -167,9 +167,7 @@
     "fitReason": "Dublin-based architectural signage company with design and installation capabilities.",
     "confidence": "medium",
     "notes": "Generic info@ inbox inferred from domain. Phone +353 1 452 4152 available. No direct person emails found."
-  }
-]
-,
+  },
   {
     "companyId": 14,
     "company": "Taylor Signs",
@@ -195,5 +193,70 @@
     "fitReason": "Dublin-based signage company with 35+ years experience. Luxury project experience includes Paul Sheeran Jewellers (Chatham Street). Named contacts available.",
     "confidence": "high",
     "notes": "Multiple named contacts confirmed: Eugene Hynes (MD), Keith Hynes (GM), Patrick Murphy (Sales Director). Direct emails from company website."
+  },
+  {
+    "companyId": 16,
+    "company": "LIMAH",
+    "country": "UAE",
+    "primaryEmail": "hello@limahdesign.com",
+    "backupEmail": "",
+    "primaryContactName": "LIMAH Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "https://www.linkedin.com/company/limah",
+    "fitReason": "Pioneer of modern wayfinding in Middle East. Landmark projects: Al Qana, Diyar Al Muharraq, La Mer, Bulgari Resort, Yas Bay, Deira Mall. Wayfinding + customer experience + public art.",
+    "confidence": "high",
+    "notes": "Premium consultancy with portfolio of landmark projects. Generic hello@ inbox. No named contacts found on website."
+  },
+  {
+    "companyId": 17,
+    "company": "GLSW (Genius Loci Signage & Wayfinding)",
+    "country": "UAE",
+    "primaryEmail": "hello@gl-sw.com",
+    "backupEmail": "",
+    "primaryContactName": "GLSW Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Dubai-based wayfinding strategy and signage design firm operating worldwide. Focus on master-planned destinations and mixed-use developments.",
+    "confidence": "high",
+    "notes": "Direct email hello@gl-sw.com and phone +971 4 379 4429 confirmed from contact page. Address: The Dome Tower, JLT, Dubai."
+  },
+  {
+    "companyId": 18,
+    "company": "Green Vision Consultants (GVC)",
+    "country": "UAE",
+    "primaryEmail": "info@greenvisioncons.com",
+    "backupEmail": "",
+    "primaryContactName": "GVC Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "https://www.linkedin.com/company/green-vision-consultants",
+    "fitReason": "Regional leaders with cross-border coverage (UAE, KSA, Qatar, Kuwait, Oman, Bahrain). Full BIM integration (LOD 300). Sustainability-driven approach.",
+    "confidence": "high",
+    "notes": "Direct email info@greenvisioncons.com and phone +971 4 229 0965 confirmed. Address: Office 221, Oud Metha, Dubai."
+  },
+  {
+    "companyId": 19,
+    "company": "Creative Dialog",
+    "country": "UAE",
+    "primaryEmail": "info@creativedialog.ae",
+    "backupEmail": "",
+    "primaryContactName": "Creative Dialog Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "https://www.linkedin.com/company/creative-dialog",
+    "fitReason": "Dubai's leading wayfinding strategy consultancy. 200+ projects for leading developers. Full BIM integration (Revit, Navisworks). Strategy-forward with end-to-end delivery.",
+    "confidence": "high",
+    "notes": "Premium consultancy. Generic info@ inbox. No named contacts found but strong portfolio and 200+ projects."
+  },
+  {
+    "companyId": 20,
+    "company": "Dezign Technic",
+    "country": "UAE",
+    "primaryEmail": "info@dezigntechnic.com",
+    "backupEmail": "",
+    "primaryContactName": "Dezign Technic Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "https://ae.linkedin.com/company/dezigntechnic",
+    "fitReason": "Full-service consultancy with offices in UAE, Qatar, Lebanon, Egypt, UK. 21 years experience. Concept-to-closeout service. Notable project: Infinity des Lumières.",
+    "confidence": "high",
+    "notes": "Premium cross-border consultancy. Generic info@ inbox. Office in Dubai Design District."
   }
 ]
