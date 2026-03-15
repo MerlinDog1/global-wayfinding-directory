@@ -651,5 +651,149 @@
       }
     ],
     "notes": "Leading wayfinding signage provider in Oman. Long-standing client: Lulu Group International since 2003. ISO certified."
+  },
+  {
+    "companyId": 34,
+    "company": "Al Rizq Signage & Wayfinding",
+    "contacts": [
+      {
+        "name": "Al Rizq Team",
+        "title": "Project Enquiries",
+        "email": "info@rizqgroup.com",
+        "linkedin": null,
+        "source": "https://www.rizqgroup.com/",
+        "confidence": "high",
+        "notes": "Dubai-based signage and wayfinding consultancy. Generic info@ inbox - primary contact route."
+      }
+    ],
+    "notes": "Dubai-based consultancy. Full-service from strategy/research to fabrication and installation."
+  },
+  {
+    "companyId": 35,
+    "company": "HM Studios",
+    "contacts": [
+      {
+        "name": "Hazem Mamdouh",
+        "title": "Founder & Principal Architect",
+        "email": "info@hm-studios.com",
+        "linkedin": null,
+        "source": "https://www.hm-studios.com/company/",
+        "confidence": "high",
+        "notes": "Founder. Established firm in 2009. Cairo-based architecture + wayfinding specialist."
+      }
+    ],
+    "notes": "Cairo-based architecture + visual communication design firm with wayfinding services."
+  },
+  {
+    "companyId": 36,
+    "company": "ElBadr Light Industries",
+    "contacts": [
+      {
+        "name": "ElBadr Team",
+        "title": "Project Enquiries",
+        "email": "info@elbadrli.com",
+        "linkedin": null,
+        "source": "https://elbadrli.com/",
+        "confidence": "high",
+        "notes": "Egyptian manufacturer. Wayfinding projects: Capital Park, Borg Al-Arab Airport, Le Meridien Hotel, Rotana Hotel."
+      }
+    ],
+    "notes": "Egyptian signage manufacturer with luxury hotel and airport wayfinding credentials."
+  },
+  {
+    "companyId": 37,
+    "company": "BRI Signs Egypt",
+    "contacts": [
+      {
+        "name": "BRI Signs Team",
+        "title": "Regional Enquiries",
+        "email": "uae@brisigns.com",
+        "linkedin": null,
+        "source": "https://brisigns.com/",
+        "confidence": "high",
+        "notes": "UAE-headquartered with Egypt operations. ISO certified. Blue Rhine Industries partner."
+      }
+    ],
+    "notes": "UAE company with Egypt office. Wayfinding for malls, museums, hospitals, stadiums."
+  },
+  {
+    "companyId": 38,
+    "company": "Triagonal Information Design",
+    "contacts": [
+      {
+        "name": "Triagonal Team",
+        "title": "Project Enquiries",
+        "email": "info@triagonal.com",
+        "linkedin": null,
+        "source": "https://www.triagonal.com/",
+        "confidence": "high",
+        "notes": "Transport wayfinding specialist. Queen Alia Airport (Amman), Heathrow Terminal 2 credentials."
+      }
+    ],
+    "notes": "International transport wayfinding consultancy. Passenger flow analysis methodology."
+  },
+  {
+    "companyId": 39,
+    "company": "Aman Middle East",
+    "contacts": [
+      {
+        "name": "Aman Middle East Team",
+        "title": "Project Enquiries",
+        "email": "info@aman-me.com",
+        "linkedin": null,
+        "source": "https://www.aman-me.com/",
+        "confidence": "high",
+        "notes": "Phone: +962 6 5338565. Amman-based digital signage and wayfinding solutions."
+      }
+    ],
+    "notes": "Amman-based digital signage, 2D/3D signage, interactive displays, wayfinding."
+  },
+  {
+    "companyId": 40,
+    "company": "M&A Sign Consultants",
+    "contacts": [
+      {
+        "name": "M&A Sign Consultants Team",
+        "title": "Project Enquiries",
+        "email": "info@masignconsultants.com",
+        "linkedin": null,
+        "source": "https://masignconsultants.com/",
+        "confidence": "high",
+        "notes": "30+ years experience. Presence in UK, Lebanon, UAE, Philippines, India, Pakistan."
+      }
+    ],
+    "notes": "International wayfinding consultancy with Lebanon regional office. 30+ years track record."
+  },
+  {
+    "companyId": 41,
+    "company": "AGEV",
+    "contacts": [
+      {
+        "name": "AGEV Team",
+        "title": "Project Enquiries",
+        "email": "info@agev.com",
+        "linkedin": null,
+        "source": "https://agev.com/",
+        "confidence": "high",
+        "notes": "Beirut-based signage company. Signshop division. International standards compliance."
+      }
+    ],
+    "notes": "Beirut-based signage and wayfinding. Traffic control + signage solutions."
+  },
+  {
+    "companyId": 42,
+    "company": "PAPart Signs",
+    "contacts": [
+      {
+        "name": "PAPart Team",
+        "title": "Project Enquiries",
+        "email": "info@papart-lb.com",
+        "linkedin": null,
+        "source": "https://papart-lb.com/",
+        "confidence": "high",
+        "notes": "Beirut-based sign and digital printing. Custom solutions for commercial spaces."
+      }
+    ],
+    "notes": "Beirut-based sign company. Digital printing + custom signage installations."
   }
 ]

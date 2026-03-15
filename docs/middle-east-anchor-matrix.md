@@ -59,6 +59,32 @@ Cross-border wayfinding/signage consultancy players in the GCC region (god-tier 
 | **LMA Signs Oman** | Oman (Muscat) | Fabrication + Installation | Retail, corporate, architectural | Full-service 3D signage manufacturer. Mobile contacts available. |
 | **Oman Graphics Co LLC** | Oman (Muscat) | Full Service | Retail, hospitality, corporate | ISO certified. Lulu Group partner (since 2003). Wayfinding focus. |
 
+## Egypt Coverage - Local Specialists
+
+### Egypt-Based Wayfinding & Signage Companies
+| Company | HQ/Base | Service Model | Sector Strengths | Notes |
+|---------|---------|---------------|------------------|-------|
+| **HM Studios** | Egypt (Cairo) | Strategy + Design | Architecture, VCD, wayfinding | Founded 2009. Architect Hazem Mamdouh. Visual communication design. |
+| **ElBadr Light Industries** | Egypt | Fabrication + Installation | Hotels, airports, retail | Projects: Le Meridien, Rotana, Borg Al-Arab Airport, Capital Park. |
+| **BRI Signs Egypt** | Egypt (Office) | Fabrication + Installation | Malls, museums, hospitals, stadiums | UAE company with Egypt ops. ISO certified. Blue Rhine partner. |
+
+## Jordan Coverage - Local Specialists
+
+### Jordan-Based Wayfinding & Signage Companies
+| Company | HQ/Base | Service Model | Sector Strengths | Notes |
+|---------|---------|---------------|------------------|-------|
+| **Triagonal Information Design** | Jordan (Amman) | Strategy + Consultancy | Transport, airports | Queen Alia Airport, Heathrow T2. Passenger flow analysis. |
+| **Aman Middle East** | Jordan (Amman) | Digital Signage + Wayfinding | Digital displays, interactive | Phone: +962 6 5338565. Local market specialist. |
+
+## Lebanon Coverage - Local Specialists
+
+### Lebanon-Based Wayfinding & Signage Companies
+| Company | HQ/Base | Service Model | Sector Strengths | Notes |
+|---------|---------|---------------|------------------|-------|
+| **M&A Sign Consultants** | Lebanon (Regional) | Strategy + Consultancy | Multi-sector | 30+ years global. UK, Lebanon, UAE, Philippines, India, Pakistan. |
+| **AGEV** | Lebanon (Beirut) | Full Service | Traffic, signage, installation | Signshop division. International standards. |
+| **PAPart Signs** | Lebanon (Beirut) | Fabrication + Printing | Commercial, retail | Custom signage, digital printing. |
+
 ## Notes
 
 ### Tier 1 - God-Tier / Premium Consultancy
@@ -88,12 +114,15 @@ Cross-border wayfinding/signage consultancy players in the GCC region (god-tier 
 - **International firms with ME presence**: Brands like Minale Tattersfield, Minale Design Strategy have ME work but not dedicated regional presence
 
 ### Coverage Status
-- ✅ UAE: Complete (anchors + delivery)
+- ✅ UAE: Complete (anchors + delivery) - refined with Al Rizq
 - ✅ KSA: Complete (anchors + delivery)
-- ✅ Qatar: Added (4 companies)
-- ✅ Kuwait: Added (1 company)
-- ✅ Bahrain: Added (1 company)
-- ✅ Oman: Added (3 companies)
+- ✅ Qatar: Complete (4 companies)
+- ✅ Kuwait: Complete (1 company)
+- ✅ Bahrain: Complete (1 company)
+- ✅ Oman: Complete (3 companies)
+- ✅ Egypt: Added (3 companies)
+- ✅ Jordan: Added (2 companies)
+- ✅ Lebanon: Added (3 companies)
 
 ---
 
