@@ -1597,5 +1597,44 @@
     "fitReason": "Argentine engineering firm with signage capabilities. Road/infrastructure focus.",
     "confidence": "low",
     "notes": "No direct contact found. Website requires further verification."
+  },
+  {
+    "companyId": 124,
+    "company": "Wayfinding Consultores",
+    "country": "Chile",
+    "primaryEmail": "contacto@wayfinding.cl",
+    "backupEmail": "",
+    "primaryContactName": "Wayfinding Consultores Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "https://cl.linkedin.com/company/wayfindingconsultores",
+    "fitReason": "Only dedicated wayfinding consultancy in Chile. 400k+ m2 implemented, 10+ years. Strong portfolio in hospitals, shopping malls, offices, museums, universities.",
+    "confidence": "high",
+    "notes": "Direct email publicly listed on website."
+  },
+  {
+    "companyId": 125,
+    "company": "Siente Cinco",
+    "country": "Chile",
+    "primaryEmail": "",
+    "backupEmail": "",
+    "primaryContactName": "Siente Cinco Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Strategic branding consultancy with wayfinding/EGD services. User-centered approach.",
+    "confidence": "low",
+    "notes": "Contact form only. Website provides general inquiry."
+  },
+  {
+    "companyId": 126,
+    "company": "Chile Dise\u00f1o",
+    "country": "Chile",
+    "primaryEmail": "",
+    "backupEmail": "",
+    "primaryContactName": "Chile Dise\u00f1o Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Chilean design association with wayfinding members. Projects in hospitals, malls, offices, universities, museums.",
+    "confidence": "low",
+    "notes": "Association website, not a direct firm. Use LinkedIn for member firms."
   }
 ]

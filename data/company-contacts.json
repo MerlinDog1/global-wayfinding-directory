@@ -2122,5 +2122,50 @@
       }
     ],
     "notes": "More focused on road signage. No direct contact email found."
+  },
+  {
+    "companyId": 124,
+    "company": "Wayfinding Consultores",
+    "contacts": [
+      {
+        "name": "Wayfinding Consultores Team",
+        "title": "Project Enquiries",
+        "email": "contacto@wayfinding.cl",
+        "linkedin": "https://cl.linkedin.com/company/wayfindingconsultores",
+        "source": "https://wayfinding.cl/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Direct email contacto@wayfinding.cl publicly listed. Only dedicated wayfinding consultancy in Chile."
+  },
+  {
+    "companyId": 125,
+    "company": "Siente Cinco",
+    "contacts": [
+      {
+        "name": "Siente Cinco Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://sientecinco.cl/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Contact form on website. No direct email found."
+  },
+  {
+    "companyId": 126,
+    "company": "Chile Dise\u00f1o",
+    "contacts": [
+      {
+        "name": "Chile Dise\u00f1o Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.chilediseno.org/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Association website. No direct contact for wayfinding services."
   }
 ]
