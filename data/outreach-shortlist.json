@@ -1571,5 +1571,31 @@
     "fitReason": "Southern Brazil wayfinding studio. Retail, corporate, hospitality experience.",
     "confidence": "low",
     "notes": "No direct contact info found. Website contact form only."
+  },
+  {
+    "companyId": 122,
+    "company": "Martin Alba",
+    "country": "Argentina",
+    "primaryEmail": "",
+    "backupEmail": "",
+    "primaryContactName": "Martin Alba Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Argentine wayfinding specialist with user-centered approach. Corporate communication and orientation solutions.",
+    "confidence": "low",
+    "notes": "No direct contact found. Website content has shifted to other services."
+  },
+  {
+    "companyId": 123,
+    "company": "Se\u00f1altec",
+    "country": "Argentina",
+    "primaryEmail": "",
+    "backupEmail": "",
+    "primaryContactName": "Se\u00f1altec Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Argentine engineering firm with signage capabilities. Road/infrastructure focus.",
+    "confidence": "low",
+    "notes": "No direct contact found. Website requires further verification."
   }
 ]

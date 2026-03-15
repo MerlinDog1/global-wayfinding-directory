@@ -2048,5 +2048,39 @@
     "sellsPlaques": false,
     "isWayfinding": true,
     "notes": "Wayfinding design studio in Southern Brazil. Specializes in retail, corporate, and hospitality projects."
+  },
+  {
+    "id": 122,
+    "county": "Argentina",
+    "category": "Signage",
+    "company": "Martin Alba",
+    "website": "https://www.martinalba.com/",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": null,
+    "phone": "",
+    "address": "Buenos Aires, Argentina",
+    "quality": 0,
+    "sellsPlaques": false,
+    "isWayfinding": true,
+    "notes": "Argentine wayfinding and corporate communication specialist. User-centered approach to mobility and orientation solutions."
+  },
+  {
+    "id": 123,
+    "county": "Argentina",
+    "category": "Signage",
+    "company": "Se\u00f1altec",
+    "website": "https://www.senaltec.com.ar/",
+    "email": "",
+    "linkedin": "",
+    "instagram": null,
+    "facebook": null,
+    "phone": "",
+    "address": "Buenos Aires, Argentina",
+    "quality": 0,
+    "sellsPlaques": false,
+    "isWayfinding": true,
+    "notes": "Argentine engineering and development company specialized in vertical signage. More road/infrastructure focused but has design capabilities."
   }
 ]

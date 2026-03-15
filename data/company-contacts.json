@@ -2092,5 +2092,35 @@
       }
     ],
     "notes": "No direct contact info found on website."
+  },
+  {
+    "companyId": 122,
+    "company": "Martin Alba",
+    "contacts": [
+      {
+        "name": "Martin Alba Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.martinalba.com/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Website appears to have limited wayfinding content now. Contact info not directly available."
+  },
+  {
+    "companyId": 123,
+    "company": "Se\u00f1altec",
+    "contacts": [
+      {
+        "name": "Se\u00f1altec Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.senaltec.com.ar/empresa/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "More focused on road signage. No direct contact email found."
   }
 ]
