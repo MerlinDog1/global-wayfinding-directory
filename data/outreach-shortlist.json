@@ -128,5 +128,44 @@
     "fitReason": "Verified direct email from company website. Founder/Director - top-level decision maker.",
     "confidence": "high",
     "notes": "Direct founder email confirmed. Small team withMarc as primary contact. No backup email found."
+  },
+  {
+    "companyId": 11,
+    "company": "New Graphic",
+    "country": "Ireland",
+    "primaryEmail": "hello@newgraphic.ie",
+    "backupEmail": "",
+    "primaryContactName": "Diarmuid",
+    "primaryContactRole": "Head of Strategy",
+    "contactLinkedIn": "https://www.linkedin.com/in/diarmuid-hunter/",
+    "fitReason": "Dublin-based design agency with dedicated wayfinding services. Key projects include Fingal County Council, Royal Irish Academy, National Archives.",
+    "confidence": "medium",
+    "notes": "Generic hello@ inbox. Diarmuid (Head of Strategy) and David (Head of Digital) identified on About page with LinkedIn. No direct person emails found."
+  },
+  {
+    "companyId": 12,
+    "company": "Wayfinders",
+    "country": "Ireland",
+    "primaryEmail": "info@wayfinders.ie",
+    "backupEmail": "",
+    "primaryContactName": "Wayfinders Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "https://ie.linkedin.com/company/wayfindersie",
+    "fitReason": "Dublin-based signage specialists with thousands of completed projects. Direct email confirmed from website.",
+    "confidence": "high",
+    "notes": "Direct email info@wayfinders.ie confirmed from company website. Phone +353 1 832 6966 also available."
+  },
+  {
+    "companyId": 13,
+    "company": "A.D. Design",
+    "country": "Ireland",
+    "primaryEmail": "info@addesign.ie",
+    "backupEmail": "",
+    "primaryContactName": "A.D. Design Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "https://www.linkedin.com/company/a-d-design-ireland",
+    "fitReason": "Dublin-based architectural signage company with design and installation capabilities.",
+    "confidence": "medium",
+    "notes": "Generic info@ inbox inferred from domain. Phone +353 1 452 4152 available. No direct person emails found."
   }
 ]

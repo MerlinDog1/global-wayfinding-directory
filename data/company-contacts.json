@@ -256,5 +256,62 @@
       }
     ],
     "notes": "Company email: marc@studiomarc.uk (direct). Marc Jenkins has direct business email."
+  },
+  {
+    "companyId": 11,
+    "company": "New Graphic",
+    "contacts": [
+      {
+        "name": "Diarmuid",
+        "title": "Head of Strategy",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/diarmuid-hunter/",
+        "source": "https://newgraphic.ie/about/",
+        "confidence": "high",
+        "notes": "Key leadership role - strategy & wayfinding services"
+      },
+      {
+        "name": "David",
+        "title": "Head of Digital",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/david-love-ireland/",
+        "source": "https://newgraphic.ie/about/",
+        "confidence": "high",
+        "notes": "Key leadership role - digital & design"
+      }
+    ],
+    "notes": "Irish design agency with dedicated wayfinding services. No direct emails found - generic hello@newgraphic.ie for enquiries. Key staff identified on About page with LinkedIn."
+  },
+  {
+    "companyId": 12,
+    "company": "Wayfinders",
+    "contacts": [
+      {
+        "name": "Wayfinders Team",
+        "title": "Project Enquiries",
+        "email": "info@wayfinders.ie",
+        "linkedin": "https://ie.linkedin.com/company/wayfindersie",
+        "source": "https://www.wayfinders.ie/contact/",
+        "confidence": "high",
+        "notes": "Direct email confirmed from company website"
+      }
+    ],
+    "notes": "Dublin-based signage specialists. Contact email info@wayfinders.ie confirmed from website. Phone +353 1 832 6966 also available."
+  },
+  {
+    "companyId": 13,
+    "company": "A.D. Design",
+    "contacts": [
+      {
+        "name": "A.D. Design Team",
+        "title": "Project Enquiries",
+        "email": "info@addesign.ie",
+        "linkedin": "https://www.linkedin.com/company/a-d-design-ireland",
+        "source": "https://addesign.ie/",
+        "confidence": "high",
+        "notes": "Contact email inferred from domain. Phone +353 1 452 4152 available."
+      }
+    ],
+    "notes": "Dublin-based architectural signage company. Generic contact email info@addesign.ie. No direct person emails found."
   }
 ]
