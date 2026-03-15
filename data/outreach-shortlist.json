@@ -255,7 +255,7 @@
     "primaryContactName": "Dezign Technic Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "https://ae.linkedin.com/company/dezigntechnic",
-    "fitReason": "Full-service consultancy with offices in UAE, Qatar, Lebanon, Egypt, UK. 21 years experience. Concept-to-closeout service. Notable project: Infinity des Lumières.",
+    "fitReason": "Full-service consultancy with offices in UAE, Qatar, Lebanon, Egypt, UK. 21 years experience. Concept-to-closeout service. Notable project: Infinity des Lumi\u00e8res.",
     "confidence": "high",
     "notes": "Premium cross-border consultancy. Generic info@ inbox. Office in Dubai Design District."
   },
@@ -560,14 +560,14 @@
   },
   {
     "companyId": 44,
-    "company": "Axone Etude Signalétique",
+    "company": "Axone Etude Signal\u00e9tique",
     "country": "France",
     "primaryEmail": "contact@axone-environnement.com",
     "backupEmail": "",
     "primaryContactName": "Axone Team",
     "primaryContactRole": "General Contact",
     "contactLinkedIn": "",
-    "fitReason": "Landmark credentials: CHU de Lille, Vélodrome de Roubaix, Casino Barrière. Strong heritage/civic portfolio.",
+    "fitReason": "Landmark credentials: CHU de Lille, V\u00e9lodrome de Roubaix, Casino Barri\u00e8re. Strong heritage/civic portfolio.",
     "confidence": "high",
     "notes": "Direct email on website"
   },
@@ -632,7 +632,7 @@
     "primaryContactName": "evoq Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Zürich-based Signaletik specialists. Full orientierungsdesign services. Swiss market anchor.",
+    "fitReason": "Z\u00fcrich-based Signaletik specialists. Full orientierungsdesign services. Swiss market anchor.",
     "confidence": "medium",
     "notes": "Website contact form only. No direct email found."
   },
@@ -645,7 +645,7 @@
     "primaryContactName": "Mifflin-Schmid Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Zürich-based architectural signage programs, exhibition design systems, environment wayfinding.",
+    "fitReason": "Z\u00fcrich-based architectural signage programs, exhibition design systems, environment wayfinding.",
     "confidence": "medium",
     "notes": "Website unavailable. Phone from directory: +41 44 266 68 80"
   },
@@ -684,7 +684,7 @@
     "primaryContactName": "S3F Signs Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Portuguese señalética since 2006. Accessibility expertise. Local market presence.",
+    "fitReason": "Portuguese se\u00f1al\u00e9tica since 2006. Accessibility expertise. Local market presence.",
     "confidence": "high",
     "notes": "Direct email confirmed. Phone: +351 253 254 236"
   },
@@ -697,7 +697,7 @@
     "primaryContactName": "Modulex France Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Global wayfinding leader. Offices in France through Atelier Plus (Gréasque). Eco-friendly signage materials. Mixed-use, hospitality, healthcare, education, government.",
+    "fitReason": "Global wayfinding leader. Offices in France through Atelier Plus (Gr\u00e9asque). Eco-friendly signage materials. Mixed-use, hospitality, healthcare, education, government.",
     "confidence": "medium",
     "notes": "No direct email found. Part of Modulex global network."
   },
@@ -771,13 +771,13 @@
     "company": "RSM Design",
     "country": "USA",
     "primaryEmail": "info@rsmdesign.com",
-    "backupEmail": "",
+    "backupEmail": "la@rsmdesign.com",
     "primaryContactName": "RSM Design Studio",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "https://www.linkedin.com/company/rsm-design",
-    "fitReason": "Established US wayfinding/EGD firm with premium credentials. Premium US EGD firm. Full-service: strategy, design, fabrication. Luxury hospitality, airports, mixe",
+    "fitReason": "Premium US EGD firm with full NA coverage. Strategy, design, fabrication. Luxury hospitality (Hotel Drover, Disney Hotel Miracosta), airports, mixed-use, transit. Offices: LA, San Diego, Denver. Has Canada and Mexico presence.",
     "confidence": "high",
-    "notes": "Added from North America expansion research."
+    "notes": "Added backup LA office email. Strong luxury hospitality portfolio."
   },
   {
     "companyId": 61,
@@ -788,22 +788,22 @@
     "primaryContactName": "Selbert Perkins Design (SPD) Studio",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "https://www.linkedin.com/company/selbert-perkins-design",
-    "fitReason": "Established US wayfinding/EGD firm with premium credentials. International EGD firm. Strategy + Design + Placemaking. Airports, universities, master-planned comm",
+    "fitReason": "International EGD firm. Strategy + Design + Placemaking. Airports, universities, master-planned communities, civic. Offices: LA, Boston, Chicago, Shanghai.",
     "confidence": "high",
-    "notes": "Added from North America expansion research."
+    "notes": "Multi-office US presence. Strong civic and aviation portfolio."
   },
   {
     "companyId": 62,
     "company": "Mijksenaar",
     "country": "USA",
     "primaryEmail": "newyork@mijksenaar.com",
-    "backupEmail": "",
+    "backupEmail": "amsterdam@mijksenaar.com",
     "primaryContactName": "Mijksenaar Studio",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "https://www.linkedin.com/company/mijksenaar",
-    "fitReason": "Established US wayfinding/EGD firm with premium credentials. 39+ years global experience. Strategy + Design. Airports, hospitals, museums, transit, cities. Amste",
+    "fitReason": "39+ years global experience. Strategy + Design. Airports, hospitals, museums, transit, cities. Amsterdam HQ, NYC office. Invented j-path system.",
     "confidence": "high",
-    "notes": "Added from North America expansion research."
+    "notes": "Added Amsterdam backup. Strong transit/airport credentials."
   },
   {
     "companyId": 63,
@@ -814,9 +814,9 @@
     "primaryContactName": "Gresham Smith Studio",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "https://www.linkedin.com/company/gresham-smith",
-    "fitReason": "Established US wayfinding/EGD firm with premium credentials. Aviation-focused wayfinding. Major US airports: Hartsfield-Jackson Atlanta, LAX, Tampa International",
+    "fitReason": "Aviation-specialized EGD firm. Major US airport projects: Atlanta (ATL), Los Angeles (LAX), Tampa. Full-service architecture/design.",
     "confidence": "high",
-    "notes": "Added from North America expansion research."
+    "notes": "Strong aviation/transit portfolio. Part of larger architecture firm."
   },
   {
     "companyId": 64,
@@ -827,9 +827,9 @@
     "primaryContactName": "Dimensional Innovations Studio",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "https://www.linkedin.com/company/dimensional-innovations",
-    "fitReason": "Established US wayfinding/EGD firm with premium credentials. Technology-enabled wayfinding. Hospitals, campuses, airports, corporate. Full design-to-install. Nat",
+    "fitReason": "Technology-enabled wayfinding and experiential design. Sports venues, attractions, corporate. Kansas City-based with national reach.",
     "confidence": "high",
-    "notes": "Added from North America expansion research."
+    "notes": "Tech-forward approach. Sports and attractions specialist."
   },
   {
     "companyId": 65,
@@ -840,9 +840,9 @@
     "primaryContactName": "Corlette Design Studio",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "https://www.linkedin.com/company/corlette-design",
-    "fitReason": "Established US wayfinding/EGD firm with premium credentials. Global leaders in experiential branding, signage design and wayfinding for luxury, hospitality and l",
+    "fitReason": "Luxury hospitality global specialist. Hotels, resorts, residential. International portfolio across multiple continents.",
     "confidence": "high",
-    "notes": "Added from North America expansion research."
+    "notes": "Luxury hospitality focus. Global project experience."
   },
   {
     "companyId": 66,
@@ -999,5 +999,135 @@
     "fitReason": "Mexican wayfinding/signage specialist. EGD firm specializing in planning and design of signage and wayfinding programs, branded environment",
     "confidence": "medium",
     "notes": "Added from North America expansion research."
+  },
+  {
+    "companyId": 78,
+    "company": "Catt Lyon Design + Wayfinding",
+    "country": "USA",
+    "primaryEmail": "slyon@cattlyondesign.com",
+    "backupEmail": "",
+    "primaryContactName": "Simon Lyon",
+    "primaryContactRole": "Partner",
+    "contactLinkedIn": "",
+    "fitReason": "Established wayfinding consultancy with major convention center and sports venue credentials (Javits Center, McCormick Place, Soldier Field). SEGD member firm.",
+    "confidence": "high",
+    "notes": "Direct email from website. Charleen Lyon is founder/Design Principal. Primary contact is Simon Lyon."
+  },
+  {
+    "companyId": 79,
+    "company": "Davies Associates",
+    "country": "USA",
+    "primaryEmail": "info@daviesla.com",
+    "backupEmail": "",
+    "primaryContactName": "Noel Davies",
+    "primaryContactRole": "Principal",
+    "contactLinkedIn": "",
+    "fitReason": "40+ year LA design studio with signage/wayfinding expertise. Principals Noel and Cathy Davies lead projects.",
+    "confidence": "high",
+    "notes": "Generic studio email but established firm with verifiable credentials."
+  },
+  {
+    "companyId": 80,
+    "company": "IN-FO.CO / STUDIO",
+    "country": "USA",
+    "primaryEmail": "info@in-fo.co",
+    "backupEmail": "",
+    "primaryContactName": "Adam Michaels",
+    "primaryContactRole": "Principal",
+    "contactLinkedIn": "",
+    "fitReason": "National Design Award-winning practice with museum/cultural credentials (LACMA, Getty, Guggenheim, Art Institute of Chicago). Woman-owned business.",
+    "confidence": "high",
+    "notes": "Direct email found on website. Strong cultural institution portfolio."
+  },
+  {
+    "companyId": 81,
+    "company": "FOUND.",
+    "country": "USA",
+    "primaryEmail": "",
+    "backupEmail": "",
+    "primaryContactName": "FOUND. Studio",
+    "primaryContactRole": "General Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Innovative LA firm modernizing wayfinding through AI, digital platforms. Major mixed-use projects (Park Habitat with Kengo Kuma, 670 Mesquit with BIG).",
+    "confidence": "medium",
+    "notes": "No direct email found on website. Emerging tech-forward firm."
+  },
+  {
+    "companyId": 82,
+    "company": "Forcade Associates",
+    "country": "USA",
+    "primaryEmail": "forcade@forcade.net",
+    "backupEmail": "",
+    "primaryContactName": "Mark Levine",
+    "primaryContactRole": "RFP/Project Contact",
+    "contactLinkedIn": "",
+    "fitReason": "35+ year EGD firm with healthcare and corporate credentials. Chicago Tribune sign restoration project shows historic preservation capability.",
+    "confidence": "high",
+    "notes": "Direct email from FAQ page for RFPs. Mark Levine is named contact."
+  },
+  {
+    "companyId": 83,
+    "company": "HGA",
+    "country": "USA",
+    "primaryEmail": "info@hga.com",
+    "backupEmail": "",
+    "primaryContactName": "HGA Studio",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "https://www.linkedin.com/company/hga-architects",
+    "fitReason": "Architecture firm with dedicated EGD practice. SEGD member. Multi-disciplinary firm with signage expertise.",
+    "confidence": "high",
+    "notes": "Architecture firm expanding into environmental graphics."
+  },
+  {
+    "companyId": 84,
+    "company": "Westkey Xibita",
+    "country": "Canada",
+    "primaryEmail": "info@westkeyxibita.com",
+    "backupEmail": "",
+    "primaryContactName": "Westkey Xibita Studio",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Western Canada wayfinding specialist covering Vancouver, Edmonton, Calgary, Kelowna. Custom design approach.",
+    "confidence": "high",
+    "notes": "Direct email for Western Canada coverage."
+  },
+  {
+    "companyId": 85,
+    "company": "Signify Sign Company",
+    "country": "Canada",
+    "primaryEmail": "info@signifysigncompany.ca",
+    "backupEmail": "",
+    "primaryContactName": "Signify Sign Company Studio",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Toronto-based custom signage and wayfinding fabricator with architectural signage expertise.",
+    "confidence": "high",
+    "notes": "Direct email for Toronto coverage."
+  },
+  {
+    "companyId": 86,
+    "company": "Lance Wyman Ltd",
+    "country": "Mexico",
+    "primaryEmail": "info@lancewyman.com",
+    "backupEmail": "",
+    "primaryContactName": "Lance Wyman",
+    "primaryContactRole": "Principal",
+    "contactLinkedIn": "",
+    "fitReason": "Legendary wayfinding designer who created Mexico City Metro system (1969) - still in use today. Iconic pictogram pioneer. Also designed Washington Metro.",
+    "confidence": "high",
+    "notes": "Legendary status in wayfinding. Direct email available."
+  },
+  {
+    "companyId": 87,
+    "company": "Signa Mexico",
+    "country": "Mexico",
+    "primaryEmail": "info@signamexico.com",
+    "backupEmail": "",
+    "primaryContactName": "Signa Mexico Studio",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Mexican signage company offering wayfinding design and installation for offices, shopping centers, hospitals, hotels.",
+    "confidence": "high",
+    "notes": "Direct email for Mexico coverage."
   }
 ]

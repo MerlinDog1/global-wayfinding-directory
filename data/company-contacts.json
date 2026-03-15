@@ -82,12 +82,20 @@
         "confidence": "medium"
       },
       {
-        "name": "Matthew J. Montañes",
+        "name": "Matthew J. Monta\u00f1es",
         "title": "Designer",
         "email": "",
         "linkedin": "https://www.linkedin.com/in/matthew-j-monta%C3%B1es-3a645b24",
         "source": "https://www.linkedin.com/company/two-twelve",
         "confidence": "medium"
+      },
+      {
+        "name": "Two Twelve Studio",
+        "title": "Project Enquiries",
+        "email": "info@twotwelve.com",
+        "linkedin": "https://www.linkedin.com/company/two-twelve",
+        "source": "https://www.twotwelve.com/",
+        "confidence": "high"
       }
     ],
     "notes": "Company email: info@twotwelve.com (generic). Principals have LinkedIn profiles but no direct business emails found."
@@ -812,7 +820,7 @@
   },
   {
     "companyId": 44,
-    "company": "Axone Etude Signalétique",
+    "company": "Axone Etude Signal\u00e9tique",
     "contacts": [
       {
         "name": "Axone Team",
@@ -1008,7 +1016,7 @@
         "notes": "Website has contact form only. No direct email found."
       }
     ],
-    "notes": "Zürich-based Signaletik specialists."
+    "notes": "Z\u00fcrich-based Signaletik specialists."
   },
   {
     "companyId": 58,
@@ -1049,7 +1057,7 @@
         "notes": "Direct email confirmed. Phone: +351 253 254 236"
       }
     ],
-    "notes": "Portuguese señalética since 2006. Accessibility specialization."
+    "notes": "Portuguese se\u00f1al\u00e9tica since 2006. Accessibility specialization."
   },
   {
     "companyId": 60,
@@ -1062,6 +1070,15 @@
         "linkedin": "https://www.linkedin.com/company/rsm-design",
         "source": "https://rsmdesign.com/",
         "confidence": "high"
+      },
+      {
+        "name": "Steve Windsor",
+        "title": "Principal/Partner",
+        "email": "steve@rsmdesign.com",
+        "linkedin": "https://www.linkedin.com/in/steve-windsor",
+        "source": "https://rsmdesign.com/about",
+        "confidence": "medium",
+        "notes": "LA office lead"
       }
     ],
     "notes": "Premium US EGD firm. Full-service: strategy, design, fabrication. Luxury hospitality, airports, mixed-use, transit. Offices: LA, San Diego, Denver. Has Canada and Mexico presence."
@@ -1092,6 +1109,15 @@
         "linkedin": "https://www.linkedin.com/company/mijksenaar",
         "source": "https://www.mijksenaar.com/",
         "confidence": "high"
+      },
+      {
+        "name": "Paul Mijksenaar",
+        "title": "Founder",
+        "email": "paul@mijksenaar.com",
+        "linkedin": "https://www.linkedin.com/in/paul-mijksenaar",
+        "source": "https://www.mijksenaar.com/about",
+        "confidence": "high",
+        "notes": "Founder - inventor of the j-path system"
       }
     ],
     "notes": "39+ years global experience. Strategy + Design. Airports, hospitals, museums, transit, cities. Amsterdam HQ, NYC office."
@@ -1320,5 +1346,203 @@
       }
     ],
     "notes": "EGD firm specializing in planning and design of signage and wayfinding programs, branded environments, and user navigation systems. Has Mexico presence."
+  },
+  {
+    "companyId": 78,
+    "company": "Catt Lyon Design + Wayfinding",
+    "contacts": [
+      {
+        "name": "Simon Lyon",
+        "title": "Partner/Contact",
+        "email": "slyon@cattlyondesign.com",
+        "linkedin": null,
+        "source": "https://www.wayfinding-consultants.com/contact.html",
+        "confidence": "high",
+        "notes": "Direct email found on contact page"
+      },
+      {
+        "name": "Charleen Catt Lyon",
+        "title": "Founder and Design Principal",
+        "linkedin": "https://www.linkedin.com/in/charleen-lyon-1251155",
+        "source": "https://segd.org/tags/catt-lyon-design-wayfinding",
+        "confidence": "high",
+        "notes": "SEGD member, founder"
+      }
+    ],
+    "notes": "NY/Chicago/Cincinnati based wayfinding consultancy. Major convention center and sports venue credentials."
+  },
+  {
+    "companyId": 79,
+    "company": "Davies Associates",
+    "contacts": [
+      {
+        "name": "Davies Associates Studio",
+        "title": "Project Enquiries",
+        "email": "info@daviesla.com",
+        "linkedin": "https://www.linkedin.com/company/davies-associates",
+        "source": "https://daviesla.com/",
+        "confidence": "high"
+      },
+      {
+        "name": "Noel Davies",
+        "title": "Principal",
+        "linkedin": null,
+        "source": "https://daviesla.com/",
+        "confidence": "medium"
+      },
+      {
+        "name": "Cathy Davies",
+        "title": "Principal",
+        "linkedin": null,
+        "source": "https://daviesla.com/",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "40+ year LA design studio. Principals are Noel and Cathy Davies."
+  },
+  {
+    "companyId": 80,
+    "company": "IN-FO.CO / STUDIO",
+    "contacts": [
+      {
+        "name": "IN-FO.CO Studio",
+        "title": "Project Enquiries",
+        "email": "info@in-fo.co",
+        "linkedin": null,
+        "source": "https://in-fo.co/studio",
+        "confidence": "high",
+        "notes": "Direct email on website"
+      },
+      {
+        "name": "Adam Michaels",
+        "title": "Principal",
+        "linkedin": null,
+        "source": "https://in-fo.co/studio",
+        "confidence": "medium"
+      },
+      {
+        "name": "Shannon Harvey",
+        "title": "Principal",
+        "linkedin": null,
+        "source": "https://in-fo.co/studio",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "National Design Award-winning practice. Museum and cultural institution specialist."
+  },
+  {
+    "companyId": 81,
+    "company": "FOUND.",
+    "contacts": [
+      {
+        "name": "FOUND. Studio",
+        "title": "Project Enquiries",
+        "email": null,
+        "linkedin": null,
+        "source": "https://thefounddesign.com/",
+        "confidence": "low",
+        "notes": "No direct email found on website. LA-based innovative firm."
+      }
+    ],
+    "notes": "Innovative LA firm using AI, digital platforms, GPS for wayfinding. Major mixed-use projects."
+  },
+  {
+    "companyId": 82,
+    "company": "Forcade Associates",
+    "contacts": [
+      {
+        "name": "Forcade Studio",
+        "title": "RFP/Project Enquiries",
+        "email": "forcade@forcade.net",
+        "linkedin": null,
+        "source": "https://forcadedesign.com/faq",
+        "confidence": "high",
+        "notes": "Direct email from FAQ page for RFPs"
+      },
+      {
+        "name": "Mark Levine",
+        "title": "Contact for RFPs",
+        "email": "forcade@forcade.net",
+        "linkedin": null,
+        "source": "https://forcadedesign.com/faq",
+        "confidence": "high"
+      }
+    ],
+    "notes": "35+ year Chicago-area EGD firm. Healthcare and corporate environments specialist."
+  },
+  {
+    "companyId": 83,
+    "company": "HGA",
+    "contacts": [
+      {
+        "name": "HGA Studio",
+        "title": "Project Enquiries",
+        "email": "info@hga.com",
+        "linkedin": "https://www.linkedin.com/company/hga-architects",
+        "source": "https://hga.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Architecture firm with EGD practice. Minneapolis-based multi-disciplinary firm."
+  },
+  {
+    "companyId": 84,
+    "company": "Westkey Xibita",
+    "contacts": [
+      {
+        "name": "Westkey Xibita Studio",
+        "title": "Project Enquiries",
+        "email": "info@westkeyxibita.com",
+        "linkedin": null,
+        "source": "https://westkeyxibita.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Western Canada wayfinding specialist. Vancouver, Edmonton, Calgary, Kelowna coverage."
+  },
+  {
+    "companyId": 85,
+    "company": "Signify Sign Company",
+    "contacts": [
+      {
+        "name": "Signify Sign Company Studio",
+        "title": "Project Enquiries",
+        "email": "info@signifysigncompany.ca",
+        "linkedin": null,
+        "source": "https://signifysigncompany.ca/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Toronto-based custom signage and wayfinding fabricator."
+  },
+  {
+    "companyId": 86,
+    "company": "Lance Wyman Ltd",
+    "contacts": [
+      {
+        "name": "Lance Wyman Studio",
+        "title": "Project Enquiries",
+        "email": "info@lancewyman.com",
+        "linkedin": null,
+        "source": "https://lancewyman.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Legendary designer of Mexico City Metro wayfinding (1969). Still active in wayfinding design."
+  },
+  {
+    "companyId": 87,
+    "company": "Signa Mexico",
+    "contacts": [
+      {
+        "name": "Signa Mexico Studio",
+        "title": "Project Enquiries",
+        "email": "info@signamexico.com",
+        "linkedin": null,
+        "source": "https://signamexico.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Mexican signage and wayfinding company."
   }
 ]
