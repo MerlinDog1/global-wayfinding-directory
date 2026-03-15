@@ -2167,5 +2167,35 @@
       }
     ],
     "notes": "Association website. No direct contact for wayfinding services."
+  },
+  {
+    "companyId": 127,
+    "company": "Nazca Se\u00f1aletica",
+    "contacts": [
+      {
+        "name": "Nazca Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://nazca.com.co/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Website has contact page but no direct email found in initial fetch."
+  },
+  {
+    "companyId": 128,
+    "company": "Steer",
+    "contacts": [
+      {
+        "name": "Steer LATAM Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/company/steergroup/",
+        "source": "https://steergroup.com/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "Global firm. Bogot\u00e1 office. Contact via global/regional channels."
   }
 ]

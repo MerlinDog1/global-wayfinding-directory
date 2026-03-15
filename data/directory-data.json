@@ -2133,5 +2133,39 @@
     "sellsPlaques": false,
     "isWayfinding": true,
     "notes": "Chilean design association with wayfinding specialization. Projects: hospitals, shopping malls, offices, universities, museums."
+  },
+  {
+    "id": 127,
+    "county": "Colombia",
+    "category": "Signage",
+    "company": "Nazca Se\u00f1aletica",
+    "website": "https://nazca.com.co/",
+    "email": "",
+    "linkedin": "",
+    "instagram": "",
+    "facebook": null,
+    "phone": "",
+    "address": "Bogot\u00e1, Colombia",
+    "quality": 0,
+    "sellsPlaques": false,
+    "isWayfinding": true,
+    "notes": "Colombian signage firm. Projects: El Dorado Airport (Bogot\u00e1), tourism wayfinding, arquigraf\u00eda, horizontal/vertical signage. Full design-to-install."
+  },
+  {
+    "id": 128,
+    "county": "Colombia",
+    "category": "Signage",
+    "company": "Steer",
+    "website": "https://steergroup.com/",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/company/steergroup/",
+    "instagram": "",
+    "facebook": null,
+    "phone": "",
+    "address": "Bogot\u00e1, Colombia (regional office)",
+    "quality": 0,
+    "sellsPlaques": false,
+    "isWayfinding": true,
+    "notes": "Formerly Steer Davies Gleave. Developed Bogot\u00e1 tourism wayfinding strategy for IDT (Instituto Distrital de Turismo). Transport planning + wayfinding."
   }
 ]

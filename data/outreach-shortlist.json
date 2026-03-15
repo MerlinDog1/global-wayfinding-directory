@@ -1636,5 +1636,31 @@
     "fitReason": "Chilean design association with wayfinding members. Projects in hospitals, malls, offices, universities, museums.",
     "confidence": "low",
     "notes": "Association website, not a direct firm. Use LinkedIn for member firms."
+  },
+  {
+    "companyId": 127,
+    "company": "Nazca Se\u00f1aletica",
+    "country": "Colombia",
+    "primaryEmail": "",
+    "backupEmail": "",
+    "primaryContactName": "Nazca Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Colombian signage firm with airport credentials (El Dorado Airport). Full design-to-install services.",
+    "confidence": "medium",
+    "notes": "No direct contact found. Website needs verification."
+  },
+  {
+    "companyId": 128,
+    "company": "Steer",
+    "country": "Colombia",
+    "primaryEmail": "",
+    "backupEmail": "enquiries@steergroup.com",
+    "primaryContactName": "Steer LATAM Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "https://www.linkedin.com/company/steergroup/",
+    "fitReason": "International firm with Bogot\u00e1 office. Developed Bogot\u00e1 tourism wayfinding for IDT. Transport planning expertise.",
+    "confidence": "medium",
+    "notes": "Use global enquiries@steergroup.com as backup."
   }
 ]
