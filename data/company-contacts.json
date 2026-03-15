@@ -507,5 +507,149 @@
       }
     ],
     "notes": "Multi-location digital signage and wayfinding company in KSA. Turnkey solutions including interactive displays and wayfinding systems."
+  },
+  {
+    "companyId": 25,
+    "company": "Gulfcrafts",
+    "contacts": [
+      {
+        "name": "Gulfcrafts Team",
+        "title": "Project Enquiries",
+        "email": "info@gulfcrafts.net",
+        "linkedin": "https://www.linkedin.com/company/gulfcrafts",
+        "source": "https://www.gulfcrafts.net/contact/",
+        "confidence": "high",
+        "notes": "Direct phone +974 4450 9328 confirmed. Located in New Industrial Area, Doha, Qatar."
+      }
+    ],
+    "notes": "Leading signage and wayfinding company in Qatar. Full design-to-installation service. Works with brass, bronze, copper, stainless steel, acrylic, glass materials."
+  },
+  {
+    "companyId": 26,
+    "company": "The Look Company",
+    "contacts": [
+      {
+        "name": "The Look Company Doha",
+        "title": "Project Enquiries",
+        "email": "doha@thelookcompany.com",
+        "linkedin": "https://www.linkedin.com/company/the-look-company-me",
+        "source": "https://thelookcompany.qa/contact/",
+        "confidence": "high",
+        "notes": "Direct phone +974 4447 5865 and fax +974 4447 5769 confirmed from contact page. Bilingual Arabic-English capability."
+      }
+    ],
+    "notes": "Worldwide company with Doha office. Consult, manage and produce wayfinding systems for interior/exterior signages. Multi-location: Canada, US, Middle East."
+  },
+  {
+    "companyId": 27,
+    "company": "ELAN Urban",
+    "contacts": [
+      {
+        "name": "ELAN Urban Team",
+        "title": "Project Enquiries",
+        "email": "info@elanurban.qa",
+        "linkedin": null,
+        "source": "https://www.elanurban.qa/",
+        "confidence": "high",
+        "notes": "Direct phone +974 4036 0271 and fax +974 44282829 confirmed. Qatar-based urban planning and signage consultancy."
+      }
+    ],
+    "notes": "Qatar-based consultancy. Worked on Lusail Stadium wayfinding road signages for FIFA World Cup 2022."
+  },
+  {
+    "companyId": 28,
+    "company": "Pro Signs Qatar",
+    "contacts": [
+      {
+        "name": "Pro Signs Qatar Team",
+        "title": "Project Enquiries",
+        "email": "qatar@prosignsglobal.com",
+        "linkedin": "https://www.linkedin.com/company/prosigns-global",
+        "source": "https://qa.prosignsglobal.com/",
+        "confidence": "high",
+        "notes": "Direct phone +974 4002 8422 confirmed. ISO:9001 certified."
+      }
+    ],
+    "notes": "Premier digital display, signage and wayfinding solutions in Qatar. Part of ProSigns Global group."
+  },
+  {
+    "companyId": 29,
+    "company": "Sign Wood",
+    "contacts": [
+      {
+        "name": "Sign Wood Team",
+        "title": "Project Enquiries",
+        "email": "info@signwoodkw.com",
+        "linkedin": null,
+        "source": "https://signwoodkw.com/",
+        "confidence": "high",
+        "notes": "Direct phone +965 222 70200 confirmed. Kuwait's leading visual and branding experts."
+      }
+    ],
+    "notes": "Kuwait's leading visual and branding experts. Comprehensive services: signage, printing, exhibitions, acrylic works, corporate gifts."
+  },
+  {
+    "companyId": 30,
+    "company": "Awal Plastics",
+    "contacts": [
+      {
+        "name": "Awal Plastics Team",
+        "title": "Project Enquiries",
+        "email": "info@awalplastics.com",
+        "linkedin": "https://www.linkedin.com/company/awal-plastics",
+        "source": "https://awalplastics.com/",
+        "confidence": "high",
+        "notes": "Direct phone +973 17 730 555 confirmed. 56 years as industry leader in Bahrain and Middle East."
+      }
+    ],
+    "notes": "One of the largest signage companies in Middle East. Design, fabricate, install and maintain all types of signage. Operations across GCC."
+  },
+  {
+    "companyId": 31,
+    "company": "ProSigns Oman",
+    "contacts": [
+      {
+        "name": "ProSigns Oman Team",
+        "title": "Project Enquiries",
+        "email": "oman@prosignsglobal.com",
+        "linkedin": "https://www.linkedin.com/company/prosigns-global",
+        "source": "https://om.prosignsglobal.com/",
+        "confidence": "high",
+        "notes": "Direct phone +968 2 485 2662 confirmed. Located in Wadi Kabir, Muscat. ISO certified."
+      }
+    ],
+    "notes": "Leading provider of Digital Display and Wayfinding solutions in Muscat, Oman. Complete turnkey digital signage company."
+  },
+  {
+    "companyId": 32,
+    "company": "LMA Signs Oman",
+    "contacts": [
+      {
+        "name": "LMA Signs Projects Team",
+        "title": "Project Enquiries",
+        "email": "projects@lmasignsoman.com",
+        "linkedin": null,
+        "source": "https://lmasignsoman.com/",
+        "confidence": "high",
+        "notes": "Direct phone +968 93289587 and multiple mobiles confirmed. WhatsApp available. Located in Muscat."
+      }
+    ],
+    "notes": "Leading Signage Manufacturing Company in Oman. Full-service 3D signage, wayfinding, architectural signs."
+  },
+  {
+    "companyId": 33,
+    "company": "Oman Graphics Co LLC",
+    "contacts": [
+      {
+        "name": "Oman Graphics Team",
+        "title": "Project Enquiries",
+        "email": "info@omangraphicsco.com",
+        "linkedin": "https://www.linkedin.com/company/oman-graphics-co-llc",
+        "source": "https://omangraphicsco.com/contact-us.php",
+        "confidence": "high",
+        "notes": "Direct WhatsApp +968 99273728 confirmed. Located in Wadi Kabir, Muscat. ISO certified."
+      }
+    ],
+    "notes": "Leading wayfinding signage provider in Oman. Long-standing client: Lulu Group International since 2003. ISO certified."
   }
 ]

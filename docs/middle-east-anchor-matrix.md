@@ -26,6 +26,39 @@ Cross-border wayfinding/signage consultancy players in the GCC region (god-tier 
 | **SignEx** | Riyadh | ~2 decades under SVCO | Full design-to-install, maintenance |
 | **Professional Signs (ProSigns)** | Riyadh, Jeddah, Red Sea | ISO certified, multi-location | Digital wayfinding, Vision 2030 projects |
 
+## Qatar Coverage - Local Specialists
+
+### Qatar-Based Wayfinding & Signage Companies
+| Company | HQ/Base | Service Model | Sector Strengths | Notes |
+|---------|---------|---------------|------------------|-------|
+| **The Look Company** | Qatar (Doha) | Strategy + Fabrication | Hospitals, universities, airports, government | International firm with Doha office. Bilingual Arabic-English. |
+| **ELAN Urban** | Qatar (Doha) | Strategy + Consultancy | Stadium, infrastructure, mega-projects | Worked on Lusail Stadium wayfinding (FIFA WC 2022) |
+| **Gulfcrafts** | Qatar (Doha) | Fabrication + Installation | High-rise, hospitality, retail | Full design-to-install. Premium materials (brass, bronze, copper). 30+ years regional. |
+| **Pro Signs Qatar** | Qatar (Doha) | Digital Signage + Wayfinding | Corporate, retail, hospitality | ISO:9001 certified. Part of ProSigns Global group. |
+
+## Kuwait Coverage - Local Specialists
+
+### Kuwait-Based Wayfinding & Signage Companies
+| Company | HQ/Base | Service Model | Sector Strengths | Notes |
+|---------|---------|---------------|------------------|-------|
+| **Sign Wood** | Kuwait | Full Service | Retail, corporate, exhibitions | Leading visual/branding experts. Comprehensive services. |
+
+## Bahrain Coverage - Local Specialists
+
+### Bahrain-Based Wayfinding & Signage Companies
+| Company | HQ/Base | Service Model | Sector Strengths | Notes |
+|---------|---------|---------------|------------------|-------|
+| **Awal Plastics** | Bahrain (Manama) | Fabrication + Installation | Government, banking, healthcare, hospitality | 56 years experience. One of largest in Middle East. Regional operations across GCC. |
+
+## Oman Coverage - Local Specialists
+
+### Oman-Based Wayfinding & Signage Companies
+| Company | HQ/Base | Service Model | Sector Strengths | Notes |
+|---------|---------|---------------|------------------|-------|
+| **ProSigns Oman** | Oman (Muscat) | Digital Signage + Wayfinding | Multi-sector | ISO certified. Part of ProSigns Global group. |
+| **LMA Signs Oman** | Oman (Muscat) | Fabrication + Installation | Retail, corporate, architectural | Full-service 3D signage manufacturer. Mobile contacts available. |
+| **Oman Graphics Co LLC** | Oman (Muscat) | Full Service | Retail, hospitality, corporate | ISO certified. Lulu Group partner (since 2003). Wayfinding focus. |
+
 ## Notes
 
 ### Tier 1 - God-Tier / Premium Consultancy
@@ -48,9 +81,19 @@ Cross-border wayfinding/signage consultancy players in the GCC region (god-tier 
 6. **KSA market has limited native strategy consultancies** - Most strategy work done by UAE-headquartered firms with KSA operations; fabrication done by local KSA players
 
 ### Gaps Identified
-- **Qatar-based specialists**: Limited pure-wayfinding consultancies HQ'd in Qatar (mostly branch offices)
-- **Kuwait/Bahrain/Oman**: Limited local pure-play consultancies (mostly served by regional players)
+- **Qatar**: Limited pure-wayfinding consultancies HQ'd in Qatar (mostly branch offices). Added: The Look Company (Doha), ELAN Urban (Doha), Gulfcrafts (fabrication), Pro Signs Qatar (digital).
+- **Kuwait**: Limited local pure-play consultancies. Added: Sign Wood (full-service).
+- **Bahrain**: Limited local specialists. Added: Awal Plastics (56-year regional leader).
+- **Oman**: Limited local specialists. Added: ProSigns Oman, LMA Signs Oman, Oman Graphics Co LLC.
 - **International firms with ME presence**: Brands like Minale Tattersfield, Minale Design Strategy have ME work but not dedicated regional presence
+
+### Coverage Status
+- ✅ UAE: Complete (anchors + delivery)
+- ✅ KSA: Complete (anchors + delivery)
+- ✅ Qatar: Added (4 companies)
+- ✅ Kuwait: Added (1 company)
+- ✅ Bahrain: Added (1 company)
+- ✅ Oman: Added (3 companies)
 
 ---
 
