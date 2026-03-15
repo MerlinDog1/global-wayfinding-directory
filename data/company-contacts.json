@@ -82,7 +82,7 @@
         "confidence": "medium"
       },
       {
-        "name": "Matthew J. Montañes",
+        "name": "Matthew J. Monta\u00f1es",
         "title": "Designer",
         "email": "",
         "linkedin": "https://www.linkedin.com/in/matthew-j-monta%C3%B1es-3a645b24",
@@ -820,7 +820,7 @@
   },
   {
     "companyId": 44,
-    "company": "Axone Etude Signalétique",
+    "company": "Axone Etude Signal\u00e9tique",
     "contacts": [
       {
         "name": "Axone Team",
@@ -1016,7 +1016,7 @@
         "notes": "Website has contact form only. No direct email found."
       }
     ],
-    "notes": "Zürich-based Signaletik specialists."
+    "notes": "Z\u00fcrich-based Signaletik specialists."
   },
   {
     "companyId": 58,
@@ -1057,7 +1057,7 @@
         "notes": "Direct email confirmed. Phone: +351 253 254 236"
       }
     ],
-    "notes": "Portuguese señalética since 2006. Accessibility specialization."
+    "notes": "Portuguese se\u00f1al\u00e9tica since 2006. Accessibility specialization."
   },
   {
     "companyId": 60,
@@ -2032,5 +2032,65 @@
       }
     ],
     "notes": "Japanese wayfinding system specialist for five-star hotels, hospitals, malls, luxury real estate."
+  },
+  {
+    "companyId": 118,
+    "company": "Modulex Brazil",
+    "contacts": [
+      {
+        "name": "Modulex Brazil Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/company/modulex/",
+        "source": "https://modulex.com/brazil/",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "Global firm with local Brazilian presence. No direct email found on Brazilian site."
+  },
+  {
+    "companyId": 119,
+    "company": "CLA Programa\u00e7\u00e3o Visual",
+    "contacts": [
+      {
+        "name": "CLA Team",
+        "title": "Project Enquiries",
+        "email": "cla@clapvisual.com.br",
+        "linkedin": "",
+        "source": "https://www.clapvisual.com.br/contato",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Contact email publicly listed on website. 25+ years in Brazilian market."
+  },
+  {
+    "companyId": 120,
+    "company": "Placrim",
+    "contacts": [
+      {
+        "name": "Placrim Team",
+        "title": "Project Enquiries",
+        "email": "contato@placrim.com.br",
+        "linkedin": "",
+        "source": "https://www.placrim.com.br/contato/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Contact email and phone publicly listed on website."
+  },
+  {
+    "companyId": 121,
+    "company": "STUDIOMDA",
+    "contacts": [
+      {
+        "name": "STUDIOMDA Team",
+        "title": "Project Enquiries",
+        "email": "",
+        "linkedin": "",
+        "source": "https://studiomda.com.br/",
+        "confidence": "low"
+      }
+    ],
+    "notes": "No direct contact info found on website."
   }
 ]

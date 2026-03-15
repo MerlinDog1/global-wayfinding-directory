@@ -255,7 +255,7 @@
     "primaryContactName": "Dezign Technic Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "https://ae.linkedin.com/company/dezigntechnic",
-    "fitReason": "Full-service consultancy with offices in UAE, Qatar, Lebanon, Egypt, UK. 21 years experience. Concept-to-closeout service. Notable project: Infinity des Lumières.",
+    "fitReason": "Full-service consultancy with offices in UAE, Qatar, Lebanon, Egypt, UK. 21 years experience. Concept-to-closeout service. Notable project: Infinity des Lumi\u00e8res.",
     "confidence": "high",
     "notes": "Premium cross-border consultancy. Generic info@ inbox. Office in Dubai Design District."
   },
@@ -560,14 +560,14 @@
   },
   {
     "companyId": 44,
-    "company": "Axone Etude Signalétique",
+    "company": "Axone Etude Signal\u00e9tique",
     "country": "France",
     "primaryEmail": "contact@axone-environnement.com",
     "backupEmail": "",
     "primaryContactName": "Axone Team",
     "primaryContactRole": "General Contact",
     "contactLinkedIn": "",
-    "fitReason": "Landmark credentials: CHU de Lille, Vélodrome de Roubaix, Casino Barrière. Strong heritage/civic portfolio.",
+    "fitReason": "Landmark credentials: CHU de Lille, V\u00e9lodrome de Roubaix, Casino Barri\u00e8re. Strong heritage/civic portfolio.",
     "confidence": "high",
     "notes": "Direct email on website"
   },
@@ -632,7 +632,7 @@
     "primaryContactName": "evoq Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Zürich-based Signaletik specialists. Full orientierungsdesign services. Swiss market anchor.",
+    "fitReason": "Z\u00fcrich-based Signaletik specialists. Full orientierungsdesign services. Swiss market anchor.",
     "confidence": "medium",
     "notes": "Website contact form only. No direct email found."
   },
@@ -645,7 +645,7 @@
     "primaryContactName": "Mifflin-Schmid Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Zürich-based architectural signage programs, exhibition design systems, environment wayfinding.",
+    "fitReason": "Z\u00fcrich-based architectural signage programs, exhibition design systems, environment wayfinding.",
     "confidence": "medium",
     "notes": "Website unavailable. Phone from directory: +41 44 266 68 80"
   },
@@ -684,7 +684,7 @@
     "primaryContactName": "S3F Signs Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Portuguese señalética since 2006. Accessibility expertise. Local market presence.",
+    "fitReason": "Portuguese se\u00f1al\u00e9tica since 2006. Accessibility expertise. Local market presence.",
     "confidence": "high",
     "notes": "Direct email confirmed. Phone: +351 253 254 236"
   },
@@ -697,7 +697,7 @@
     "primaryContactName": "Modulex France Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Global wayfinding leader. Offices in France through Atelier Plus (Gréasque). Eco-friendly signage materials. Mixed-use, hospitality, healthcare, education, government.",
+    "fitReason": "Global wayfinding leader. Offices in France through Atelier Plus (Gr\u00e9asque). Eco-friendly signage materials. Mixed-use, hospitality, healthcare, education, government.",
     "confidence": "medium",
     "notes": "No direct email found. Part of Modulex global network."
   },
@@ -1519,5 +1519,57 @@
     "fitReason": "Japanese wayfinding system specialist focusing on international five-star hotels, public buildings, high-end shopping malls, and luxury real estate. Hospital signage specialist with proven credentials. One-stop service from design to installation.",
     "confidence": "high",
     "notes": "Direct info@ email from company website. Manufacturing and installation capabilities."
+  },
+  {
+    "companyId": 118,
+    "company": "Modulex Brazil",
+    "country": "Brazil",
+    "primaryEmail": "",
+    "backupEmail": "info@modulex.com",
+    "primaryContactName": "Modulex Brazil Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "https://www.linkedin.com/company/modulex/",
+    "fitReason": "Global signage leader with S\u00e3o Paulo office. Strong in hospitality, healthcare, education, civic. Sustainable products (GreenBond, ReBond).",
+    "confidence": "medium",
+    "notes": "No direct Brazil email found. Global info@Modulex.com as backup."
+  },
+  {
+    "companyId": 119,
+    "company": "CLA Programa\u00e7\u00e3o Visual",
+    "country": "Brazil",
+    "primaryEmail": "cla@clapvisual.com.br",
+    "backupEmail": "",
+    "primaryContactName": "CLA Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Market leader in Brazilian signage/wayfinding. 25+ years. Strong portfolio in hotels, hospitals, shopping malls.",
+    "confidence": "high",
+    "notes": "Direct email publicly listed on contact page."
+  },
+  {
+    "companyId": 120,
+    "company": "Placrim",
+    "country": "Brazil",
+    "primaryEmail": "contato@placrim.com.br",
+    "backupEmail": "",
+    "primaryContactName": "Placrim Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Established Brazilian wayfinding specialist. Full wayfinding and signage solutions. Curitiba-based.",
+    "confidence": "high",
+    "notes": "Direct email and phone listed on website."
+  },
+  {
+    "companyId": 121,
+    "company": "STUDIOMDA",
+    "country": "Brazil",
+    "primaryEmail": "",
+    "backupEmail": "",
+    "primaryContactName": "STUDIOMDA Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Southern Brazil wayfinding studio. Retail, corporate, hospitality experience.",
+    "confidence": "low",
+    "notes": "No direct contact info found. Website contact form only."
   }
 ]
