@@ -82,7 +82,7 @@
         "confidence": "medium"
       },
       {
-        "name": "Matthew J. Monta\u00f1es",
+        "name": "Matthew J. Montañes",
         "title": "Designer",
         "email": "",
         "linkedin": "https://www.linkedin.com/in/matthew-j-monta%C3%B1es-3a645b24",
@@ -812,7 +812,7 @@
   },
   {
     "companyId": 44,
-    "company": "Axone Etude Signal\u00e9tique",
+    "company": "Axone Etude Signalétique",
     "contacts": [
       {
         "name": "Axone Team",
@@ -1008,7 +1008,7 @@
         "notes": "Website has contact form only. No direct email found."
       }
     ],
-    "notes": "Z\u00fcrich-based Signaletik specialists."
+    "notes": "Zürich-based Signaletik specialists."
   },
   {
     "companyId": 58,
@@ -1049,6 +1049,276 @@
         "notes": "Direct email confirmed. Phone: +351 253 254 236"
       }
     ],
-    "notes": "Portuguese se\u00f1al\u00e9tica since 2006. Accessibility specialization."
+    "notes": "Portuguese señalética since 2006. Accessibility specialization."
+  },
+  {
+    "companyId": 60,
+    "company": "RSM Design",
+    "contacts": [
+      {
+        "name": "RSM Design Studio",
+        "title": "Project Enquiries",
+        "email": "info@rsmdesign.com",
+        "linkedin": "https://www.linkedin.com/company/rsm-design",
+        "source": "https://rsmdesign.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Premium US EGD firm. Full-service: strategy, design, fabrication. Luxury hospitality, airports, mixed-use, transit. Offices: LA, San Diego, Denver. Has Canada and Mexico presence."
+  },
+  {
+    "companyId": 61,
+    "company": "Selbert Perkins Design (SPD)",
+    "contacts": [
+      {
+        "name": "Selbert Perkins Design (SPD) Studio",
+        "title": "Project Enquiries",
+        "email": "info@selbertperkins.com",
+        "linkedin": "https://www.linkedin.com/company/selbert-perkins-design",
+        "source": "https://selbertperkins.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "International EGD firm. Strategy + Design + Placemaking. Airports, universities, master-planned communities, civic. Offices: LA, Boston, Chicago, Shanghai."
+  },
+  {
+    "companyId": 62,
+    "company": "Mijksenaar",
+    "contacts": [
+      {
+        "name": "Mijksenaar Studio",
+        "title": "Project Enquiries",
+        "email": "newyork@mijksenaar.com",
+        "linkedin": "https://www.linkedin.com/company/mijksenaar",
+        "source": "https://www.mijksenaar.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "39+ years global experience. Strategy + Design. Airports, hospitals, museums, transit, cities. Amsterdam HQ, NYC office."
+  },
+  {
+    "companyId": 63,
+    "company": "Gresham Smith",
+    "contacts": [
+      {
+        "name": "Gresham Smith Studio",
+        "title": "Project Enquiries",
+        "email": "info@greshamsmith.com",
+        "linkedin": "https://www.linkedin.com/company/gresham-smith",
+        "source": "https://www.greshamsmith.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Aviation-focused wayfinding. Major US airports: Hartsfield-Jackson Atlanta, LAX, Tampa International. Transit and civic work. Multi-discipline AE firm with dedicated EGD."
+  },
+  {
+    "companyId": 64,
+    "company": "Dimensional Innovations",
+    "contacts": [
+      {
+        "name": "Dimensional Innovations Studio",
+        "title": "Project Enquiries",
+        "email": "hello@dimin.com",
+        "linkedin": "https://www.linkedin.com/company/dimensional-innovations",
+        "source": "https://dimin.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Technology-enabled wayfinding. Hospitals, campuses, airports, corporate. Full design-to-install. National reach from Kansas base."
+  },
+  {
+    "companyId": 65,
+    "company": "Corlette Design",
+    "contacts": [
+      {
+        "name": "Corlette Design Studio",
+        "title": "Project Enquiries",
+        "email": "studio@corlettedesign.com",
+        "linkedin": "https://www.linkedin.com/company/corlette-design",
+        "source": "https://www.corlettedesign.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Global leaders in experiential branding, signage design and wayfinding for luxury, hospitality and lifestyle design. UK HQ but strong US operations."
+  },
+  {
+    "companyId": 66,
+    "company": "Creative Sign Designs",
+    "contacts": [
+      {
+        "name": "Creative Sign Designs Studio",
+        "title": "Project Enquiries",
+        "email": "info@creativesigndesigns.com",
+        "linkedin": "https://www.linkedin.com/company/creative-sign-designs",
+        "source": "https://creativesigndesigns.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Hospitality-focused signage. Luxury boutique hotels, multi-use destinations. EGD Studio consultancy. Exterior and interior wayfinding consultation, illuminated signage design, fabrication and installation."
+  },
+  {
+    "companyId": 67,
+    "company": "Visual Works",
+    "contacts": [
+      {
+        "name": "Visual Works Studio",
+        "title": "Project Enquiries",
+        "email": "info@visualworksny.com",
+        "linkedin": "https://www.linkedin.com/company/visual-works-ny",
+        "source": "https://www.visualworksny.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "NYC-based signage company. Art galleries, corporations, museums, hospitality, architects/designers, healthcare, financial, educational, event planners, retail, government."
+  },
+  {
+    "companyId": 68,
+    "company": "Street Style Sign Studio",
+    "contacts": [
+      {
+        "name": "Street Style Sign Studio Studio",
+        "title": "Project Enquiries",
+        "email": "info@streetstylesigns.com",
+        "linkedin": "https://www.linkedin.com/company/street-style-sign-studio",
+        "source": "https://streetstylesigns.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "NYC-based airport signage specialist. Complex public environments. Designed and implemented airport signage systems across NYC."
+  },
+  {
+    "companyId": 69,
+    "company": "EDG Experience Design Group",
+    "contacts": [
+      {
+        "name": "EDG Experience Design Group Team",
+        "title": "Project Enquiries",
+        "email": "info@experiencedesigngroup.ca",
+        "linkedin": "https://www.linkedin.com/company/edg-experience-design-group",
+        "source": "https://www.experiencedesigngroup.ca/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Professional design consultation practice specialized in Wayfinding, Signage, and Interpretive sector. Creates timeless and user-centred environments in community, commercial, retail."
+  },
+  {
+    "companyId": 70,
+    "company": "Modulex",
+    "contacts": [
+      {
+        "name": "Modulex Team",
+        "title": "Project Enquiries",
+        "email": "toronto@modulex.com",
+        "linkedin": "https://www.linkedin.com/company/modulex",
+        "source": "https://modulex.com/ontario/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Global leader in Wayfinding & Architectural Signage design, production and implementation. Toronto office services Ontario market. Focus: Mixed-Use, Hospitality, Healthcare, Education, Government."
+  },
+  {
+    "companyId": 71,
+    "company": "Cygnus Design Group",
+    "contacts": [
+      {
+        "name": "Cygnus Design Group Team",
+        "title": "Project Enquiries",
+        "email": "info@cygnus.group",
+        "linkedin": "https://www.linkedin.com/company/cygnus-design-group",
+        "source": "https://www.cygnus.group/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Strategic multidisciplinary consultancy specializing in wayfinding, signage standards, and branded environments. Cadillac Fairview portfolio (CF Toronto Eaton Centre, TD Centre)."
+  },
+  {
+    "companyId": 72,
+    "company": "EEC Industries",
+    "contacts": [
+      {
+        "name": "EEC Industries Team",
+        "title": "Project Enquiries",
+        "email": "info@eecind.com",
+        "linkedin": "https://www.linkedin.com/company/eec-industries",
+        "source": "https://www.eecind.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Leader in custom architectural signage since 1973. Craftsmanship, service, attention to detail. Custom sign design packages with complete wayfinding plans."
+  },
+  {
+    "companyId": 73,
+    "company": "Intu Design",
+    "contacts": [
+      {
+        "name": "Intu Design Team",
+        "title": "Project Enquiries",
+        "email": "hello@intudesign.com",
+        "linkedin": "https://www.linkedin.com/company/intu-design",
+        "source": "https://intudesign.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Industrial Design & Environmental Graphics. Deep experience in design of wayfinding, signage and amenities for public spaces, outdoor environments, cultural spaces and heritage places."
+  },
+  {
+    "companyId": 74,
+    "company": "Hi Signs",
+    "contacts": [
+      {
+        "name": "Hi Signs Team",
+        "title": "Project Enquiries",
+        "email": "info@hisigns.com",
+        "linkedin": "https://www.linkedin.com/company/hi-signs",
+        "source": "https://hisigns.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Canadian architectural signage and wayfinding fabricator. Dedicated to creating functional and aesthetically pleasing solutions."
+  },
+  {
+    "companyId": 75,
+    "company": "Multigraphics",
+    "contacts": [
+      {
+        "name": "Multigraphics Team",
+        "title": "Project Enquiries",
+        "email": "info@multigraphics.ca",
+        "linkedin": "https://www.linkedin.com/company/multigraphics",
+        "source": "https://multigraphics.ca/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Print, fabricate and install custom wayfinding system signs. Interior and exterior informational and directional signs."
+  },
+  {
+    "companyId": 76,
+    "company": "Urbanetica",
+    "contacts": [
+      {
+        "name": "Urbanetica Team",
+        "title": "Project Enquiries",
+        "email": "info@urbanetica.com",
+        "linkedin": null,
+        "source": "https://urbanetica.com/",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "Mexican urban wayfinding and city signage specialist. Based in Guadalajara. Urban signage and transit wayfinding."
+  },
+  {
+    "companyId": 77,
+    "company": "Entro / CVEDesign",
+    "contacts": [
+      {
+        "name": "Entro / CVEDesign Team",
+        "title": "Project Enquiries",
+        "email": "info@cvedesign.com",
+        "linkedin": "https://www.linkedin.com/company/entro",
+        "source": "https://cvedesign.com/",
+        "confidence": "medium"
+      }
+    ],
+    "notes": "EGD firm specializing in planning and design of signage and wayfinding programs, branded environments, and user navigation systems. Has Mexico presence."
   }
 ]
