@@ -326,7 +326,7 @@ class BusinessDirectory {
     if (business.website) links.push(this.createLinkHTML(business.website, 'Website', 'globe'));
     if (business.linkedin) links.push(this.createLinkHTML(business.linkedin, 'LinkedIn', 'linkedin'));
     if (business.instagram) links.push(this.createLinkHTML(business.instagram, 'Instagram', 'instagram'));
-    if ((business.website || '').toLowerCase().includes('eecind.com')) {
+    if ((business.website || '').toLowerCase().includes('eecind.com') || (business.website || '').toLowerCase().includes('wayfindingstudio.fr')) {
       links.push('<a href="assets/eecind-images/gallery.html" class="card-link" title="Open EEC image dump">📷 Photos</a>');
     }
 
@@ -376,6 +376,7 @@ class BusinessDirectory {
           <div class="card-links">
             ${business.website ? `<a href="${business.website}" target="_blank" class="card-link">Website</a>` : ''}
             ${(business.website || '').toLowerCase().includes('eecind.com') ? `<a href="assets/eecind-images/gallery.html" class="card-link">📷 Photos</a>` : ''}
+            ${(business.website || '').toLowerCase().includes('wayfindingstudio.fr') ? `<a href="assets/wayfindingstudio.fr-images/gallery.html" class="card-link">📷 Photos</a>` : ''}
           </div>
           ${outreachRoute}
           ${contactsSection}
