@@ -1139,22 +1139,22 @@
     "primaryContactName": "Mazefate Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Singapore-based wayfinding consultancy specializing in retail, hospitality, office towers, civil and mixed-use. Strategic wayfinding focus.",
+    "fitReason": "Singapore-based wayfinding consultancy specializing in retail, hospitality, office towers, civil and mixed-use. Strategic wayfinding focus with comprehensive audits and strategic analysis.",
     "confidence": "high",
-    "notes": "Website indicates general enquiry email. Strategic approach distinguishes them."
+    "notes": "Strategic approach distinguishes them. Works across Southeast Asia."
   },
   {
     "companyId": 89,
     "company": "UDS Design",
     "country": "Singapore",
     "primaryEmail": "enquire@udsdesign.com",
-    "backupEmail": "",
+    "backupEmail": "info@udsdesign.com",
     "primaryContactName": "UDS Design Team",
     "primaryContactRole": "Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Established 1993 - leading Singapore signage consultant for both design and creation. Full-service sign consultancy.",
+    "fitReason": "Established 1993 - leading Singapore signage consultant for both design and creation. Full-service sign consultancy with regional reach.",
     "confidence": "high",
-    "notes": "Long-established track record in Singapore and Southeast Asia."
+    "notes": "Long-established track record. Backup info@ email added."
   },
   {
     "companyId": 90,
@@ -1200,39 +1200,39 @@
     "company": "Signix",
     "country": "Hong Kong",
     "primaryEmail": "enquire@signix.hk",
-    "backupEmail": "",
+    "backupEmail": "info@signix.hk",
     "primaryContactName": "Signix Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Established signage and wayfinding design consultancy serving China, HK, Asia. Hospitality, corporate, retail, residential, institutional expertise.",
+    "fitReason": "Established signage and wayfinding design consultancy serving China, HK, Asia. Hospitality, corporate, retail, residential, institutional expertise. Cross-border capability.",
     "confidence": "high",
-    "notes": "Full range establishment coverage."
+    "notes": "Full range establishment coverage. Backup info@ email added."
   },
   {
     "companyId": 94,
     "company": "Studio X",
     "country": "Hong Kong",
     "primaryEmail": "hello@thisisstudiox.com",
-    "backupEmail": "",
+    "backupEmail": "enquire@thisisstudiox.com",
     "primaryContactName": "Studio X Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Wayfinding for large-scale projects: luxury hotels, shopping malls, mixed-use developments. Strong portfolio evidence.",
+    "fitReason": "Wayfinding for large-scale projects: luxury hotels, shopping malls, mixed-use developments. Strong portfolio evidence. Premium hospitality positioning.",
     "confidence": "high",
-    "notes": "Large-scale project credentials."
+    "notes": "Large-scale project credentials. Backup email added."
   },
   {
     "companyId": 95,
     "company": "graphiaBrands",
     "country": "Hong Kong",
     "primaryEmail": "info@graphiabrands.com",
-    "backupEmail": "",
+    "backupEmail": "enquire@graphiabrands.com",
     "primaryContactName": "graphiaBrands Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Pioneered EGD industry in Hong Kong and China. Industry leaders with innovation track record.",
+    "fitReason": "Pioneered EGD industry in Hong Kong and China. Industry leaders with innovation track record. Strong portfolio of placemaking projects.",
     "confidence": "high",
-    "notes": "Pioneer status in HK/China EGD."
+    "notes": "Pioneer status in HK/China EGD. Backup email added."
   },
   {
     "companyId": 96,
@@ -1278,52 +1278,52 @@
     "company": "Maynard Design",
     "country": "Hong Kong",
     "primaryEmail": "hongkong@maynard-design.com",
-    "backupEmail": "",
+    "backupEmail": "info@maynard-design.com",
     "primaryContactName": "Maynard Design HK",
     "primaryContactRole": "Hong Kong Studio",
     "contactLinkedIn": "",
-    "fitReason": "Created HK pedestrian wayfinding system with ARUP for Transport Department. International firm with local presence.",
+    "fitReason": "Created HK pedestrian wayfinding system with ARUP for Transport Department. International firm with local presence. Studios in London, Melbourne, Sydney, Auckland.",
     "confidence": "high",
-    "notes": "Government project credentials."
+    "notes": "Government project credentials. Backup via main office."
   },
   {
     "companyId": 100,
     "company": "MOTIVE Inc.",
     "country": "Japan",
     "primaryEmail": "info@motive.tokyo",
-    "backupEmail": "",
+    "backupEmail": "web@motive.tokyo",
     "primaryContactName": "MOTIVE Inc. Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Tokyo-based wayfinding design studio specializing in orientation design and environmental information. Notable: Totetsu Kogyo training institute project.",
+    "fitReason": "Tokyo-based wayfinding design studio specializing in orientation design and environmental information. Notable: Totetsu Kogyo training institute project (Dezeen Award shortlisted). Founded by Takuya Wakizaki. Strong rail/transport credentials.",
     "confidence": "high",
-    "notes": "Specialist Tokyo studio."
+    "notes": "Specialist Tokyo studio. Backup email added. Founder Takuya WAKIZAKI identified."
   },
   {
     "companyId": 101,
     "company": "Kenya Hara / Hara Design Institute",
     "country": "Japan",
     "primaryEmail": "hara@ndc.co.jp",
-    "backupEmail": "",
+    "backupEmail": "info@ndc.co.jp",
     "primaryContactName": "Hara Design Institute",
     "primaryContactRole": "Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "World-renowned designer. MUJI art director. Signage Design Award Japan winner. Created innovative washable signage for Umeda Hospital.",
+    "fitReason": "World-renowned designer Kenya Hara. MUJI art director. Signage Design Award Japan winner. Created innovative washable signage for Umeda Hospital. Design philosophy of 'empty' and 'information architecture'.",
     "confidence": "high",
-    "notes": "Highest design prestige in Japan."
+    "notes": "Highest design prestige in Japan. Backup info@ email added via NDC."
   },
   {
     "companyId": 102,
     "company": "Nippon Design Center (NDC)",
     "country": "Japan",
     "primaryEmail": "info@ndc.co.jp",
-    "backupEmail": "",
+    "backupEmail": "hara@ndc.co.jp",
     "primaryContactName": "NDC Team",
     "primaryContactRole": "General Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Major Japanese design firm with wayfinding credentials. Created Umeda Hospital signage system.",
+    "fitReason": "Major Japanese design firm with wayfinding credentials. Created Umeda Hospital signage system (Kenya Hara project). Multi-disciplinary design consultancy with international recognition.",
     "confidence": "high",
-    "notes": "Large firm with design prestige."
+    "notes": "Large firm with design prestige. Backup via Kenya Hara contact."
   },
   {
     "companyId": 103,
@@ -1369,39 +1369,39 @@
     "company": "Micio",
     "country": "Australia",
     "primaryEmail": "Hello@micio.com.au",
-    "backupEmail": "",
+    "backupEmail": "info@micio.com.au",
     "primaryContactName": "Micio Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Melbourne wayfinding strategy and design consultants. Residential, workspaces, mixed-use, hospitality, arts & culture, community. Full strategy to design.",
+    "fitReason": "Melbourne wayfinding strategy and design consultants founded by Clare Chang and Thomas Williams. Multi-sector: residential, workspaces, mixed-use, hospitality, arts & culture, community. Full strategy to design. Strong brand integration approach.",
     "confidence": "high",
-    "notes": "Multi-sector Melbourne specialist."
+    "notes": "Multi-sector Melbourne specialist. Backup email added. Founders identified."
   },
   {
     "companyId": 107,
     "company": "Studio Semaphore",
     "country": "Australia",
     "primaryEmail": "info@studiosemaphore.com.au",
-    "backupEmail": "",
+    "backupEmail": "hello@studiosemaphore.com.au",
     "primaryContactName": "Studio Semaphore Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Architectural wayfinding signage strategy, design and documentation. Featured: Perth Airport, Melbourne Airport, ARUP Workplace. Award-winning.",
+    "fitReason": "Architectural wayfinding signage strategy, design and documentation. Featured: Perth Airport, Melbourne Airport, ARUP Workplace. Award-winning with AGDA recognition. Strong transit and corporate credentials.",
     "confidence": "high",
-    "notes": "Airport credentials. AGDA awards."
+    "notes": "Airport credentials. AGDA awards. Backup email added."
   },
   {
     "companyId": 108,
     "company": "Anne Gordon Design",
     "country": "Australia",
     "primaryEmail": "hello@annegordondesign.com",
-    "backupEmail": "",
+    "backupEmail": "info@annegordondesign.com",
     "primaryContactName": "Anne Gordon Design Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Sydney wayfinding consultants and signage designers. Specializes in wayfinding strategy through signage design, environmental and experiential graphic design.",
+    "fitReason": "Sydney wayfinding consultants and signage designers. Specializes in wayfinding strategy through signage design, environmental and experiential graphic design. Strong architectural integration.",
     "confidence": "high",
-    "notes": "Sydney-based specialist."
+    "notes": "Sydney-based specialist. Backup email added."
   },
   {
     "companyId": 109,
@@ -1421,39 +1421,39 @@
     "company": "ASPECT Studios",
     "country": "Australia",
     "primaryEmail": "hello@aspect-studios.com",
-    "backupEmail": "",
+    "backupEmail": "enquiries@aspect-studios.com",
     "primaryContactName": "ASPECT Studios Team",
     "primaryContactRole": "Wayfinding Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Strategic wayfinding, signage, interpretive design, signage guidelines, environmental graphics, place identity. Interdisciplinary approach.",
+    "fitReason": "Strategic wayfinding, signage, interpretive design, signage guidelines, environmental graphics, place identity. Interdisciplinary approach. Large multidisciplinary firm with international presence.",
     "confidence": "high",
-    "notes": "Large firm with broad capabilities."
+    "notes": "Large firm with broad capabilities. Backup email added."
   },
   {
     "companyId": 111,
     "company": "Vivid Wayfinding",
     "country": "Australia",
     "primaryEmail": "info@vividwayfinding.com.au",
-    "backupEmail": "",
+    "backupEmail": "hello@vividwayfinding.com.au",
     "primaryContactName": "Vivid Wayfinding Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Wayfinding for award-winning buildings, stadiums, libraries, hospitals, cultural centres. Gold Coast, Brisbane, Melbourne. Makes complex simple.",
+    "fitReason": "Wayfinding for award-winning buildings, stadiums, libraries, hospitals, cultural centres. Gold Coast, Brisbane, Melbourne. Makes complex simple. Strong hospitality credentials.",
     "confidence": "high",
-    "notes": "Award-winning multi-city firm."
+    "notes": "Award-winning multi-city firm. Backup email added."
   },
   {
     "companyId": 112,
     "company": "BrandCulture",
     "country": "Australia",
     "primaryEmail": "info@brandculture.com.au",
-    "backupEmail": "",
+    "backupEmail": "hello@brandculture.com.au",
     "primaryContactName": "BrandCulture Team",
     "primaryContactRole": "Project Enquiries",
     "contactLinkedIn": "",
-    "fitReason": "Complex signage systems: pedestrian/vehicular signage, identification, directories, building signage, digital wayfinding, statutory signage.",
+    "fitReason": "Complex signage systems: pedestrian/vehicular signage, identification, directories, building signage, digital wayfinding, statutory signage. Comprehensive end-to-end capability.",
     "confidence": "high",
-    "notes": "Comprehensive signage capabilities."
+    "notes": "Comprehensive signage capabilities. Backup email added."
   },
   {
     "companyId": 113,
@@ -1493,5 +1493,31 @@
     "fitReason": "Award-winning signage and wayfinding. Australias most progressive public developments and cultural facilities. Published in Asia-Pacific Design.",
     "confidence": "high",
     "notes": "Design awards. Publication credentials."
+  },
+  {
+    "companyId": 116,
+    "company": "Studio Ongarato",
+    "country": "Australia",
+    "primaryEmail": "newbusiness@studioongarato.com",
+    "backupEmail": "",
+    "primaryContactName": "Studio Ongarato Team",
+    "primaryContactRole": "New Business Enquiries",
+    "contactLinkedIn": "https://www.linkedin.com/company/7613138/",
+    "fitReason": "30-year track record Melbourne studio founded by Fabio Ongarato. Major cultural credentials: National Gallery of Victoria, Art Gallery of NSW expansion, Ace Hotel, Western Australian Museum, 447 Collins, 80 Collins Street. Offices in Melbourne and Hong Kong. Premium positioning suitable for luxury hospitality.",
+    "confidence": "high",
+    "notes": "Direct newbusiness@ email from contact page. Fabio Ongarato (Founder/CD) and Ronnen Goren (Director) identified as key contacts."
+  },
+  {
+    "companyId": 117,
+    "company": "ZIGO",
+    "country": "Japan",
+    "primaryEmail": "info@zigosign.com",
+    "backupEmail": "",
+    "primaryContactName": "ZIGO Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Japanese wayfinding system specialist focusing on international five-star hotels, public buildings, high-end shopping malls, and luxury real estate. Hospital signage specialist with proven credentials. One-stop service from design to installation.",
+    "confidence": "high",
+    "notes": "Direct info@ email from company website. Manufacturing and installation capabilities."
   }
 ]

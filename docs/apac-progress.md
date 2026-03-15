@@ -106,3 +106,38 @@ Progress tracker for wayfinding directory entries in the APAC region.
 ---
 
 *Last updated: 2026-03-15*
+
+## APAC Deepening Pass (2026-03-15)
+
+### Additional Firms Added
+
+#### Australia
+- **Studio Ongarato** (ID: 116) - Award-winning Melbourne studio founded 1993 by Fabio Ongarato. Major credentials: National Gallery of Victoria, Art Gallery of NSW, Ace Hotel, Western Australian Museum, 447 Collins, 80 Collins Street. Offices in Melbourne and Hong Kong. Quality: 5 stars.
+
+#### Japan
+- **ZIGO** (ID: 117) - Wayfinding system design, production, installation for international five-star hotels, public buildings, high-end shopping malls, and luxury real estate. Hospital signage specialist. Quality: 4 stars.
+
+### Contact Depth Improvements
+- **Micio** (Australia): Added founders Clare Chang and Thomas Williams as named contacts with LinkedIn profiles
+- **Studio Ongarato**: Added Fabio Ongarato (Founder/CD) and Ronnen Goren (Director) contacts
+
+### Outreach Shortlist Improvements
+- Added backup emails for: UDS Design, Signix, Studio X, graphiaBrands, Micio, Studio Semaphore, Anne Gordon Design, ASPECT Studios, Vivid Wayfinding, BrandCulture, Maynard Design (HK), MOTIVE Inc., Kenya Hara/NDC, NIHON SIGN
+- Improved fit reasons with more specific project credentials and stronger positioning for luxury/hospitality work
+
+### Updated Summary
+
+| Country | Firms | Contacts | Outreach Rows |
+|---------|-------|----------|---------------|
+| Singapore | 5 | 5 | 5 |
+| Hong Kong | 7 | 7 | 7 |
+| Japan | 7 | 7 | 7 |
+| Australia | 11 | 11 | 11 |
+| **Total** | **30** | **30** | **30** |
+
+### Quality Delta vs Prior APAC Pass
+- **New firms added**: 2 (Studio Ongarato, ZIGO)
+- **Contact records improved**: 1 (Micio - added founders)
+- **Outreach rows improved**: 14+ entries with backup emails and enhanced fit reasons
+- **Total APAC firms**: 30 (was 28)
+- **Quality improvement**: Enhanced contact depth with named individuals, improved backup routes, stronger fit reasons for luxury plaque positioning

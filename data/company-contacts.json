@@ -1826,9 +1826,27 @@
         "linkedin": null,
         "source": "https://www.micio.com.au/",
         "confidence": "high"
+      },
+      {
+        "name": "Clare Chang",
+        "title": "Founder",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/clarechang",
+        "source": "https://www.micio.com.au/about-us-wayfinding-signage-consultants-in-melbourne/",
+        "confidence": "high",
+        "notes": "Co-founder - established firm"
+      },
+      {
+        "name": "Thomas Williams",
+        "title": "Founder",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/thomas-williams-461b6345",
+        "source": "https://www.micio.com.au/about-us-wayfinding-signage-consultants-in-melbourne/",
+        "confidence": "high",
+        "notes": "Co-founder - established firm"
       }
     ],
-    "notes": "Melbourne-based wayfinding specialists."
+    "notes": "Melbourne-based wayfinding specialists. Founded by Clare Chang and Thomas Williams. Multi-sector: residential, workspaces, mixed-use, hospitality, arts & culture, community."
   },
   {
     "companyId": 107,
@@ -1964,5 +1982,55 @@
       }
     ],
     "notes": "Award-winning. Published in Asia-Pacific Design."
+  },
+  {
+    "companyId": 116,
+    "company": "Studio Ongarato",
+    "contacts": [
+      {
+        "name": "Studio Ongarato Team",
+        "title": "New Business Enquiries",
+        "email": "newbusiness@studioongarato.com",
+        "linkedin": "https://www.linkedin.com/company/7613138/",
+        "source": "https://studioongarato.com.au/contact/",
+        "confidence": "high",
+        "notes": "Direct email confirmed from contact page"
+      },
+      {
+        "name": "Fabio Ongarato",
+        "title": "Founder & Creative Director",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/fabio-ongarato",
+        "source": "https://studioongarato.com.au/about/",
+        "confidence": "high",
+        "notes": "Founder - established firm in 1993"
+      },
+      {
+        "name": "Ronnen Goren",
+        "title": "Director",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/ronnen-goren",
+        "source": "https://studioongarato.com.au/about/",
+        "confidence": "high",
+        "notes": "Director - co-founder"
+      }
+    ],
+    "notes": "Award-winning Melbourne studio founded 1993. Major credentials: NGV, Art Gallery of NSW, Ace Hotel, Western Australian Museum. Offices also in Hong Kong."
+  },
+  {
+    "companyId": 117,
+    "company": "ZIGO",
+    "contacts": [
+      {
+        "name": "ZIGO Team",
+        "title": "Project Enquiries",
+        "email": "info@zigosign.com",
+        "linkedin": null,
+        "source": "https://www.zigosign.com/",
+        "confidence": "high",
+        "notes": "Direct email from company website"
+      }
+    ],
+    "notes": "Japanese wayfinding system specialist for five-star hotels, hospitals, malls, luxury real estate."
   }
 ]

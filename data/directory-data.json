@@ -1946,5 +1946,39 @@
     "sellsPlaques": false,
     "isWayfinding": true,
     "notes": "Award-winning signage and wayfinding projects. Worked on Australias most progressive public developments and cultural facilities. Published in Asia-Pacific Design."
+  },
+  {
+    "id": 116,
+    "county": "Australia",
+    "category": "Signage",
+    "company": "Studio Ongarato",
+    "website": "https://studioongarato.com.au/",
+    "email": "newbusiness@studioongarato.com",
+    "linkedin": "https://www.linkedin.com/company/7613138/",
+    "instagram": "https://www.instagram.com/studio.ongarato/",
+    "facebook": null,
+    "phone": "+61 (3) 9421 2344",
+    "address": "Atelier Exchange, 4/351 Elizabeth Street Melbourne, VIC 3000, Australia",
+    "quality": 5,
+    "sellsPlaques": false,
+    "isWayfinding": true,
+    "notes": "Award-winning wayfinding studio founded 1993 by Fabio Ongarato. Major credentials: National Gallery of Victoria, Art Gallery of NSW, Ace Hotel, Western Australian Museum, 447 Collins, 80 Collins Street. Offices in Melbourne and Hong Kong."
+  },
+  {
+    "id": 117,
+    "county": "Japan",
+    "category": "Signage",
+    "company": "ZIGO",
+    "website": "https://www.zigosign.com/",
+    "email": "info@zigosign.com",
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "phone": "",
+    "address": "Japan",
+    "quality": 4,
+    "sellsPlaques": false,
+    "isWayfinding": true,
+    "notes": "Wayfinding system design, production, and installation for international five-star hotels, public buildings, high-end shopping malls, and luxury real estate. Hospital signage specialist."
   }
 ]
