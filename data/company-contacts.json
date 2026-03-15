@@ -82,7 +82,7 @@
         "confidence": "medium"
       },
       {
-        "name": "Matthew J. Monta\u00f1es",
+        "name": "Matthew J. Montañes",
         "title": "Designer",
         "email": "",
         "linkedin": "https://www.linkedin.com/in/matthew-j-monta%C3%B1es-3a645b24",
@@ -820,7 +820,7 @@
   },
   {
     "companyId": 44,
-    "company": "Axone Etude Signal\u00e9tique",
+    "company": "Axone Etude Signalétique",
     "contacts": [
       {
         "name": "Axone Team",
@@ -1016,7 +1016,7 @@
         "notes": "Website has contact form only. No direct email found."
       }
     ],
-    "notes": "Z\u00fcrich-based Signaletik specialists."
+    "notes": "Zürich-based Signaletik specialists."
   },
   {
     "companyId": 58,
@@ -1057,7 +1057,7 @@
         "notes": "Direct email confirmed. Phone: +351 253 254 236"
       }
     ],
-    "notes": "Portuguese se\u00f1al\u00e9tica since 2006. Accessibility specialization."
+    "notes": "Portuguese señalética since 2006. Accessibility specialization."
   },
   {
     "companyId": 60,
@@ -1544,5 +1544,425 @@
       }
     ],
     "notes": "Mexican signage and wayfinding company."
+  },
+  {
+    "companyId": 88,
+    "company": "Mazefate",
+    "contacts": [
+      {
+        "name": "Mazefate Team",
+        "title": "Project Enquiries",
+        "email": "info@mazefate.com",
+        "linkedin": null,
+        "source": "https://www.mazefate.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Singapore-based wayfinding consultancy. Strategic approach to retail, hospitality, mixed-use."
+  },
+  {
+    "companyId": 89,
+    "company": "UDS Design",
+    "contacts": [
+      {
+        "name": "UDS Design Team",
+        "title": "Enquiries",
+        "email": "enquire@udsdesign.com",
+        "linkedin": null,
+        "source": "https://www.udsdesign.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Established 1993. Leading Singapore signage consultant."
+  },
+  {
+    "companyId": 90,
+    "company": "Radical Design",
+    "contacts": [
+      {
+        "name": "Radical Design Team",
+        "title": "Project Enquiries",
+        "email": "hello@radicaldesign.com.sg",
+        "linkedin": null,
+        "source": "https://radicaldesign.com.sg/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Since 2010. EGD expertise with code compliance specialism."
+  },
+  {
+    "companyId": 91,
+    "company": "IMMORTAL",
+    "contacts": [
+      {
+        "name": "IMMORTAL Team",
+        "title": "Enquiries",
+        "email": "enquiry@immortal.com.sg",
+        "linkedin": null,
+        "source": "https://www.immortal.com.sg/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "PMC certified. 30+ years award-winning design."
+  },
+  {
+    "companyId": 92,
+    "company": "Carats and Co",
+    "contacts": [
+      {
+        "name": "Carats and Co Team",
+        "title": "Project Enquiries",
+        "email": "info@caratsandco.com",
+        "linkedin": null,
+        "source": "https://www.caratsandco.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Leading Singapore signage specialist. 120+ talents."
+  },
+  {
+    "companyId": 93,
+    "company": "Signix",
+    "contacts": [
+      {
+        "name": "Signix Team",
+        "title": "Project Enquiries",
+        "email": "enquire@signix.hk",
+        "linkedin": null,
+        "source": "https://www.signix.hk/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Established HK consultancy serving China, HK, Asia."
+  },
+  {
+    "companyId": 94,
+    "company": "Studio X",
+    "contacts": [
+      {
+        "name": "Studio X Team",
+        "title": "Project Enquiries",
+        "email": "hello@thisisstudiox.com",
+        "linkedin": null,
+        "source": "https://www.thisisstudiox.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Wayfinding for luxury hotels, malls, mixed-use."
+  },
+  {
+    "companyId": 95,
+    "company": "graphiaBrands",
+    "contacts": [
+      {
+        "name": "graphiaBrands Team",
+        "title": "Project Enquiries",
+        "email": "info@graphiabrands.com",
+        "linkedin": null,
+        "source": "https://www.graphiabrands.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Pioneered EGD in HK and China."
+  },
+  {
+    "companyId": 96,
+    "company": "CCD/Cheng Chung Design (ATG BEYOND)",
+    "contacts": [
+      {
+        "name": "CCD Team",
+        "title": "Enquiries",
+        "email": "enquiry@ccd.com.hk",
+        "linkedin": null,
+        "source": "https://www.ccd.com.hk/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Environmental signage, wayfinding, brand visual management."
+  },
+  {
+    "companyId": 97,
+    "company": "Marc & Chantal",
+    "contacts": [
+      {
+        "name": "Marc & Chantal Team",
+        "title": "Project Enquiries",
+        "email": "info@marc-chantal.com",
+        "linkedin": null,
+        "source": "https://www.marc-chantal.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Architecture-integrated wayfinding. HK and Beijing."
+  },
+  {
+    "companyId": 98,
+    "company": "VADI (Sign Keystone)",
+    "contacts": [
+      {
+        "name": "VADI Team",
+        "title": "Project Enquiries",
+        "email": "hello@signkeystone.com",
+        "linkedin": null,
+        "source": "https://www.signkeystone.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Contemporary bespoke signage and wayfinding."
+  },
+  {
+    "companyId": 99,
+    "company": "Maynard Design",
+    "contacts": [
+      {
+        "name": "Maynard Design HK",
+        "title": "Hong Kong Studio",
+        "email": "hongkong@maynard-design.com",
+        "linkedin": null,
+        "source": "https://www.maynard-design.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "HK pedestrian wayfinding system with ARUP for Transport Dept."
+  },
+  {
+    "companyId": 100,
+    "company": "MOTIVE Inc.",
+    "contacts": [
+      {
+        "name": "MOTIVE Inc. Team",
+        "title": "Project Enquiries",
+        "email": "info@motive.tokyo",
+        "linkedin": null,
+        "source": "http://motive.tokyo/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Tokyo wayfinding studio. Notable rail work."
+  },
+  {
+    "companyId": 101,
+    "company": "Kenya Hara / Hara Design Institute",
+    "contacts": [
+      {
+        "name": "Hara Design Institute",
+        "title": "Enquiries",
+        "email": "hara@ndc.co.jp",
+        "linkedin": null,
+        "source": "https://www.ndc.co.jp/hara/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "World-renowned designer. MUJI art director."
+  },
+  {
+    "companyId": 102,
+    "company": "Nippon Design Center (NDC)",
+    "contacts": [
+      {
+        "name": "NDC Team",
+        "title": "General Enquiries",
+        "email": "info@ndc.co.jp",
+        "linkedin": null,
+        "source": "https://www.ndc.co.jp/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Major Japanese design firm."
+  },
+  {
+    "companyId": 103,
+    "company": "Nikken Sekkei",
+    "contacts": [
+      {
+        "name": "Nikken Sekkei",
+        "title": "General Enquiries",
+        "email": "info@nikken.co.jp",
+        "linkedin": null,
+        "source": "https://www.nikken.co.jp/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Architecture firm with wayfinding."
+  },
+  {
+    "companyId": 104,
+    "company": "artless Inc.",
+    "contacts": [
+      {
+        "name": "artless Inc. Team",
+        "title": "Project Enquiries",
+        "email": "info@artless.co.jp",
+        "linkedin": null,
+        "source": "https://www.artless.co.jp/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Design-led brand consultancy."
+  },
+  {
+    "companyId": 105,
+    "company": "NIHON SIGN",
+    "contacts": [
+      {
+        "name": "NIHON SIGN Team",
+        "title": "Project Enquiries",
+        "email": "info@sign.co.jp",
+        "linkedin": null,
+        "source": "http://www.sign.co.jp/en/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Major Japanese manufacturer."
+  },
+  {
+    "companyId": 106,
+    "company": "Micio",
+    "contacts": [
+      {
+        "name": "Micio Team",
+        "title": "Project Enquiries",
+        "email": "Hello@micio.com.au",
+        "linkedin": null,
+        "source": "https://www.micio.com.au/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Melbourne-based wayfinding specialists."
+  },
+  {
+    "companyId": 107,
+    "company": "Studio Semaphore",
+    "contacts": [
+      {
+        "name": "Studio Semaphore Team",
+        "title": "Project Enquiries",
+        "email": "info@studiosemaphore.com.au",
+        "linkedin": null,
+        "source": "https://studiosemaphore.com.au/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Airport credentials (Perth, Melbourne)."
+  },
+  {
+    "companyId": 108,
+    "company": "Anne Gordon Design",
+    "contacts": [
+      {
+        "name": "Anne Gordon Design Team",
+        "title": "Project Enquiries",
+        "email": "hello@annegordondesign.com",
+        "linkedin": null,
+        "source": "http://annegordondesign.com",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Sydney-based wayfinding consultants."
+  },
+  {
+    "companyId": 109,
+    "company": "Maynard Design",
+    "contacts": [
+      {
+        "name": "Maynard Design Melbourne",
+        "title": "Melbourne Studio",
+        "email": "melbourne@maynard-design.com",
+        "linkedin": null,
+        "source": "https://www.maynard-design.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "International firm with Melbourne presence."
+  },
+  {
+    "companyId": 110,
+    "company": "ASPECT Studios",
+    "contacts": [
+      {
+        "name": "ASPECT Studios Team",
+        "title": "Wayfinding Enquiries",
+        "email": "hello@aspect-studios.com",
+        "linkedin": null,
+        "source": "https://www.aspect-studios.com/au/services/wayfinding",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Interdisciplinary approach."
+  },
+  {
+    "companyId": 111,
+    "company": "Vivid Wayfinding",
+    "contacts": [
+      {
+        "name": "Vivid Wayfinding Team",
+        "title": "Project Enquiries",
+        "email": "info@vividwayfinding.com.au",
+        "linkedin": null,
+        "source": "https://www.vividwayfinding.com.au/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Multi-city Australian firm."
+  },
+  {
+    "companyId": 112,
+    "company": "BrandCulture",
+    "contacts": [
+      {
+        "name": "BrandCulture Team",
+        "title": "Project Enquiries",
+        "email": "info@brandculture.com.au",
+        "linkedin": null,
+        "source": "https://brandculture.com.au/wayfinding-signage-design/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Complex signage systems specialist."
+  },
+  {
+    "companyId": 113,
+    "company": "MASS",
+    "contacts": [
+      {
+        "name": "MASS Team",
+        "title": "Project Enquiries",
+        "email": "hello@mass.studio",
+        "linkedin": null,
+        "source": "https://melbournearchitecturalsignage.studio",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Melbourne spatial brand design."
+  },
+  {
+    "companyId": 114,
+    "company": "Citizen",
+    "contacts": [
+      {
+        "name": "Citizen Team",
+        "title": "Project Enquiries",
+        "email": "hello@citizengroup.com.au",
+        "linkedin": null,
+        "source": "https://www.citizengroup.com.au/placemakingwayfinding",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Brand/design/architectural collective."
+  },
+  {
+    "companyId": 115,
+    "company": "Collider",
+    "contacts": [
+      {
+        "name": "Collider Team",
+        "title": "Project Enquiries",
+        "email": "hello@collider.com.au",
+        "linkedin": null,
+        "source": "https://www.collider.com.au/studio/signage-and-wayfinding/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Award-winning. Published in Asia-Pacific Design."
   }
 ]
