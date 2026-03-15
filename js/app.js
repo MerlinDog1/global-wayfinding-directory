@@ -326,6 +326,9 @@ class BusinessDirectory {
     if (business.website) links.push(this.createLinkHTML(business.website, 'Website', 'globe'));
     if (business.linkedin) links.push(this.createLinkHTML(business.linkedin, 'LinkedIn', 'linkedin'));
     if (business.instagram) links.push(this.createLinkHTML(business.instagram, 'Instagram', 'instagram'));
+    if ((business.website || '').toLowerCase().includes('eecind.com')) {
+      links.push('<a href="assets/eecind-images/gallery.html" class="card-link" title="Open EEC image dump">📷 Photos</a>');
+    }
 
     const region = this.getRegionForCountry(business.county);
     const wayfindingFlag = this.isWayfindingConsultancy(business)
@@ -372,6 +375,7 @@ class BusinessDirectory {
           </div>
           <div class="card-links">
             ${business.website ? `<a href="${business.website}" target="_blank" class="card-link">Website</a>` : ''}
+            ${(business.website || '').toLowerCase().includes('eecind.com') ? `<a href="assets/eecind-images/gallery.html" class="card-link">📷 Photos</a>` : ''}
           </div>
           ${outreachRoute}
           ${contactsSection}
