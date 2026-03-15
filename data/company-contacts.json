@@ -1,0 +1,194 @@
+[
+  {
+    "companyId": 1,
+    "company": "Endpoint",
+    "contacts": [],
+    "notes": "Company appears inactive - website redirects to unrelated US real estate company. No public contacts found."
+  },
+  {
+    "companyId": 2,
+    "company": "f.r.a.",
+    "contacts": [],
+    "notes": "Website not accessible (DNS error). Company may no longer be active. No public contacts found."
+  },
+  {
+    "companyId": 3,
+    "company": "Two Twelve",
+    "contacts": [
+      {
+        "name": "David Arena",
+        "title": "Principal",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/david-arena",
+        "source": "https://www.linkedin.com/company/two-twelve",
+        "confidence": "medium"
+      },
+      {
+        "name": "Jim Shea",
+        "title": "Principal",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/jim-shea-2a59531",
+        "source": "https://www.linkedin.com/company/two-twelve",
+        "confidence": "medium"
+      },
+      {
+        "name": "Terri Marinelli Barnes",
+        "title": "Principal",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/terri-marinelli-barnes",
+        "source": "https://www.linkedin.com/company/two-twelve",
+        "confidence": "medium"
+      },
+      {
+        "name": "Matthew J. Montañes",
+        "title": "Designer",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/matthew-j-monta%C3%B1es-3a645b24",
+        "source": "https://www.linkedin.com/company/two-twelve",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "companyId": 4,
+    "company": "Signbox",
+    "contacts": [
+      {
+        "name": "Greg Bailey",
+        "title": "Senior Project Manager",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.signbox.co.uk/",
+        "confidence": "medium",
+        "notes": "Mentioned in client testimonial"
+      }
+    ],
+    "notes": "Limited individual contact info publicly available. Main contact is general sales@signbox.co.uk"
+  },
+  {
+    "companyId": 5,
+    "company": "Spaceagency",
+    "contacts": [
+      {
+        "name": "Sarah Manning",
+        "title": "Founding Partner",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/sarah-manning-spaceagency",
+        "source": "https://www.spaceagency-design.com/who-we-are",
+        "confidence": "high"
+      },
+      {
+        "name": "Peter Feldmann",
+        "title": "Founding Partner",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/peter-feldmann-spaceagency",
+        "source": "https://www.spaceagency-design.com/who-we-are",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "companyId": 6,
+    "company": "Maynard Design",
+    "contacts": [
+      {
+        "name": "James Maynard",
+        "title": "Founder/Director",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/james-maynard-maynarddesign",
+        "source": "https://www.maynard-design.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Company has multiple offices globally. Limited individual contacts publicly listed."
+  },
+  {
+    "companyId": 7,
+    "company": "Cartlidge Levene",
+    "contacts": [
+      {
+        "name": "Ian Cartlidge",
+        "title": "Co-founder",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/ian-cartlidge",
+        "source": "https://www.linkedin.com/company/cartlidge-levene",
+        "confidence": "high"
+      },
+      {
+        "name": "Eva Kellenberger",
+        "title": "Graphic Designer",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/eva-kellenberger",
+        "source": "https://www.linkedin.com/company/cartlidge-levene",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "companyId": 8,
+    "company": "The Velvet Principle",
+    "contacts": [
+      {
+        "name": "James Smith",
+        "title": "Founder",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/james-smith-velvetprinciple",
+        "source": "https://thevelvetprinciple.com/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Small team of 2-10 employees. Main contact via hello@thevelvetprinciple.co.uk"
+  },
+  {
+    "companyId": 9,
+    "company": "THIS WAY",
+    "contacts": [
+      {
+        "name": "James Gordon",
+        "title": "Director/Owner",
+        "email": "james@thisway.london",
+        "linkedin": "https://www.linkedin.com/in/james-gordon-76611166",
+        "source": "https://www.thisway.london/",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "companyId": 10,
+    "company": "Studiomarc",
+    "contacts": [
+      {
+        "name": "Marc Jenkins",
+        "title": "Founder/Director",
+        "email": "marc@studiomarc.uk",
+        "linkedin": "",
+        "source": "https://www.studiomarc.uk/contact",
+        "confidence": "high"
+      },
+      {
+        "name": "David Barbour",
+        "title": "Team Member",
+        "email": "",
+        "linkedin": "http://davidbarbour.uk",
+        "source": "https://www.studiomarc.uk/contact",
+        "confidence": "medium"
+      },
+      {
+        "name": "Andy Borzyskowski",
+        "title": "Team Member",
+        "email": "",
+        "linkedin": "",
+        "source": "https://www.studiomarc.uk/contact",
+        "confidence": "medium"
+      },
+      {
+        "name": "Nick Caville",
+        "title": "Team Member",
+        "email": "",
+        "linkedin": "http://nickcaville.com",
+        "source": "https://www.studiomarc.uk/contact",
+        "confidence": "medium"
+      }
+    ]
+  }
+]
