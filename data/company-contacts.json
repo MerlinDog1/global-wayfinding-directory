@@ -47,7 +47,8 @@
         "source": "https://www.linkedin.com/company/two-twelve",
         "confidence": "medium"
       }
-    ]
+    ],
+    "notes": "Company email: info@twotwelve.com (generic). Principals have LinkedIn profiles but no direct business emails found."
   },
   {
     "companyId": 4,
@@ -57,13 +58,13 @@
         "name": "Greg Bailey",
         "title": "Senior Project Manager",
         "email": "",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/greg-bailey-signbox",
         "source": "https://www.signbox.co.uk/",
         "confidence": "medium",
-        "notes": "Mentioned in client testimonial"
+        "notes": "Mentioned in client testimonial as Senior Project Manager delivering 22 Bishopsgate project - delivery role"
       }
     ],
-    "notes": "Limited individual contact info publicly available. Main contact is general sales@signbox.co.uk"
+    "notes": "Company email: sales@signbox.co.uk (generic). Greg Bailey is Senior PM (delivery role) but no direct email found."
   },
   {
     "companyId": 5,
@@ -84,8 +85,18 @@
         "linkedin": "https://www.linkedin.com/in/peter-feldmann-spaceagency",
         "source": "https://www.spaceagency-design.com/who-we-are",
         "confidence": "high"
+      },
+      {
+        "name": "Junyi",
+        "title": "Guangzhou Studio Lead",
+        "email": "junyi@spaceagency-design.com",
+        "linkedin": "",
+        "source": "https://www.spaceagency-design.com/contact",
+        "confidence": "high",
+        "notes": "Direct business email listed on company website - delivery/leadership role for China operations"
       }
-    ]
+    ],
+    "notes": "Company emails: info@spaceagency-design.com (London/Milan), junyi@spaceagency-design.com (Guangzhou). Junyi has direct business email."
   },
   {
     "companyId": 6,
@@ -98,9 +109,18 @@
         "linkedin": "https://www.linkedin.com/in/james-maynard-maynarddesign",
         "source": "https://www.maynard-design.com/",
         "confidence": "high"
+      },
+      {
+        "name": "Shane Bradbury",
+        "title": "Associate, Wayfinding Designer",
+        "email": "",
+        "linkedin": "https://www.linkedin.com/in/shane-bradbury-wayfinding",
+        "source": "https://www.maynard-design.com/practice/",
+        "confidence": "medium",
+        "notes": "Wayfinding Designer based in Auckland - delivery-focused role"
       }
     ],
-    "notes": "Company has multiple offices globally. Limited individual contacts publicly listed."
+    "notes": "Company emails: info@maynard-design.com (generic), jobs@maynard-design.com (careers). Shane Bradbury is Wayfinding Designer (delivery role)."
   },
   {
     "companyId": 7,
@@ -122,7 +142,8 @@
         "source": "https://www.linkedin.com/company/cartlidge-levene",
         "confidence": "medium"
       }
-    ]
+    ],
+    "notes": "Company email: info@cartlidgelevene.co.uk (generic). No direct business emails found for team members."
   },
   {
     "companyId": 8,
@@ -137,7 +158,7 @@
         "confidence": "high"
       }
     ],
-    "notes": "Small team of 2-10 employees. Main contact via hello@thevelvetprinciple.co.uk"
+    "notes": "Company email: hello@thevelvetprinciple.co.uk (generic). Small team. No direct business emails found for team members."
   },
   {
     "companyId": 9,
@@ -149,7 +170,8 @@
         "email": "james@thisway.london",
         "linkedin": "https://www.linkedin.com/in/james-gordon-76611166",
         "source": "https://www.thisway.london/",
-        "confidence": "high"
+        "confidence": "high",
+        "notes": "Direct business email confirmed"
       }
     ]
   },
@@ -163,7 +185,8 @@
         "email": "marc@studiomarc.uk",
         "linkedin": "",
         "source": "https://www.studiomarc.uk/contact",
-        "confidence": "high"
+        "confidence": "high",
+        "notes": "Direct business email confirmed"
       },
       {
         "name": "David Barbour",
@@ -189,6 +212,7 @@
         "source": "https://www.studiomarc.uk/contact",
         "confidence": "medium"
       }
-    ]
+    ],
+    "notes": "Company email: marc@studiomarc.uk (direct). Marc Jenkins has direct business email."
   }
 ]
