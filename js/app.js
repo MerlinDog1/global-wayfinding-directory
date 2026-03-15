@@ -326,8 +326,27 @@ class BusinessDirectory {
     if (business.website) links.push(this.createLinkHTML(business.website, 'Website', 'globe'));
     if (business.linkedin) links.push(this.createLinkHTML(business.linkedin, 'LinkedIn', 'linkedin'));
     if (business.instagram) links.push(this.createLinkHTML(business.instagram, 'Instagram', 'instagram'));
-    if ((business.website || '').toLowerCase().includes('eecind.com') || (business.website || '').toLowerCase().includes('wayfindingstudio.fr')) {
-      links.push('<a href="assets/eecind-images/gallery.html" class="card-link" title="Open EEC image dump">📷 Photos</a>');
+    
+    // Photos gallery links - check for any domain that has a gallery
+    const websiteLower = (business.website || '').toLowerCase();
+    const galleryMap = {
+      'eecind.com': 'assets/eecind-images/gallery.html',
+      'wayfindingstudio.fr': 'assets/wayfindingstudio.fr-images/gallery.html',
+      'weareendpoint.com': 'assets/weareendpoint.com-images/gallery.html',
+      'cartlidgelevene.co.uk': 'assets/cartlidgelevene.co.uk-images/gallery.html',
+      'maynard-design.com': 'assets/maynard-design.com-images/gallery.html',
+      'fracreative.com': 'assets/fracreative.com-images/gallery.html',
+      'spaceagency-design.com': 'assets/spaceagency-design.com-images/gallery.html',
+      'thevelvetprinciple.com': 'assets/thevelvetprinciple.com-images/gallery.html',
+      'thisway.london': 'assets/thisway.london-images/gallery.html',
+      'studiomarc.uk': 'assets/studiomarc.uk-images/gallery.html'
+    };
+    
+    for (const [domain, galleryPath] of Object.entries(galleryMap)) {
+      if (websiteLower.includes(domain)) {
+        links.push(`<a href="${galleryPath}" class="card-link" title="View photo gallery">📷 Photos</a>`);
+        break;
+      }
     }
 
     const region = this.getRegionForCountry(business.county);
@@ -375,8 +394,27 @@ class BusinessDirectory {
           </div>
           <div class="card-links">
             ${business.website ? `<a href="${business.website}" target="_blank" class="card-link">Website</a>` : ''}
-            ${(business.website || '').toLowerCase().includes('eecind.com') ? `<a href="assets/eecind-images/gallery.html" class="card-link">📷 Photos</a>` : ''}
-            ${(business.website || '').toLowerCase().includes('wayfindingstudio.fr') ? `<a href="assets/wayfindingstudio.fr-images/gallery.html" class="card-link">📷 Photos</a>` : ''}
+            ${(() => {
+              const websiteLower = (business.website || '').toLowerCase();
+              const galleryMap = {
+                'eecind.com': 'assets/eecind-images/gallery.html',
+                'wayfindingstudio.fr': 'assets/wayfindingstudio.fr-images/gallery.html',
+                'weareendpoint.com': 'assets/weareendpoint.com-images/gallery.html',
+                'cartlidgelevene.co.uk': 'assets/cartlidgelevene.co.uk-images/gallery.html',
+                'maynard-design.com': 'assets/maynard-design.com-images/gallery.html',
+                'fracreative.com': 'assets/fracreative.com-images/gallery.html',
+                'spaceagency-design.com': 'assets/spaceagency-design.com-images/gallery.html',
+                'thevelvetprinciple.com': 'assets/thevelvetprinciple.com-images/gallery.html',
+                'thisway.london': 'assets/thisway.london-images/gallery.html',
+                'studiomarc.uk': 'assets/studiomarc.uk-images/gallery.html'
+              };
+              for (const [domain, galleryPath] of Object.entries(galleryMap)) {
+                if (websiteLower.includes(domain)) {
+                  return `<a href="${galleryPath}" class="card-link">📷 Photos</a>`;
+                }
+              }
+              return '';
+            })()}
           </div>
           ${outreachRoute}
           ${contactsSection}
