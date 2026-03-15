@@ -3,6 +3,7 @@ class BusinessDirectory {
     this.businesses = [];
     this.filteredBusinesses = [];
     this.contactsByCompanyId = new Map();
+    this.outreachByCompanyId = new Map();
     this.currentView = 'grid';
     this.map = null;
     this.markers = [];
@@ -31,6 +32,7 @@ class BusinessDirectory {
       this.setupEventListeners();
       await this.loadData();
       await this.loadContacts();
+      await this.loadOutreachShortlist();
       this.populateRegionFilter();
       this.populateCountryFilter();
       this.sort();
@@ -101,6 +103,22 @@ class BusinessDirectory {
       });
     } catch (error) {
       console.warn('Contacts file not loaded:', error);
+    }
+  }
+
+  async loadOutreachShortlist() {
+    try {
+      const response = await fetch('data/outreach-shortlist.json');
+      if (!response.ok) return;
+      const rows = await response.json();
+      this.outreachByCompanyId.clear();
+      rows.forEach(row => {
+        if (typeof row.companyId === 'number') {
+          this.outreachByCompanyId.set(row.companyId, row);
+        }
+      });
+    } catch (error) {
+      console.warn('Outreach shortlist not loaded:', error);
     }
   }
 
@@ -313,6 +331,7 @@ class BusinessDirectory {
     const wayfindingFlag = this.isWayfindingConsultancy(business)
       ? '<span class="wayfinding-flag">Wayfinding</span>'
       : '';
+    const outreachRoute = this.createOutreachRouteHTML(business);
     const contactsSection = this.createContactsSectionHTML(business);
 
     return `
@@ -328,6 +347,7 @@ class BusinessDirectory {
           </div>
         </div>
         <div class="card-links">${links.join('')}</div>
+        ${outreachRoute}
         ${contactsSection}
       </article>
     `;
@@ -338,6 +358,7 @@ class BusinessDirectory {
     const wayfindingFlag = this.isWayfindingConsultancy(business)
       ? '<span class="wayfinding-flag">Wayfinding</span>'
       : '';
+    const outreachRoute = this.createOutreachRouteHTML(business);
     const contactsSection = this.createContactsSectionHTML(business);
 
     return `
@@ -352,9 +373,33 @@ class BusinessDirectory {
           <div class="card-links">
             ${business.website ? `<a href="${business.website}" target="_blank" class="card-link">Website</a>` : ''}
           </div>
+          ${outreachRoute}
           ${contactsSection}
         </div>
       </article>
+    `;
+  }
+
+  createOutreachRouteHTML(business) {
+    const route = this.outreachByCompanyId.get(business.id);
+    if (!route) return '';
+
+    const confidence = (route.confidence || 'medium').toLowerCase();
+    const confidenceClass = `confidence-${confidence}`;
+    const contact = route.primaryContactName ? this.escapeHtml(route.primaryContactName) : 'Best route identified';
+    const role = route.primaryContactRole ? this.escapeHtml(route.primaryContactRole) : 'Target contact';
+    const primary = route.primaryEmail ? `<a href="mailto:${this.escapeHtml(route.primaryEmail)}">${this.escapeHtml(route.primaryEmail)}</a>` : '';
+    const backup = route.backupEmail ? `<a href="mailto:${this.escapeHtml(route.backupEmail)}">${this.escapeHtml(route.backupEmail)}</a>` : '';
+
+    return `
+      <div class="outreach-route ${confidenceClass}">
+        <div class="outreach-title">✦ Best outreach route <span class="confidence-pill">${confidence}</span></div>
+        <div class="outreach-person">${contact} — ${role}</div>
+        <div class="outreach-emails">
+          ${primary ? `Primary: ${primary}` : ''}
+          ${backup ? `${primary ? '<span class="sep"> · </span>' : ''}Backup: ${backup}` : ''}
+        </div>
+      </div>
     `;
   }
 
