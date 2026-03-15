@@ -26,12 +26,21 @@ class BusinessDirectory {
   }
 
   async init() {
-    this.setupEventListeners();
-    await this.loadData();
-    this.populateRegionFilter();
-    this.populateCountryFilter();
-    this.sort();
-    this.render();
+    try {
+      this.setupEventListeners();
+      await this.loadData();
+      this.populateRegionFilter();
+      this.populateCountryFilter();
+      this.sort();
+      this.render();
+    } catch (error) {
+      console.error('Initialization error:', error);
+      if (this.loading) this.loading.style.display = 'none';
+      if (this.noResults) {
+        this.noResults.style.display = 'block';
+        this.noResults.innerHTML = '<h3>Directory failed to initialize</h3><p>Please refresh once. If it persists, deployment cache may still be updating.</p>';
+      }
+    }
   }
 
   setupEventListeners() {
@@ -207,18 +216,18 @@ class BusinessDirectory {
   }
 
   render() {
-    this.loading.style.display = 'none';
+    if (this.loading) this.loading.style.display = 'none';
     const count = this.filteredBusinesses.length;
-    this.resultsCount.textContent = count.toLocaleString();
+    if (this.resultsCount) this.resultsCount.textContent = count.toLocaleString();
 
     if (count === 0) {
-      this.noResults.style.display = 'block';
-      this.resultsGrid.innerHTML = '';
-      this.resultsList.innerHTML = '';
+      if (this.noResults) this.noResults.style.display = 'block';
+      if (this.resultsGrid) this.resultsGrid.innerHTML = '';
+      if (this.resultsList) this.resultsList.innerHTML = '';
       return;
     }
 
-    this.noResults.style.display = 'none';
+    if (this.noResults) this.noResults.style.display = 'none';
     this.renderGrid();
     this.renderList();
     if (this.currentView === 'map') this.renderMap();
