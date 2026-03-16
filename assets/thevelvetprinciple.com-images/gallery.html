@@ -1,1 +1,66 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Image Gallery</title><style>body{font-family:Inter,Arial,sans-serif;background:#0f1115;color:#e8edf6;margin:0}.top{position:sticky;top:0;background:#121722;border-bottom:1px solid #2a3246;padding:10px 14px;display:flex;align-items:center;gap:12px}.back{color:#d4af37;text-decoration:none;font-size:14px}.back:hover{text-decoration:underline}.grid{padding:14px;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}.card{background:#161b27;border:1px solid #2a3246;border-radius:10px;padding:8px}.card img{width:100%;height:160px;object-fit:cover;background:#000;border-radius:6px;cursor:zoom-in}.n{margin-top:6px;font-size:11px;word-break:break-all;color:#aeb8cf}#lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:50;align-items:center;justify-content:center;padding:20px}#lightbox img{max-width:95vw;max-height:90vh}#close{position:fixed;top:14px;right:14px;background:#111a2b;color:#fff;border:1px solid #3a465f;border-radius:8px;padding:8px 10px;cursor:pointer}</style></head><body><div class="top"><a class="back" href="../../index.html">← Back to Directory</a><span>Images: 0</span></div><div class="grid"></div><div id="lightbox"><button id="close">✕ Close</button><img id="lbimg" src=""></div><script>const lb=document.getElementById("lightbox"),lbimg=document.getElementById("lbimg");document.querySelectorAll(".card img").forEach(im=>im.addEventListener("click",e=>{e.preventDefault();lbimg.src=im.dataset.full;lb.style.display="flex";}));document.getElementById("close").onclick=()=>lb.style.display="none";lb.onclick=e=>{if(e.target===lb)lb.style.display="none";};</script></body></html>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Velvet Principle - Image Gallery</title>
+<style>
+body{font-family:Inter,Arial,sans-serif;background:#0f1115;color:#e8edf6;margin:0}
+.top{position:sticky;top:0;background:#121722;border-bottom:1px solid #2a3246;padding:10px 14px;display:flex;justify-content:space-between;align-items:center}
+.back{background:#d4af37;color:#000;text-decoration:none;padding:8px 14px;border-radius:6px;font-weight:600}
+.grid{padding:14px;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
+.card{background:#161b27;border:1px solid #2a3246;border-radius:10px;padding:8px}
+.card img{width:100%;height:160px;object-fit:cover;background:#000;border-radius:6px;cursor:zoom-in}
+.n{margin-top:6px;font-size:11px;word-break:break-all;color:#aeb8cf}
+#lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:50;align-items:center;justify-content:center;padding:20px}
+#lightbox img{max-width:95vw;max-height:90vh}
+#close{position:fixed;top:14px;right:14px;background:#111a2b;color:#fff;border:1px solid #3a465f;border-radius:8px;padding:8px 10px;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="top">
+<span>Images: 31</span>
+<a href="../../index.html" class="back">← Back to Directory</a>
+</div>
+<div class="grid">
+<div class="card"><a href="raw/20FS_home_page.jpg"><img loading="lazy" src="raw/20FS_home_page.jpg" data-full="raw/20FS_home_page.jpg"></a><div class="n">20FS_home_page.jpg</div></div>
+<div class="card"><a href="raw/Budgeting-1024x683.jpg"><img loading="lazy" src="raw/Budgeting-1024x683.jpg" data-full="raw/Budgeting-1024x683.jpg"></a><div class="n">Budgeting-1024x683.jpg</div></div>
+<div class="card"><a href="raw/Budgeting-300x200.jpg"><img loading="lazy" src="raw/Budgeting-300x200.jpg" data-full="raw/Budgeting-300x200.jpg"></a><div class="n">Budgeting-300x200.jpg</div></div>
+<div class="card"><a href="raw/Budgeting-768x512.jpg"><img loading="lazy" src="raw/Budgeting-768x512.jpg" data-full="raw/Budgeting-768x512.jpg"></a><div class="n">Budgeting-768x512.jpg</div></div>
+<div class="card"><a href="raw/Budgeting-930x620.jpg"><img loading="lazy" src="raw/Budgeting-930x620.jpg" data-full="raw/Budgeting-930x620.jpg"></a><div class="n">Budgeting-930x620.jpg</div></div>
+<div class="card"><a href="raw/Budgeting.jpg"><img loading="lazy" src="raw/Budgeting.jpg" data-full="raw/Budgeting.jpg"></a><div class="n">Budgeting.jpg</div></div>
+<div class="card"><a href="raw/CQ_homepage.jpg"><img loading="lazy" src="raw/CQ_homepage.jpg" data-full="raw/CQ_homepage.jpg"></a><div class="n">CQ_homepage.jpg</div></div>
+<div class="card"><a href="raw/Clippers_homepage.jpg"><img loading="lazy" src="raw/Clippers_homepage.jpg" data-full="raw/Clippers_homepage.jpg"></a><div class="n">Clippers_homepage.jpg</div></div>
+<div class="card"><a href="raw/Entrance_hero.jpg"><img loading="lazy" src="raw/Entrance_hero.jpg" data-full="raw/Entrance_hero.jpg"></a><div class="n">Entrance_hero.jpg</div></div>
+<div class="card"><a href="raw/Festival_wayfinding-930x620.jpg"><img loading="lazy" src="raw/Festival_wayfinding-930x620.jpg" data-full="raw/Festival_wayfinding-930x620.jpg"></a><div class="n">Festival_wayfinding-930x620.jpg</div></div>
+<div class="card"><a href="raw/Hero.jpg"><img loading="lazy" src="raw/Hero.jpg" data-full="raw/Hero.jpg"></a><div class="n">Hero.jpg</div></div>
+<div class="card"><a href="raw/Lexicon_homepage.jpg"><img loading="lazy" src="raw/Lexicon_homepage.jpg" data-full="raw/Lexicon_homepage.jpg"></a><div class="n">Lexicon_homepage.jpg</div></div>
+<div class="card"><a href="raw/Prohibitive-signs-930x620.jpg"><img loading="lazy" src="raw/Prohibitive-signs-930x620.jpg" data-full="raw/Prohibitive-signs-930x620.jpg"></a><div class="n">Prohibitive-signs-930x620.jpg</div></div>
+<div class="card"><a href="raw/Regents_cresecent_Home_page.jpg"><img loading="lazy" src="raw/Regents_cresecent_Home_page.jpg" data-full="raw/Regents_cresecent_Home_page.jpg"></a><div class="n">Regents_cresecent_Home_page.jpg</div></div>
+<div class="card"><a href="raw/SJQ_Orange_coreHP.jpg"><img loading="lazy" src="raw/SJQ_Orange_coreHP.jpg" data-full="raw/SJQ_Orange_coreHP.jpg"></a><div class="n">SJQ_Orange_coreHP.jpg</div></div>
+<div class="card"><a href="raw/You-are-here-map-800x620.jpg"><img loading="lazy" src="raw/You-are-here-map-800x620.jpg" data-full="raw/You-are-here-map-800x620.jpg"></a><div class="n">You-are-here-map-800x620.jpg</div></div>
+<div class="card"><a href="raw/apple-touch-icon.png"><img loading="lazy" src="raw/apple-touch-icon.png" data-full="raw/apple-touch-icon.png"></a><div class="n">apple-touch-icon.png</div></div>
+<div class="card"><a href="raw/arrow_on_block-300x225.jpg"><img loading="lazy" src="raw/arrow_on_block-300x225.jpg" data-full="raw/arrow_on_block-300x225.jpg"></a><div class="n">arrow_on_block-300x225.jpg</div></div>
+<div class="card"><a href="raw/arrow_on_block.jpg"><img loading="lazy" src="raw/arrow_on_block.jpg" data-full="raw/arrow_on_block.jpg"></a><div class="n">arrow_on_block.jpg</div></div>
+<div class="card"><a href="raw/cropped-VP-master-logo-rgb-11-1024x193.jpg"><img loading="lazy" src="raw/cropped-VP-master-logo-rgb-11-1024x193.jpg" data-full="raw/cropped-VP-master-logo-rgb-11-1024x193.jpg"></a><div class="n">cropped-VP-master-logo-rgb-11-1024x193.jpg</div></div>
+<div class="card"><a href="raw/cropped-VP-master-logo-rgb-11-1536x290.jpg"><img loading="lazy" src="raw/cropped-VP-master-logo-rgb-11-1536x290.jpg" data-full="raw/cropped-VP-master-logo-rgb-11-1536x290.jpg"></a><div class="n">cropped-VP-master-logo-rgb-11-1536x290.jpg</div></div>
+<div class="card"><a href="raw/cropped-VP-master-logo-rgb-11-300x57.jpg"><img loading="lazy" src="raw/cropped-VP-master-logo-rgb-11-300x57.jpg" data-full="raw/cropped-VP-master-logo-rgb-11-300x57.jpg"></a><div class="n">cropped-VP-master-logo-rgb-11-300x57.jpg</div></div>
+<div class="card"><a href="raw/cropped-VP-master-logo-rgb-11-768x145.jpg"><img loading="lazy" src="raw/cropped-VP-master-logo-rgb-11-768x145.jpg" data-full="raw/cropped-VP-master-logo-rgb-11-768x145.jpg"></a><div class="n">cropped-VP-master-logo-rgb-11-768x145.jpg</div></div>
+<div class="card"><a href="raw/cropped-VP-master-logo-rgb-11.jpg"><img loading="lazy" src="raw/cropped-VP-master-logo-rgb-11.jpg" data-full="raw/cropped-VP-master-logo-rgb-11.jpg"></a><div class="n">cropped-VP-master-logo-rgb-11.jpg</div></div>
+<div class="card"><a href="raw/design_rev_repeat-930x620.jpg"><img loading="lazy" src="raw/design_rev_repeat-930x620.jpg" data-full="raw/design_rev_repeat-930x620.jpg"></a><div class="n">design_rev_repeat-930x620.jpg</div></div>
+<div class="card"><a href="raw/favicon-16x16.png"><img loading="lazy" src="raw/favicon-16x16.png" data-full="raw/favicon-16x16.png"></a><div class="n">favicon-16x16.png</div></div>
+<div class="card"><a href="raw/favicon-32x32.png"><img loading="lazy" src="raw/favicon-32x32.png" data-full="raw/favicon-32x32.png"></a><div class="n">favicon-32x32.png</div></div>
+<div class="card"><a href="raw/large_cube.png"><img loading="lazy" src="raw/large_cube.png" data-full="raw/large_cube.png"></a><div class="n">large_cube.png</div></div>
+<div class="card"><a href="raw/project_montage-300x212.jpg"><img loading="lazy" src="raw/project_montage-300x212.jpg" data-full="raw/project_montage-300x212.jpg"></a><div class="n">project_montage-300x212.jpg</div></div>
+<div class="card"><a href="raw/project_montage-768x543.jpg"><img loading="lazy" src="raw/project_montage-768x543.jpg" data-full="raw/project_montage-768x543.jpg"></a><div class="n">project_montage-768x543.jpg</div></div>
+<div class="card"><a href="raw/project_montage.jpg"><img loading="lazy" src="raw/project_montage.jpg" data-full="raw/project_montage.jpg"></a><div class="n">project_montage.jpg</div></div>
+</div>
+<div id="lightbox"><button id="close">✕ Close</button><img id="lbimg" src=""></div>
+<script>
+const lb=document.getElementById("lightbox"),lbimg=document.getElementById("lbimg");
+document.querySelectorAll(".card img").forEach(im=>im.addEventListener("click",e=>{e.preventDefault();lbimg.src=im.dataset.full;lb.style.display="flex";}));
+document.getElementById("close").onclick=()=>lb.style.display="none";
+lb.onclick=e=>{if(e.target===lb)lb.style.display="none"};
+</script>
+</body>
+</html>

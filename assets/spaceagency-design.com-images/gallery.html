@@ -1,1 +1,119 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Image Gallery</title><style>body{font-family:Inter,Arial,sans-serif;background:#0f1115;color:#e8edf6;margin:0}.top{position:sticky;top:0;background:#121722;border-bottom:1px solid #2a3246;padding:10px 14px;display:flex;align-items:center;gap:12px}.back{color:#d4af37;text-decoration:none;font-size:14px}.back:hover{text-decoration:underline}.grid{padding:14px;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}.card{background:#161b27;border:1px solid #2a3246;border-radius:10px;padding:8px}.card img{width:100%;height:160px;object-fit:cover;background:#000;border-radius:6px;cursor:zoom-in}.n{margin-top:6px;font-size:11px;word-break:break-all;color:#aeb8cf}#lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:50;align-items:center;justify-content:center;padding:20px}#lightbox img{max-width:95vw;max-height:90vh}#close{position:fixed;top:14px;right:14px;background:#111a2b;color:#fff;border:1px solid #3a465f;border-radius:8px;padding:8px 10px;cursor:pointer}</style></head><body><div class="top"><a class="back" href="../../index.html">← Back to Directory</a><span>Images: 0</span></div><div class="grid"></div><div id="lightbox"><button id="close">✕ Close</button><img id="lbimg" src=""></div><script>const lb=document.getElementById("lightbox"),lbimg=document.getElementById("lbimg");document.querySelectorAll(".card img").forEach(im=>im.addEventListener("click",e=>{e.preventDefault();lbimg.src=im.dataset.full;lb.style.display="flex";}));document.getElementById("close").onclick=()=>lb.style.display="none";lb.onclick=e=>{if(e.target===lb)lb.style.display="none";};</script></body></html>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spaceagency Design - Image Gallery</title>
+<style>
+body{font-family:Inter,Arial,sans-serif;background:#0f1115;color:#e8edf6;margin:0}
+.top{position:sticky;top:0;background:#121722;border-bottom:1px solid #2a3246;padding:10px 14px;display:flex;justify-content:space-between;align-items:center}
+.back{background:#d4af37;color:#000;text-decoration:none;padding:8px 14px;border-radius:6px;font-weight:600}
+.grid{padding:14px;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
+.card{background:#161b27;border:1px solid #2a3246;border-radius:10px;padding:8px}
+.card img{width:100%;height:160px;object-fit:cover;background:#000;border-radius:6px;cursor:zoom-in}
+.n{margin-top:6px;font-size:11px;word-break:break-all;color:#aeb8cf}
+#lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:50;align-items:center;justify-content:center;padding:20px}
+#lightbox img{max-width:95vw;max-height:90vh}
+#close{position:fixed;top:14px;right:14px;background:#111a2b;color:#fff;border:1px solid #3a465f;border-radius:8px;padding:8px 10px;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="top">
+<span>Images: 84</span>
+<a href="../../index.html" class="back">← Back to Directory</a>
+</div>
+<div class="grid">
+<div class="card"><a href="raw/Abu+Dhabi+Airport.jpg"><img loading="lazy" src="raw/Abu+Dhabi+Airport.jpg" data-full="raw/Abu+Dhabi+Airport.jpg"></a><div class="n">Abu+Dhabi+Airport.jpg</div></div>
+<div class="card"><a href="raw/Abu+Dhabi+Education+Council.jpg"><img loading="lazy" src="raw/Abu+Dhabi+Education+Council.jpg" data-full="raw/Abu+Dhabi+Education+Council.jpg"></a><div class="n">Abu+Dhabi+Education+Council.jpg</div></div>
+<div class="card"><a href="raw/Abu+Dhabi+Intermodal+Transfer+Centre.jpg"><img loading="lazy" src="raw/Abu+Dhabi+Intermodal+Transfer+Centre.jpg" data-full="raw/Abu+Dhabi+Intermodal+Transfer+Centre.jpg"></a><div class="n">Abu+Dhabi+Intermodal+Transfer+Centre.jpg</div></div>
+<div class="card"><a href="raw/Aircraft+Interior+Airport.jpg"><img loading="lazy" src="raw/Aircraft+Interior+Airport.jpg" data-full="raw/Aircraft+Interior+Airport.jpg"></a><div class="n">Aircraft+Interior+Airport.jpg</div></div>
+<div class="card"><a href="raw/Al+Rayyan+FIFA+Stadium+and+Precinct.jpg"><img loading="lazy" src="raw/Al+Rayyan+FIFA+Stadium+and+Precinct.jpg" data-full="raw/Al+Rayyan+FIFA+Stadium+and+Precinct.jpg"></a><div class="n">Al+Rayyan+FIFA+Stadium+and+Precinct.jpg</div></div>
+<div class="card"><a href="raw/Al+Wasl+Road.jpg"><img loading="lazy" src="raw/Al+Wasl+Road.jpg" data-full="raw/Al+Wasl+Road.jpg"></a><div class="n">Al+Wasl+Road.jpg</div></div>
+<div class="card"><a href="raw/AlUla+Toolkit+2.jpg"><img loading="lazy" src="raw/AlUla+Toolkit+2.jpg" data-full="raw/AlUla+Toolkit+2.jpg"></a><div class="n">AlUla+Toolkit+2.jpg</div></div>
+<div class="card"><a href="raw/Amanda+Li+Hope.jpg"><img loading="lazy" src="raw/Amanda+Li+Hope.jpg" data-full="raw/Amanda+Li+Hope.jpg"></a><div class="n">Amanda+Li+Hope.jpg</div></div>
+<div class="card"><a href="raw/Astana+Expo+Hotel.jpg"><img loading="lazy" src="raw/Astana+Expo+Hotel.jpg" data-full="raw/Astana+Expo+Hotel.jpg"></a><div class="n">Astana+Expo+Hotel.jpg</div></div>
+<div class="card"><a href="raw/Astana.jpg"><img loading="lazy" src="raw/Astana.jpg" data-full="raw/Astana.jpg"></a><div class="n">Astana.jpg</div></div>
+<div class="card"><a href="raw/Audrey+Irmas.jpg"><img loading="lazy" src="raw/Audrey+Irmas.jpg" data-full="raw/Audrey+Irmas.jpg"></a><div class="n">Audrey+Irmas.jpg</div></div>
+<div class="card"><a href="raw/Azbuka+Vkusa+Market+Hall.jpg"><img loading="lazy" src="raw/Azbuka+Vkusa+Market+Hall.jpg" data-full="raw/Azbuka+Vkusa+Market+Hall.jpg"></a><div class="n">Azbuka+Vkusa+Market+Hall.jpg</div></div>
+<div class="card"><a href="raw/Bagel+Bakery.jpg"><img loading="lazy" src="raw/Bagel+Bakery.jpg" data-full="raw/Bagel+Bakery.jpg"></a><div class="n">Bagel+Bakery.jpg</div></div>
+<div class="card"><a href="raw/Bayreuth+Youth+Hostel.jpg"><img loading="lazy" src="raw/Bayreuth+Youth+Hostel.jpg" data-full="raw/Bayreuth+Youth+Hostel.jpg"></a><div class="n">Bayreuth+Youth+Hostel.jpg</div></div>
+<div class="card"><a href="raw/Cable+Car.jpg"><img loading="lazy" src="raw/Cable+Car.jpg" data-full="raw/Cable+Car.jpg"></a><div class="n">Cable+Car.jpg</div></div>
+<div class="card"><a href="raw/Changi+Airport.jpg"><img loading="lazy" src="raw/Changi+Airport.jpg" data-full="raw/Changi+Airport.jpg"></a><div class="n">Changi+Airport.jpg</div></div>
+<div class="card"><a href="raw/CityScape.jpg"><img loading="lazy" src="raw/CityScape.jpg" data-full="raw/CityScape.jpg"></a><div class="n">CityScape.jpg</div></div>
+<div class="card"><a href="raw/Clerkenwell+Design+Week.jpg"><img loading="lazy" src="raw/Clerkenwell+Design+Week.jpg" data-full="raw/Clerkenwell+Design+Week.jpg"></a><div class="n">Clerkenwell+Design+Week.jpg</div></div>
+<div class="card"><a href="raw/Connected+Manchester.jpg"><img loading="lazy" src="raw/Connected+Manchester.jpg" data-full="raw/Connected+Manchester.jpg"></a><div class="n">Connected+Manchester.jpg</div></div>
+<div class="card"><a href="raw/Culture+Mile.jpg"><img loading="lazy" src="raw/Culture+Mile.jpg" data-full="raw/Culture+Mile.jpg"></a><div class="n">Culture+Mile.jpg</div></div>
+<div class="card"><a href="raw/Dreamgate.jpg"><img loading="lazy" src="raw/Dreamgate.jpg" data-full="raw/Dreamgate.jpg"></a><div class="n">Dreamgate.jpg</div></div>
+<div class="card"><a href="raw/Dubai+Creek+Harbour.jpg"><img loading="lazy" src="raw/Dubai+Creek+Harbour.jpg" data-full="raw/Dubai+Creek+Harbour.jpg"></a><div class="n">Dubai+Creek+Harbour.jpg</div></div>
+<div class="card"><a href="raw/Dubai+Expo+UAE+Pav.jpg"><img loading="lazy" src="raw/Dubai+Expo+UAE+Pav.jpg" data-full="raw/Dubai+Expo+UAE+Pav.jpg"></a><div class="n">Dubai+Expo+UAE+Pav.jpg</div></div>
+<div class="card"><a href="raw/Dubai+Expo.jpg"><img loading="lazy" src="raw/Dubai+Expo.jpg" data-full="raw/Dubai+Expo.jpg"></a><div class="n">Dubai+Expo.jpg</div></div>
+<div class="card"><a href="raw/Dubai+Street+Furniture.jpg"><img loading="lazy" src="raw/Dubai+Street+Furniture.jpg" data-full="raw/Dubai+Street+Furniture.jpg"></a><div class="n">Dubai+Street+Furniture.jpg</div></div>
+<div class="card"><a href="raw/Eastland.jpg"><img loading="lazy" src="raw/Eastland.jpg" data-full="raw/Eastland.jpg"></a><div class="n">Eastland.jpg</div></div>
+<div class="card"><a href="raw/Education+City+Stadium.jpg"><img loading="lazy" src="raw/Education+City+Stadium.jpg" data-full="raw/Education+City+Stadium.jpg"></a><div class="n">Education+City+Stadium.jpg</div></div>
+<div class="card"><a href="raw/Equestrian+Village.jpg"><img loading="lazy" src="raw/Equestrian+Village.jpg" data-full="raw/Equestrian+Village.jpg"></a><div class="n">Equestrian+Village.jpg</div></div>
+<div class="card"><a href="raw/Euston+Station.jpg"><img loading="lazy" src="raw/Euston+Station.jpg" data-full="raw/Euston+Station.jpg"></a><div class="n">Euston+Station.jpg</div></div>
+<div class="card"><a href="raw/GACA+Pavilion.jpg"><img loading="lazy" src="raw/GACA+Pavilion.jpg" data-full="raw/GACA+Pavilion.jpg"></a><div class="n">GACA+Pavilion.jpg</div></div>
+<div class="card"><a href="raw/GEGPhase3.jpg"><img loading="lazy" src="raw/GEGPhase3.jpg" data-full="raw/GEGPhase3.jpg"></a><div class="n">GEGPhase3.jpg</div></div>
+<div class="card"><a href="raw/Google+Shorebird.jpg"><img loading="lazy" src="raw/Google+Shorebird.jpg" data-full="raw/Google+Shorebird.jpg"></a><div class="n">Google+Shorebird.jpg</div></div>
+<div class="card"><a href="raw/Grand+Central.jpg"><img loading="lazy" src="raw/Grand+Central.jpg" data-full="raw/Grand+Central.jpg"></a><div class="n">Grand+Central.jpg</div></div>
+<div class="card"><a href="raw/Greenworks.jpg"><img loading="lazy" src="raw/Greenworks.jpg" data-full="raw/Greenworks.jpg"></a><div class="n">Greenworks.jpg</div></div>
+<div class="card"><a href="raw/HSBC.jpg"><img loading="lazy" src="raw/HSBC.jpg" data-full="raw/HSBC.jpg"></a><div class="n">HSBC.jpg</div></div>
+<div class="card"><a href="raw/Hangzhou.jpg"><img loading="lazy" src="raw/Hangzhou.jpg" data-full="raw/Hangzhou.jpg"></a><div class="n">Hangzhou.jpg</div></div>
+<div class="card"><a href="raw/Heathrow+Terminal+2+Forecourt+%26+Carpark.jpg"><img loading="lazy" src="raw/Heathrow+Terminal+2+Forecourt+%26+Carpark.jpg" data-full="raw/Heathrow+Terminal+2+Forecourt+%26+Carpark.jpg"></a><div class="n">Heathrow+Terminal+2+Forecourt+%26+Carpark.jpg</div></div>
+<div class="card"><a href="raw/Imperial+War+Museum.jpg"><img loading="lazy" src="raw/Imperial+War+Museum.jpg" data-full="raw/Imperial+War+Museum.jpg"></a><div class="n">Imperial+War+Museum.jpg</div></div>
+<div class="card"><a href="raw/KACS+Campus.jpg"><img loading="lazy" src="raw/KACS+Campus.jpg" data-full="raw/KACS+Campus.jpg"></a><div class="n">KACS+Campus.jpg</div></div>
+<div class="card"><a href="raw/KACST.jpg"><img loading="lazy" src="raw/KACST.jpg" data-full="raw/KACST.jpg"></a><div class="n">KACST.jpg</div></div>
+<div class="card"><a href="raw/Kazakh+National+Pavilion.jpg"><img loading="lazy" src="raw/Kazakh+National+Pavilion.jpg" data-full="raw/Kazakh+National+Pavilion.jpg"></a><div class="n">Kazakh+National+Pavilion.jpg</div></div>
+<div class="card"><a href="raw/Lazy+Eight+Steakhouse.jpg"><img loading="lazy" src="raw/Lazy+Eight+Steakhouse.jpg" data-full="raw/Lazy+Eight+Steakhouse.jpg"></a><div class="n">Lazy+Eight+Steakhouse.jpg</div></div>
+<div class="card"><a href="raw/Mandana+Oskoui.jpg"><img loading="lazy" src="raw/Mandana+Oskoui.jpg" data-full="raw/Mandana+Oskoui.jpg"></a><div class="n">Mandana+Oskoui.jpg</div></div>
+<div class="card"><a href="raw/Media+City+Headquarters.jpg"><img loading="lazy" src="raw/Media+City+Headquarters.jpg" data-full="raw/Media+City+Headquarters.jpg"></a><div class="n">Media+City+Headquarters.jpg</div></div>
+<div class="card"><a href="raw/Minthis+Hills.jpg"><img loading="lazy" src="raw/Minthis+Hills.jpg" data-full="raw/Minthis+Hills.jpg"></a><div class="n">Minthis+Hills.jpg</div></div>
+<div class="card"><a href="raw/Misa+Pavilion.jpg"><img loading="lazy" src="raw/Misa+Pavilion.jpg" data-full="raw/Misa+Pavilion.jpg"></a><div class="n">Misa+Pavilion.jpg</div></div>
+<div class="card"><a href="raw/Mobile+Wine+Tasting+Showroom.jpg"><img loading="lazy" src="raw/Mobile+Wine+Tasting+Showroom.jpg" data-full="raw/Mobile+Wine+Tasting+Showroom.jpg"></a><div class="n">Mobile+Wine+Tasting+Showroom.jpg</div></div>
+<div class="card"><a href="raw/Modular+Mobile+Guestsuites.jpg"><img loading="lazy" src="raw/Modular+Mobile+Guestsuites.jpg" data-full="raw/Modular+Mobile+Guestsuites.jpg"></a><div class="n">Modular+Mobile+Guestsuites.jpg</div></div>
+<div class="card"><a href="raw/Network+Rail.jpg"><img loading="lazy" src="raw/Network+Rail.jpg" data-full="raw/Network+Rail.jpg"></a><div class="n">Network+Rail.jpg</div></div>
+<div class="card"><a href="raw/Nido.jpg"><img loading="lazy" src="raw/Nido.jpg" data-full="raw/Nido.jpg"></a><div class="n">Nido.jpg</div></div>
+<div class="card"><a href="raw/Ocean+Tower.jpg"><img loading="lazy" src="raw/Ocean+Tower.jpg" data-full="raw/Ocean+Tower.jpg"></a><div class="n">Ocean+Tower.jpg</div></div>
+<div class="card"><a href="raw/One+Residental+Tower.jpg"><img loading="lazy" src="raw/One+Residental+Tower.jpg" data-full="raw/One+Residental+Tower.jpg"></a><div class="n">One+Residental+Tower.jpg</div></div>
+<div class="card"><a href="raw/Orbital+Highway.jpg"><img loading="lazy" src="raw/Orbital+Highway.jpg" data-full="raw/Orbital+Highway.jpg"></a><div class="n">Orbital+Highway.jpg</div></div>
+<div class="card"><a href="raw/Palau+Blaugrana+Arena.jpg"><img loading="lazy" src="raw/Palau+Blaugrana+Arena.jpg" data-full="raw/Palau+Blaugrana+Arena.jpg"></a><div class="n">Palau+Blaugrana+Arena.jpg</div></div>
+<div class="card"><a href="raw/Pan+American+Highway.jpg"><img loading="lazy" src="raw/Pan+American+Highway.jpg" data-full="raw/Pan+American+Highway.jpg"></a><div class="n">Pan+American+Highway.jpg</div></div>
+<div class="card"><a href="raw/Panamerican+Games.jpg"><img loading="lazy" src="raw/Panamerican+Games.jpg" data-full="raw/Panamerican+Games.jpg"></a><div class="n">Panamerican+Games.jpg</div></div>
+<div class="card"><a href="raw/Presidential+Hotel.jpg"><img loading="lazy" src="raw/Presidential+Hotel.jpg" data-full="raw/Presidential+Hotel.jpg"></a><div class="n">Presidential+Hotel.jpg</div></div>
+<div class="card"><a href="raw/Project+Picture+text.jpg"><img loading="lazy" src="raw/Project+Picture+text.jpg" data-full="raw/Project+Picture+text.jpg"></a><div class="n">Project+Picture+text.jpg</div></div>
+<div class="card"><a href="raw/Qatar+Cultural+%26+Sports+Hub.jpg"><img loading="lazy" src="raw/Qatar+Cultural+%26+Sports+Hub.jpg" data-full="raw/Qatar+Cultural+%26+Sports+Hub.jpg"></a><div class="n">Qatar+Cultural+%26+Sports+Hub.jpg</div></div>
+<div class="card"><a href="raw/Riyadh+Complete+Communities.jpg"><img loading="lazy" src="raw/Riyadh+Complete+Communities.jpg" data-full="raw/Riyadh+Complete+Communities.jpg"></a><div class="n">Riyadh+Complete+Communities.jpg</div></div>
+<div class="card"><a href="raw/Riyadh+Metro.jpg"><img loading="lazy" src="raw/Riyadh+Metro.jpg" data-full="raw/Riyadh+Metro.jpg"></a><div class="n">Riyadh+Metro.jpg</div></div>
+<div class="card"><a href="raw/Robina+Town+Centre+-+The+Kitchens.jpg"><img loading="lazy" src="raw/Robina+Town+Centre+-+The+Kitchens.jpg" data-full="raw/Robina+Town+Centre+-+The+Kitchens.jpg"></a><div class="n">Robina+Town+Centre+-+The+Kitchens.jpg</div></div>
+<div class="card"><a href="raw/Robina+Town+Centre.jpg"><img loading="lazy" src="raw/Robina+Town+Centre.jpg" data-full="raw/Robina+Town+Centre.jpg"></a><div class="n">Robina+Town+Centre.jpg</div></div>
+<div class="card"><a href="raw/SKYPE+LOGO_Artboard+1.jpg"><img loading="lazy" src="raw/SKYPE+LOGO_Artboard+1.jpg" data-full="raw/SKYPE+LOGO_Artboard+1.jpg"></a><div class="n">SKYPE+LOGO_Artboard+1.jpg</div></div>
+<div class="card"><a href="raw/Singapore+Rail+Corridor.jpg"><img loading="lazy" src="raw/Singapore+Rail+Corridor.jpg" data-full="raw/Singapore+Rail+Corridor.jpg"></a><div class="n">Singapore+Rail+Corridor.jpg</div></div>
+<div class="card"><a href="raw/Spaceagency+Guide+to+Wayfinding.jpg"><img loading="lazy" src="raw/Spaceagency+Guide+to+Wayfinding.jpg" data-full="raw/Spaceagency+Guide+to+Wayfinding.jpg"></a><div class="n">Spaceagency+Guide+to+Wayfinding.jpg</div></div>
+<div class="card"><a href="raw/Stone+Street.jpg"><img loading="lazy" src="raw/Stone+Street.jpg" data-full="raw/Stone+Street.jpg"></a><div class="n">Stone+Street.jpg</div></div>
+<div class="card"><a href="raw/Stone+Towers.jpg"><img loading="lazy" src="raw/Stone+Towers.jpg" data-full="raw/Stone+Towers.jpg"></a><div class="n">Stone+Towers.jpg</div></div>
+<div class="card"><a href="raw/Synergy+Park+Lingen.jpg"><img loading="lazy" src="raw/Synergy+Park+Lingen.jpg" data-full="raw/Synergy+Park+Lingen.jpg"></a><div class="n">Synergy+Park+Lingen.jpg</div></div>
+<div class="card"><a href="raw/The+Brodway.jpg"><img loading="lazy" src="raw/The+Brodway.jpg" data-full="raw/The+Brodway.jpg"></a><div class="n">The+Brodway.jpg</div></div>
+<div class="card"><a href="raw/The+Oaks+CR.jpg"><img loading="lazy" src="raw/The+Oaks+CR.jpg" data-full="raw/The+Oaks+CR.jpg"></a><div class="n">The+Oaks+CR.jpg</div></div>
+<div class="card"><a href="raw/The+Pearl.jpg"><img loading="lazy" src="raw/The+Pearl.jpg" data-full="raw/The+Pearl.jpg"></a><div class="n">The+Pearl.jpg</div></div>
+<div class="card"><a href="raw/Urban+Kiosk.jpg"><img loading="lazy" src="raw/Urban+Kiosk.jpg" data-full="raw/Urban+Kiosk.jpg"></a><div class="n">Urban+Kiosk.jpg</div></div>
+<div class="card"><a href="raw/V%26A.jpg"><img loading="lazy" src="raw/V%26A.jpg" data-full="raw/V%26A.jpg"></a><div class="n">V%26A.jpg</div></div>
+<div class="card"><a href="raw/Virgin+Cruises.jpg"><img loading="lazy" src="raw/Virgin+Cruises.jpg" data-full="raw/Virgin+Cruises.jpg"></a><div class="n">Virgin+Cruises.jpg</div></div>
+<div class="card"><a href="raw/WeWork.jpg"><img loading="lazy" src="raw/WeWork.jpg" data-full="raw/WeWork.jpg"></a><div class="n">WeWork.jpg</div></div>
+<div class="card"><a href="raw/Yas+Island.jpg"><img loading="lazy" src="raw/Yas+Island.jpg" data-full="raw/Yas+Island.jpg"></a><div class="n">Yas+Island.jpg</div></div>
+<div class="card"><a href="raw/Yotel+Design+Guidelines.jpg"><img loading="lazy" src="raw/Yotel+Design+Guidelines.jpg" data-full="raw/Yotel+Design+Guidelines.jpg"></a><div class="n">Yotel+Design+Guidelines.jpg</div></div>
+<div class="card"><a href="raw/Yotel.jpg"><img loading="lazy" src="raw/Yotel.jpg" data-full="raw/Yotel.jpg"></a><div class="n">Yotel.jpg</div></div>
+<div class="card"><a href="raw/ZfB.jpg"><img loading="lazy" src="raw/ZfB.jpg" data-full="raw/ZfB.jpg"></a><div class="n">ZfB.jpg</div></div>
+<div class="card"><a href="raw/infinitushq.jpg"><img loading="lazy" src="raw/infinitushq.jpg" data-full="raw/infinitushq.jpg"></a><div class="n">infinitushq.jpg</div></div>
+<div class="card"><a href="raw/oaam.jpg"><img loading="lazy" src="raw/oaam.jpg" data-full="raw/oaam.jpg"></a><div class="n">oaam.jpg</div></div>
+<div class="card"><a href="raw/project+picture+text+2.jpg"><img loading="lazy" src="raw/project+picture+text+2.jpg" data-full="raw/project+picture+text+2.jpg"></a><div class="n">project+picture+text+2.jpg</div></div>
+<div class="card"><a href="raw/project+picture+text.jpg"><img loading="lazy" src="raw/project+picture+text.jpg" data-full="raw/project+picture+text.jpg"></a><div class="n">project+picture+text.jpg</div></div>
+</div>
+<div id="lightbox"><button id="close">✕ Close</button><img id="lbimg" src=""></div>
+<script>
+const lb=document.getElementById("lightbox"),lbimg=document.getElementById("lbimg");
+document.querySelectorAll(".card img").forEach(im=>im.addEventListener("click",e=>{e.preventDefault();lbimg.src=im.dataset.full;lb.style.display="flex";}));
+document.getElementById("close").onclick=()=>lb.style.display="none";
+lb.onclick=e=>{if(e.target===lb)lb.style.display="none"};
+</script>
+</body>
+</html>
