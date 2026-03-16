@@ -117,5 +117,39 @@
     "proofUrls": ["https://tecgrava.com.br/"],
     "confidence": "low",
     "notes": "Brazilian company. Focus on technical engraving. Needs hospitality verification."
+  },
+  {
+    "id": "watch-008",
+    "company": "Rausgebrannt",
+    "website": "https://rausgebrannt.at/",
+    "country": "Austria",
+    "region": "Europe",
+    "etchingMethods": ["laser"],
+    "status": "watchlist",
+    "reason": "Hotel signage with brass but uses laser methods, not chemical etching",
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Hotelschild aus Messing - created brass hotel signs. Clients include tourism and hospitality sector"
+    },
+    "proofUrls": ["https://rausgebrannt.at/portfolio/hotelschild-aus-messing/", "https://rausgebrannt.at/kundenliste/"],
+    "confidence": "medium",
+    "notes": "Austrian company. Uses laser cutting and laser engraving, not chemical etching."
+  },
+  {
+    "id": "watch-009",
+    "company": "Nachiappa",
+    "website": "https://www.nachiappa.in/",
+    "country": "India",
+    "region": "Asia",
+    "etchingMethods": ["chemical"],
+    "status": "watchlist",
+    "reason": "Chemical etching on brass mentioned but export/hospitality verification needed",
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Usage/Application: Hotel - metal name plates listed. Etched brass signs for malls, offices"
+    },
+    "proofUrls": ["https://www.nachiappa.in/metal-name-boards.html"],
+    "confidence": "medium",
+    "notes": "Indian manufacturer in Madurai. Brass etching for hotels and commercial use."
   }
 ]

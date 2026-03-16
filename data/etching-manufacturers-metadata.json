@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-03-16T14:05:00Z",
   "totalEntries": 31,
-  "totalWatchlist": 7,
+  "totalWatchlist": 9,
   "byRegion": {
     "Europe": 8,
     "North America": 10,
@@ -53,5 +53,5 @@
     "zinc",
     "new silver"
   ],
-  "notes": "Enrichment run 2026-03-16: Added 2 Netherlands companies (Etsprit, Patrick de Letter) via native-language searches. Added 3 watchlist entries (Sweden, Brazil x2). France searches yielded mostly laser engraving companies, not chemical etching. German searches found Replato (Dutch company with German site) focused on industrial nameplates, not hospitality."
+  "notes": "Enrichment run 2026-03-16: Added 2 Netherlands companies (Etsprit, Patrick de Letter) via native-language searches. Added 4 watchlist entries (Sweden, Brazil x2, Austria, India). France searches yielded mostly laser engraving companies, not chemical etching. German searches found Replato (Dutch company with German site) focused on industrial nameplates, not hospitality. Switzerland search found no specific Swiss hospitality etching companies."
 }
