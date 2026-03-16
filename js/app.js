@@ -340,23 +340,13 @@ class BusinessDirectory {
       'thevelvetprinciple.com': 'assets/thevelvetprinciple.com-images/gallery.html',
       'thisway.london': 'assets/thisway.london-images/gallery.html',
       'studiomarc.uk': 'assets/studiomarc.uk-images/gallery.html',
-      // USA
-      'twotwelve.com': 'assets/twotwelve.com-images/gallery.html',
+      // US galleries currently published
       'rsmdesign.com': 'assets/rsmdesign.com-images/gallery.html',
       'selbertperkins.com': 'assets/selbertperkins.com-images/gallery.html',
       'mijksenaar.com': 'assets/mijksenaar.com-images/gallery.html',
-      'greshamsmith.com': 'assets/greshamsmith.com-images/gallery.html',
-      'dimin.com': 'assets/dimin.com-images/gallery.html',
-      'corlettedesign.com': 'assets/corlettedesign.com-images/gallery.html',
-      'creativesigndesigns.com': 'assets/creativesigndesigns.com-images/gallery.html',
       'visualworksny.com': 'assets/visualworksny.com-images/gallery.html',
-      'streetstylesigns.com': 'assets/streetstylesigns.com-images/gallery.html',
-      'wayfinding-consultants.com': 'assets/wayfinding-consultants.com-images/gallery.html',
       'daviesla.com': 'assets/daviesla.com-images/gallery.html',
-      'in-fo.co': 'assets/in-fo.co-images/gallery.html',
-      'thefounddesign.com': 'assets/thefounddesign.com-images/gallery.html',
-      'forcadedesign.com': 'assets/forcadedesign.com-images/gallery.html',
-      'hga.com': 'assets/hga.com-images/gallery.html'
+      'in-fo.co': 'assets/in-fo.co-images/gallery.html'
     };
     
     for (const [domain, galleryPath] of Object.entries(galleryMap)) {
@@ -423,7 +413,14 @@ class BusinessDirectory {
                 'spaceagency-design.com': 'assets/spaceagency-design.com-images/gallery.html',
                 'thevelvetprinciple.com': 'assets/thevelvetprinciple.com-images/gallery.html',
                 'thisway.london': 'assets/thisway.london-images/gallery.html',
-                'studiomarc.uk': 'assets/studiomarc.uk-images/gallery.html'
+                'studiomarc.uk': 'assets/studiomarc.uk-images/gallery.html',
+                // US galleries currently published
+                'rsmdesign.com': 'assets/rsmdesign.com-images/gallery.html',
+                'selbertperkins.com': 'assets/selbertperkins.com-images/gallery.html',
+                'mijksenaar.com': 'assets/mijksenaar.com-images/gallery.html',
+                'visualworksny.com': 'assets/visualworksny.com-images/gallery.html',
+                'daviesla.com': 'assets/daviesla.com-images/gallery.html',
+                'in-fo.co': 'assets/in-fo.co-images/gallery.html'
               };
               for (const [domain, galleryPath] of Object.entries(galleryMap)) {
                 if (websiteLower.includes(domain)) {
