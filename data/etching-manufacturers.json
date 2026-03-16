@@ -1,0 +1,202 @@
+[
+  {
+    "id": "etch-001",
+    "company": "Trade Etching Direct",
+    "website": "https://www.tradeetching.com",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": ["chemical", "photo", "acid"],
+    "inHouseProof": {
+      "claim": "Our purpose built state of the art chemical etching facility is capable of producing runs in the 1000's and we can etch panels in house up to 4m x 2m",
+      "sourceUrl": "https://www.tradeetching.com/etched-metal-signs-nameplates"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Hotel & office signage listed as typical applications, wayfinding signage, architectural panels",
+      "sourceUrl": "https://www.tradeetching.com/etched-metal-signs-nameplates"
+    },
+    "capabilityNotes": "UK's leading trade supplier. Large panel capability up to 4m x 2m. Wide range of materials including stainless steel, brass, bronze, copper, aluminium. Advanced photo etching techniques.",
+    "confidence": "high"
+  },
+  {
+    "id": "etch-002",
+    "company": "SPT Design",
+    "website": "https://www.sptdesign.co.uk",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": ["chemical", "acid"],
+    "inHouseProof": {
+      "claim": "These chemically etched plaques are manufactured to a 1.5mm thickness. Manufactured to the highest standards on the latest CNC engraving and industrial etching machines",
+      "sourceUrl": "https://www.sptdesign.co.uk/hotel-signs.php"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "High end hotel signs - these high end hotel signs really finish off the look and feel of a quality luxury hotel",
+      "sourceUrl": "https://www.sptdesign.co.uk/hotel-signs.php"
+    },
+    "capabilityNotes": "Chemical etching on brass, stainless steel, aluminium. Works with polished, brushed finishes. UK manufacturer.",
+    "confidence": "high"
+  },
+  {
+    "id": "etch-003",
+    "company": "Multitechnic",
+    "website": "https://multitechnic.co.uk",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": ["chemical", "acid", "photo"],
+    "inHouseProof": {
+      "claim": "Etched brass wayfinding signage hotels, upmarket apartments and offices",
+      "sourceUrl": "https://multitechnic.co.uk/news/etched-brass-signage-hotels-apartments-wayfinding/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Specialist in etched brass signage for hotels and upmarket apartments, maintenance-free satin finish developed",
+      "sourceUrl": "https://multitechnic.co.uk/news/etched-brass-signage-hotels-apartments-wayfinding/"
+    },
+    "capabilityNotes": "UK-based etching specialist. Reverse etching with brass letters. BMA antique bronze finish. Fast quotes and reliable delivery.",
+    "confidence": "high"
+  },
+  {
+    "id": "etch-004",
+    "company": "Javik Laser Ltd",
+    "website": "https://www.javik.co.uk",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": ["chemical", "acid"],
+    "inHouseProof": {
+      "claim": "Chemical etched signs - Each sign is custom-made to your specifications. Enhance your brand visibility with chemical etched signs",
+      "sourceUrl": "https://www.javik.co.uk/chemical-etching/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Signage for branding, wayfinding, or decorative purposes - hotels included in typical applications",
+      "sourceUrl": "https://www.javik.co.uk/chemical-etching/"
+    },
+    "capabilityNotes": "Chemical etching on stainless steel, aluminium, brass. Custom signage solutions.",
+    "confidence": "high"
+  },
+  {
+    "id": "etch-005",
+    "company": "Masterwork Plaques",
+    "website": "https://www.masterworkplaques.com",
+    "country": "United States",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": ["chemical", "acid"],
+    "inHouseProof": {
+      "claim": "Etched plaques are created by chemically etching artwork and text into a sheet of metal",
+      "sourceUrl": "https://www.masterworkplaques.com/etched-metal-plaques"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Wayfinding signage, wall plaques listed as common applications",
+      "sourceUrl": "https://www.masterworkplaques.com/etched-metal-plaques"
+    },
+    "capabilityNotes": "Chemical etching on bronze, aluminium, stainless steel, copper, brass, zinc. Color filling available. Custom illustrations and halftone portraits.",
+    "confidence": "high"
+  },
+  {
+    "id": "etch-006",
+    "company": "The Sign Maker",
+    "website": "https://www.sign-maker.net",
+    "country": "United States",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": ["chemical", "acid"],
+    "inHouseProof": {
+      "claim": "Chemically etched stainless steel & brass plaques. Ideal for signs or plaques with detailed images, small letters & several colours",
+      "sourceUrl": "https://www.sign-maker.net/engraved/etched.htm"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Stainless Steel and Brass Plaques & Signs - serves hotel and commercial signage sector",
+      "sourceUrl": "https://www.sign-maker.net/engraved/etched.htm"
+    },
+    "capabilityNotes": "Chemical etching on stainless steel and brass. Detailed plaque work.",
+    "confidence": "high"
+  },
+  {
+    "id": "etch-007",
+    "company": "Arch & Art",
+    "website": "https://archandart.ae",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "etchingConfirmed": true,
+    "etchingMethods": ["chemical", "acid"],
+    "inHouseProof": {
+      "claim": "Our etching and fabrication facility is located in Musaffah M-32/2, Abu Dhabi, UAE. We offer customized chemical etching for nameplates, branding plates, control panels, ID tags, and decorative signage",
+      "sourceUrl": "https://archandart.ae/chemical-etching-in-abu-dhabi.php"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Hospitality & Retail - Custom branding, room numbers, and luxury signage solutions listed as industries served",
+      "sourceUrl": "https://archandart.ae/chemical-etching-in-abu-dhabi.php"
+    },
+    "capabilityNotes": "In-house etching facility in Abu Dhabi. Works with stainless steel, aluminium, brass. Serves hospitality sector. Fast turnaround 3-5 days.",
+    "confidence": "high"
+  },
+  {
+    "id": "etch-008",
+    "company": "PhotoEtch",
+    "website": "https://photoetch.com.au",
+    "country": "Australia",
+    "region": "Oceania",
+    "etchingConfirmed": true,
+    "etchingMethods": ["chemical", "photo"],
+    "inHouseProof": {
+      "claim": "We specialise in chemical etching, anodised aluminium printing, digital vinyl printing and cutting plus CO2 laser or Fibre laser engraving",
+      "sourceUrl": "https://photoetch.com.au/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Custom plaques, signage for commercial applications. Australian-owned since 1984 (formerly Photograve)",
+      "sourceUrl": "https://photoetch.com.au/"
+    },
+    "capabilityNotes": "Australian company since 1984. Chemical etching on stainless steel and brass. Full range of signage solutions.",
+    "confidence": "high"
+  },
+  {
+    "id": "etch-009",
+    "company": "Mastercut",
+    "website": "https://www.mastercut.com.au",
+    "country": "Australia",
+    "region": "Oceania",
+    "etchingConfirmed": true,
+    "etchingMethods": ["acid", "chemical", "laser"],
+    "inHouseProof": {
+      "claim": "Acid etched signs are one of the hardest wearing, longest lasting signs on the market. Laser cutting, acid etching, paint filling and brake press folding",
+      "sourceUrl": "https://www.mastercut.com.au/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Signs for the sign industry - components and complete ready to install solutions for commercial projects",
+      "sourceUrl": "https://www.mastercut.com.au/"
+    },
+    "capabilityNotes": "Gold Coast Australia. Acid etching, laser cutting, brake press folding. Stainless, copper, brass and corten steel.",
+    "confidence": "high"
+  },
+  {
+    "id": "etch-010",
+    "company": "Lim Sign",
+    "website": "https://www.limsign.com.sg",
+    "country": "Singapore",
+    "region": "Asia",
+    "etchingConfirmed": true,
+    "etchingMethods": ["chemical", "acid"],
+    "inHouseProof": {
+      "claim": "Metal etching services - gold brass with etching, silver hairline stainless steel with etching",
+      "sourceUrl": "https://www.limsign.com.sg/signage-singapore/signage-metal-etching/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Signage company in Singapore serving commercial and hospitality sectors",
+      "sourceUrl": "https://www.limsign.com.sg/signage-singapore/signage-metal-etching/"
+    },
+    "capabilityNotes": "Singapore-based. Metal etching on stainless steel, brass. Epoxy coating available.",
+    "confidence": "medium"
+  }
+]

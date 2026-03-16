@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-03-16T12:00:00Z",
+  "totalEntries": 10,
+  "byRegion": {
+    "Europe": 4,
+    "North America": 2,
+    "Middle East": 1,
+    "Oceania": 2,
+    "Asia": 1
+  },
+  "byCountry": {
+    "United Kingdom": 4,
+    "United States": 2,
+    "United Arab Emirates": 1,
+    "Australia": 2,
+    "Singapore": 1
+  },
+  "etchingMethods": {
+    "chemical": 10,
+    "acid": 9,
+    "photo": 3,
+    "laser": 1
+  },
+  "confidenceLevels": {
+    "high": 9,
+    "medium": 1
+  },
+  "hospitalityWorkConfirmed": 10,
+  "notes": "All entries have confirmed in-house etching capabilities and hospitality/commercial signage work. Data sourced from company websites with explicit claims."
+}
