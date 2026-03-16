@@ -752,8 +752,18 @@
       }
     }
 
+    function updateStats() {
+      const coreCountries = new Set(coreData.map(x => x.country));
+      const coreRegions = new Set(coreData.map(x => x.region));
+      document.getElementById('totalCount').textContent = coreData.length;
+      document.getElementById('watchlistCount').textContent = watchlistData.length;
+      document.getElementById('countryCount').textContent = coreCountries.size;
+      document.getElementById('regionCount').textContent = coreRegions.size;
+    }
+
     renderCoreTable();
     renderWatchlistTable();
+    updateStats();
   </script>
 </body>
 </html>
