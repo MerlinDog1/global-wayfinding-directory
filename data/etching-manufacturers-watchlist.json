@@ -66,5 +66,56 @@
     "proofUrls": ["https://thamvosads.com/services/etching-ss-service"],
     "confidence": "low",
     "notes": "Needs hospitality sector verification."
+  },
+  {
+    "id": "watch-005",
+    "company": "Holmquistsign",
+    "website": "https://holmquistsign.se/",
+    "country": "Sweden",
+    "region": "Europe",
+    "etchingMethods": [],
+    "status": "watchlist",
+    "reason": "Major Nordic hotel signage provider but etching method not explicitly confirmed (likely laser/engraving)",
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Nordens största leverantör av skyltar och annan visuell kommunikation till hotell. Projects include Hotel Kung Carl"
+    },
+    "proofUrls": ["https://holmquistsign.se/hotellskyltar/", "https://holmquistsign.se/projekt/hotel-kung-carl/"],
+    "confidence": "medium",
+    "notes": "Largest Nordic hotel signage company. Materials include brass, aluminum. Needs verification of etching vs engraving method."
+  },
+  {
+    "id": "watch-006",
+    "company": "VisualBrand",
+    "website": "https://vb.visualbrand.com.br/",
+    "country": "Brazil",
+    "region": "South America",
+    "etchingMethods": ["chemical", "electrochemical"],
+    "status": "watchlist",
+    "reason": "Confirmed chemical etching capability but hospitality sector proof needed",
+    "hospitalitySignal": {
+      "hasHospitalityWork": false,
+      "evidence": "Processes include corrosão ou eletro corrosão química on stainless steel, aluminum, bronze, brass"
+    },
+    "proofUrls": ["https://vb.visualbrand.com.br/placa-gravacao-em-baixo-relevo"],
+    "confidence": "medium",
+    "notes": "Brazilian company with chemical etching. Focus appears more industrial. Needs hospitality verification."
+  },
+  {
+    "id": "watch-007",
+    "company": "Tecgrava",
+    "website": "https://tecgrava.com.br/",
+    "country": "Brazil",
+    "region": "South America",
+    "etchingMethods": ["photo", "laser"],
+    "status": "watchlist",
+    "reason": "Photo-engraving services but hospitality sector proof needed",
+    "hospitalitySignal": {
+      "hasHospitalityWork": false,
+      "evidence": "Gravação e fotogravação on stainless steel, brass, aluminum. Custom nameplates and badges."
+    },
+    "proofUrls": ["https://tecgrava.com.br/"],
+    "confidence": "low",
+    "notes": "Brazilian company. Focus on technical engraving. Needs hospitality verification."
   }
 ]

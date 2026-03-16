@@ -698,5 +698,53 @@
     "confidence": "high",
     "ranking": "god-tier",
     "notes": "Large panel specialist. Notable projects: The Quadrant development London (large panel doors). Advanced process for curved surfaces and complex shapes."
+  },
+  {
+    "id": "etch-030",
+    "company": "Etsprit",
+    "website": "https://etsprit.nl/",
+    "country": "Netherlands",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": ["chemical", "acid"],
+    "inHouseProof": {
+      "claim": "Etsprit is de grootste specialist op het gebied van chemisch etsen in Nederland. Wij etsen onder andere op RVS, messing, brons, nieuw zilver en zink",
+      "sourceUrl": "https://etsprit.nl/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Wij maken binnen bewegwijzering voor: Hotels, Ziekenhuizen, Universiteiten, Scholen, Winkelcentra, Parkeergarages, Musea",
+      "sourceUrl": "https://etsprit.nl/bewegwijzering/"
+    },
+    "proofUrls": ["https://etsprit.nl/", "https://etsprit.nl/bewegwijzering/"],
+    "materialFocus": ["stainless steel", "brass", "bronze", "copper", "aluminium", "new silver", "zinc"],
+    "productionScaleSignal": "21+ jaar ervaring, grootste specialist chemisch etsen in Nederland",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Netherlands-based chemical etching specialist. Confirmed hotel wayfinding projects."
+  },
+  {
+    "id": "etch-031",
+    "company": "Patrick de Letter",
+    "website": "https://patrickdeletter.nl/",
+    "country": "Netherlands",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": ["chemical", "acid"],
+    "inHouseProof": {
+      "claim": "Wij etsen, ook wel chemisch etsen genoemd, diverse materialen als RVS, messing, roodkoper en aluminium. Het etsproces is een verfijning van het normale graveerproces",
+      "sourceUrl": "https://patrickdeletter.nl/chemisch-etsen-van-rvs-messing-aluminium/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "The NOX Hotel hebben wij voorzien van messing bewegwijzering. Verwijzingen en kamernummers zijn aan de achterzijde ingegraveerd",
+      "sourceUrl": "https://patrickdeletter.nl/patrick-de-letter-hotelsigns/"
+    },
+    "proofUrls": ["https://patrickdeletter.nl/chemisch-etsen-van-rvs-messing-aluminium/", "https://patrickdeletter.nl/patrick-de-letter-hotelsigns/"],
+    "materialFocus": ["stainless steel", "brass", "copper", "aluminium"],
+    "productionScaleSignal": "Chemisch etsen voor grote oplages",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Netherlands-based. Completed hotel projects including The NOX Hotel."
   }
 ]

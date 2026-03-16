@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-16T12:55:00Z",
-  "totalEntries": 29,
-  "totalWatchlist": 4,
+  "generatedAt": "2026-03-16T14:05:00Z",
+  "totalEntries": 31,
+  "totalWatchlist": 7,
   "byRegion": {
-    "Europe": 6,
+    "Europe": 8,
     "North America": 10,
     "Middle East": 6,
     "Oceania": 2,
@@ -16,21 +16,22 @@
     "Australia": 2,
     "Singapore": 4,
     "Hong Kong": 1,
-    "Canada": 1
+    "Canada": 1,
+    "Netherlands": 2
   },
   "etchingMethods": {
-    "chemical": 29,
-    "photo": 9,
-    "acid": 21,
-    "laser": 6,
+    "chemical": 31,
+    "photo": 10,
+    "acid": 22,
+    "laser": 7,
     "electrolytic": 1
   },
   "confidenceLevels": {
-    "high": 28,
+    "high": 30,
     "medium": 1
   },
   "fitForTradeEtchingDirect": {
-    "high": 28,
+    "high": 30,
     "medium": 1
   },
   "godTierCount": 3,
@@ -49,7 +50,8 @@
     "steel",
     "titanium",
     "various metals",
-    "zinc"
+    "zinc",
+    "new silver"
   ],
-  "notes": "All entries have confirmed in-house chemical/acid etching capabilities. Each entry verified with at least 2 proof URLs. Added 3 god-tier entries: RSI Design (USA largest), Steel Art Company (trade-only 70+ years), Etch-Tech (UK large panel specialist)."
+  "notes": "Enrichment run 2026-03-16: Added 2 Netherlands companies (Etsprit, Patrick de Letter) via native-language searches. Added 3 watchlist entries (Sweden, Brazil x2). France searches yielded mostly laser engraving companies, not chemical etching. German searches found Replato (Dutch company with German site) focused on industrial nameplates, not hospitality."
 }
