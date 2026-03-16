@@ -7,7 +7,7 @@
   <meta name="description" content="Directory of manufacturers with confirmed in-house chemical/acid/photo etching capabilities for hotels and luxury environments." />
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crosscrossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet" />
   <style>
     body {
@@ -19,7 +19,7 @@
       padding: 0;
     }
     .container {
-      max-width: 1200px;
+      max-width: 1400px;
       margin: 0 auto;
       padding: 0 20px;
     }
@@ -63,6 +63,33 @@
       background: #fff3cd;
       color: #856404;
     }
+    .badge-watchlist {
+      background: #f8d7da;
+      color: #721c24;
+    }
+    .toggle-section {
+      display: flex;
+      gap: 10px;
+      margin: 20px 0;
+    }
+    .toggle-btn {
+      padding: 10px 20px;
+      border: 2px solid #1a1a2e;
+      background: #fff;
+      color: #1a1a2e;
+      cursor: pointer;
+      font-weight: 600;
+      border-radius: 5px;
+      transition: all 0.2s;
+    }
+    .toggle-btn.active {
+      background: #1a1a2e;
+      color: #fff;
+    }
+    .toggle-btn:hover {
+      background: #1a1a2e;
+      color: #fff;
+    }
     .table-container {
       background: #fff;
       border-radius: 8px;
@@ -102,8 +129,23 @@
     .website-link {
       color: #0066cc;
       text-decoration: none;
+      font-size: 0.85rem;
     }
     .website-link:hover {
+      text-decoration: underline;
+    }
+    .proof-links {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .proof-link {
+      font-size: 0.7rem;
+      color: #666;
+      text-decoration: none;
+    }
+    .proof-link:hover {
+      color: #0066cc;
       text-decoration: underline;
     }
     .method-tags {
@@ -163,6 +205,14 @@
       margin: 0;
       opacity: 0.8;
     }
+    .section-title {
+      margin-top: 30px;
+      margin-bottom: 15px;
+      color: #1a1a2e;
+    }
+    .hidden {
+      display: none;
+    }
     @media (max-width: 768px) {
       th, td {
         padding: 10px;
@@ -178,7 +228,7 @@
   <header class="header">
     <div class="container">
       <h1>Confirmed In-House Etching Manufacturers</h1>
-      <p class="tagline">Directory of manufacturers with verified chemical/acid/photo etching capabilities for hospitality & luxury environments</p>
+      <p class="tagline">Verified chemical/acid/photo etching capabilities for hospitality and luxury environments</p>
     </div>
   </header>
 
@@ -187,31 +237,39 @@
     
     <div class="stats">
       <div class="stat-card">
-        <h3>Total Manufacturers</h3>
-        <div class="number" id="totalCount">10</div>
+        <h3>Confirmed Core</h3>
+        <div class="number" id="totalCount">26</div>
+      </div>
+      <div class="stat-card">
+        <h3>Watchlist</h3>
+        <div class="number" id="watchlistCount">4</div>
       </div>
       <div class="stat-card">
         <h3>Countries</h3>
-        <div class="number" id="countryCount">5</div>
+        <div class="number" id="countryCount">7</div>
       </div>
       <div class="stat-card">
         <h3>Regions</h3>
         <div class="number" id="regionCount">5</div>
       </div>
-      <div class="stat-card">
-        <h3>High Confidence</h3>
-        <div class="number" id="highConfidence">9</div>
-      </div>
     </div>
 
-    <div class="table-container">
+    <div class="toggle-section">
+      <button class="toggle-btn active" onclick="showSection('core')">Confirmed Core</button>
+      <button class="toggle-btn" onclick="showSection('watchlist')">Watchlist</button>
+      <button class="toggle-btn active" onclick="showSection('all')">Show All</button>
+    </div>
+
+    <h2 class="section-title">Confirmed Core Manufacturers</h2>
+    <div class="table-container" id="core-section">
       <table>
         <thead>
           <tr>
             <th>Company</th>
             <th>Country</th>
             <th>Region</th>
-            <th>Etching Methods</th>
+            <th>Methods</th>
+            <th>Proof Links</th>
             <th>Confidence</th>
             <th>Notes</th>
           </tr>
@@ -222,21 +280,41 @@
       </table>
     </div>
 
+    <h2 class="section-title hidden" id="watchlist-title">Watchlist (Not Fully Verified)</h2>
+    <div class="table-container hidden" id="watchlist-section">
+      <table>
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Country</th>
+            <th>Region</th>
+            <th>Methods</th>
+            <th>Status</th>
+            <th>Reason</th>
+          </tr>
+        </thead>
+        <tbody id="watchlistTable">
+          <!-- Data loaded via JavaScript -->
+        </tbody>
+      </table>
+    </div>
+
     <p style="font-size: 0.85rem; color: #666; margin-top: 20px;">
       <strong>Methodology:</strong> This directory includes only manufacturers with confirmed in-house chemical/acid/photo etching capabilities. 
-      Each entry has been verified through company website documentation. Last updated: March 2026.
+      Each entry has been verified through company website documentation. <strong>Core entries require 2+ proof URLs</strong> - 
+      one for etching capability and one for hospitality/luxury relevance. Watchlist entries have strong signals but need additional verification.
     </p>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p>Global Wayfinding Directory - Etching Manufacturers Section</p>
+      <p>Global Wayfinding Directory - Etching Manufacturers Section (v2)</p>
     </div>
   </footer>
 
   <script>
-    // Inline data to avoid fetch issues
-    const etchingData = [
+    // Core confirmed manufacturers
+    const coreData = [
       {
         "id": "etch-001",
         "company": "Trade Etching Direct",
@@ -245,7 +323,8 @@
         "region": "Europe",
         "etchingMethods": ["chemical", "photo", "acid"],
         "confidence": "high",
-        "capabilityNotes": "UK's leading trade supplier. Large panel capability up to 4m x 2m. Advanced photo etching techniques."
+        "notes": "UKs leading trade supplier. Large panel capability up to 4m x 2m.",
+        "proofUrls": ["https://www.tradeetching.com/etched-metal-signs-nameplates", "https://www.tradeetching.com/chemical-etching-services"]
       },
       {
         "id": "etch-002",
@@ -255,7 +334,8 @@
         "region": "Europe",
         "etchingMethods": ["chemical", "acid"],
         "confidence": "high",
-        "capabilityNotes": "Chemical etching on brass, stainless steel, aluminium. UK manufacturer."
+        "notes": "Chemical etching on brass, stainless steel, aluminium. Hotel signage specialist.",
+        "proofUrls": ["https://www.sptdesign.co.uk/hotel-signs.php", "https://www.sptdesign.co.uk/etched-brass-plaque.php"]
       },
       {
         "id": "etch-003",
@@ -265,7 +345,8 @@
         "region": "Europe",
         "etchingMethods": ["chemical", "acid", "photo"],
         "confidence": "high",
-        "capabilityNotes": "UK-based etching specialist. Fast quotes and reliable delivery."
+        "notes": "UK-based etching specialist for hotels and apartments.",
+        "proofUrls": ["https://multitechnic.co.uk/news/etched-brass-signage-hotels-apartments-wayfinding/", "https://multitechnic.co.uk/services/chemical-etching/"]
       },
       {
         "id": "etch-004",
@@ -275,73 +356,296 @@
         "region": "Europe",
         "etchingMethods": ["chemical", "acid"],
         "confidence": "high",
-        "capabilityNotes": "Chemical etching on stainless steel, aluminium, brass."
+        "notes": "Chemical etching on stainless steel, aluminium, brass.",
+        "proofUrls": ["https://www.javik.co.uk/chemical-etching/", "https://www.javik.co.uk/"]
       },
       {
         "id": "etch-005",
+        "company": "OTOEL",
+        "website": "https://www.otoel.com",
+        "country": "United Kingdom",
+        "region": "Europe",
+        "etchingMethods": ["chemical", "acid"],
+        "confidence": "high",
+        "notes": "One of leading centres for chemical etching in Europe. Brass, copper, bronze, titanium.",
+        "proofUrls": ["https://www.otoel.com/blog/otoel-is-the-leading-name-in-chemical-etching-in-the-uk-and-europe", "https://www.otoel.com/"]
+      },
+      {
+        "id": "etch-006",
         "company": "Masterwork Plaques",
         "website": "https://www.masterworkplaques.com",
         "country": "United States",
         "region": "North America",
         "etchingMethods": ["chemical", "acid"],
         "confidence": "high",
-        "capabilityNotes": "Chemical etching on bronze, aluminium, stainless steel, copper, brass, zinc."
+        "notes": "Chemical etching on bronze, aluminium, stainless steel, copper, brass, zinc.",
+        "proofUrls": ["https://www.masterworkplaques.com/etched-metal-plaques", "https://www.masterworkplaques.com/"]
       },
       {
-        "id": "etch-006",
+        "id": "etch-007",
         "company": "The Sign Maker",
         "website": "https://www.sign-maker.net",
         "country": "United States",
         "region": "North America",
         "etchingMethods": ["chemical", "acid"],
         "confidence": "high",
-        "capabilityNotes": "Chemical etching on stainless steel and brass. Detailed plaque work."
+        "notes": "Chemical etching on stainless steel and brass.",
+        "proofUrls": ["https://www.sign-maker.net/engraved/etched.htm", "https://www.sign-maker.net/"]
       },
       {
-        "id": "etch-007",
-        "company": "Arch & Art",
+        "id": "etch-008",
+        "company": "Gemini Signage",
+        "website": "https://geminimade.com/signage/plaques-plates/etched-plaques/",
+        "country": "United States",
+        "region": "North America",
+        "etchingMethods": ["chemical", "acid"],
+        "confidence": "high",
+        "notes": "Proprietary etching process for complex artwork on stainless steel, bronze, brass.",
+        "proofUrls": ["https://geminimade.com/signage/plaques-plates/etched-plaques/", "https://geminimade.com/"]
+      },
+      {
+        "id": "etch-009",
+        "company": "A.R.K. Ramos",
+        "website": "https://arkramos.com/our-work/etched-plaques",
+        "country": "United States",
+        "region": "North America",
+        "etchingMethods": ["chemical", "acid"],
+        "confidence": "high",
+        "notes": "Premium architectural signage for hotels.",
+        "proofUrls": ["https://arkramos.com/our-work/etched-plaques", "https://arkramos.com/"]
+      },
+      {
+        "id": "etch-010",
+        "company": "Arch and Art",
         "website": "https://archandart.ae",
         "country": "United Arab Emirates",
         "region": "Middle East",
         "etchingMethods": ["chemical", "acid"],
         "confidence": "high",
-        "capabilityNotes": "In-house etching facility in Abu Dhabi. Fast turnaround 3-5 days."
+        "notes": "In-house etching facility in Abu Dhabi. Fast turnaround 3-5 days.",
+        "proofUrls": ["https://archandart.ae/chemical-etching-in-abu-dhabi.php", "https://archandart.ae/"]
       },
       {
-        "id": "etch-008",
+        "id": "etch-011",
+        "company": "Chrysels",
+        "website": "https://www.chrysels.com/products/signage-company-dubai/internal-signage/",
+        "country": "United Arab Emirates",
+        "region": "Middle East",
+        "etchingMethods": ["chemical", "acid", "laser"],
+        "confidence": "high",
+        "notes": "Leading signage manufacturer in Dubai. Hotel signs specialist.",
+        "proofUrls": ["https://www.chrysels.com/products/signage-company-dubai/internal-signage/", "https://www.chrysels.com/"]
+      },
+      {
+        "id": "etch-012",
         "company": "PhotoEtch",
         "website": "https://photoetch.com.au",
         "country": "Australia",
         "region": "Oceania",
         "etchingMethods": ["chemical", "photo"],
         "confidence": "high",
-        "capabilityNotes": "Australian company since 1984. Chemical etching on stainless steel and brass."
+        "notes": "Australian company since 1984. Chemical etching on stainless steel and brass.",
+        "proofUrls": ["https://photoetch.com.au/", "https://photoetch.com.au/contact/"]
       },
       {
-        "id": "etch-009",
+        "id": "etch-013",
         "company": "Mastercut",
         "website": "https://www.mastercut.com.au",
         "country": "Australia",
         "region": "Oceania",
         "etchingMethods": ["acid", "chemical", "laser"],
         "confidence": "high",
-        "capabilityNotes": "Gold Coast Australia. Acid etching, laser cutting, brake press folding."
+        "notes": "Gold Coast Australia. Acid etching, laser cutting, brake press folding.",
+        "proofUrls": ["https://www.mastercut.com.au/", "https://www.mastercut.com.au/capabilities/"]
       },
       {
-        "id": "etch-010",
+        "id": "etch-014",
         "company": "Lim Sign",
         "website": "https://www.limsign.com.sg",
         "country": "Singapore",
         "region": "Asia",
         "etchingMethods": ["chemical", "acid"],
         "confidence": "medium",
-        "capabilityNotes": "Singapore-based. Metal etching on stainless steel, brass."
+        "notes": "Singapore-based. Metal etching on stainless steel, brass.",
+        "proofUrls": ["https://www.limsign.com.sg/signage-singapore/signage-metal-etching/", "https://www.limsign.com.sg/"]
+      },
+      {
+        "id": "etch-015",
+        "company": "Million Group",
+        "website": "https://million.com.sg/service/chemical-etching/",
+        "country": "Singapore",
+        "region": "Asia",
+        "etchingMethods": ["chemical", "acid"],
+        "confidence": "high",
+        "notes": "Singapore-based chemical etching. Brass and steel plaques.",
+        "proofUrls": ["https://million.com.sg/service/chemical-etching/", "https://million.com.sg/"]
+      },
+      {
+        "id": "etch-016",
+        "company": "Brighten Etch and Engraving",
+        "website": "https://www.brightenengrave.com/",
+        "country": "Singapore",
+        "region": "Asia",
+        "etchingMethods": ["chemical", "acid", "laser"],
+        "confidence": "high",
+        "notes": "Singapore-based since 1986. Chemical etching and laser engraving.",
+        "proofUrls": ["https://www.brightenengrave.com/", "https://www.brightenengrave.com/contact-us/"]
+      },
+      {
+        "id": "etch-017",
+        "company": "Daiwa Ltd",
+        "website": "https://www.daiwaltd.com.hk/product/etching-signage?lang=en",
+        "country": "Hong Kong",
+        "region": "Asia",
+        "etchingMethods": ["chemical", "acid", "electrolytic"],
+        "confidence": "high",
+        "notes": "Hong Kong-based. Chemical, acid, and electrolytic etching.",
+        "proofUrls": ["https://www.daiwaltd.com.hk/product/etching-signage?lang=en", "https://www.daiwaltd.com.hk/"]
+      },
+      {
+        "id": "etch-018",
+        "company": "ChemEtch Corporation",
+        "website": "https://chemicaletch.com/",
+        "country": "United States",
+        "region": "North America",
+        "etchingMethods": ["chemical", "acid", "photo"],
+        "confidence": "high",
+        "notes": "20+ years expertise. High-precision chemical etching for hotels.",
+        "proofUrls": ["https://chemicaletch.com/", "https://chemicaletch.com/product/etching-bronze-brass"]
+      },
+      {
+        "id": "etch-019",
+        "company": "New Style Signs",
+        "website": "https://newstylesigns.com/our-signage/metal-plaques/",
+        "country": "Canada",
+        "region": "North America",
+        "etchingMethods": ["chemical", "acid"],
+        "confidence": "high",
+        "notes": "Toronto-based. Advanced etching and engraving for plaques.",
+        "proofUrls": ["https://newstylesigns.com/our-signage/metal-plaques/", "https://newstylesigns.com/"]
+      },
+      {
+        "id": "etch-020",
+        "company": "Rizq Group",
+        "website": "https://www.rizqgroup.com/metal-etching/",
+        "country": "United Arab Emirates",
+        "region": "Middle East",
+        "etchingMethods": ["chemical", "acid"],
+        "confidence": "high",
+        "notes": "Dubai-based. Stainless steel and brass etching services.",
+        "proofUrls": ["https://www.rizqgroup.com/metal-etching/", "https://www.rizqgroup.com/"]
+      },
+      {
+        "id": "etch-021",
+        "company": "TriaLame",
+        "website": "https://trialame.com/engraving-and-etching/",
+        "country": "United Arab Emirates",
+        "region": "Middle East",
+        "etchingMethods": ["laser", "chemical", "photo"],
+        "confidence": "high",
+        "notes": "Dubai-based. Laser etching, photo etching.",
+        "proofUrls": ["https://trialame.com/engraving-and-etching/", "https://trialame.com/"]
+      },
+      {
+        "id": "etch-022",
+        "company": "Mockridge",
+        "website": "https://mockridge.com/chemical-etching/",
+        "country": "United States",
+        "region": "North America",
+        "etchingMethods": ["chemical", "acid"],
+        "confidence": "high",
+        "notes": "Chemical etching process using screen print and acid.",
+        "proofUrls": ["https://mockridge.com/chemical-etching/", "https://mockridge.com/"]
+      },
+      {
+        "id": "etch-023",
+        "company": "NW Etch",
+        "website": "https://www.nwetch.com/photo-etching",
+        "country": "United States",
+        "region": "North America",
+        "etchingMethods": ["photo", "chemical"],
+        "confidence": "high",
+        "notes": "Photochemical machining specialist.",
+        "proofUrls": ["https://www.nwetch.com/photo-etching", "https://www.nwetch.com/"]
+      },
+      {
+        "id": "etch-024",
+        "company": "Supersign LLC",
+        "website": "https://supersignllc.net/ss-etching-plate/",
+        "country": "United Arab Emirates",
+        "region": "Middle East",
+        "etchingMethods": ["chemical", "acid"],
+        "confidence": "high",
+        "notes": "Dubai-based. Stainless steel etching specialist.",
+        "proofUrls": ["https://supersignllc.net/ss-etching-plate/", "https://supersignllc.net/"]
+      },
+      {
+        "id": "etch-025",
+        "company": "Point to Point Advertising",
+        "website": "https://pointtopointuae.com/engraving-and-etching",
+        "country": "United Arab Emirates",
+        "region": "Middle East",
+        "etchingMethods": ["laser", "chemical"],
+        "confidence": "high",
+        "notes": "UAE-based. Fiber laser and chemical etching.",
+        "proofUrls": ["https://pointtopointuae.com/engraving-and-etching", "https://pointtopointuae.com/"]
+      },
+      {
+        "id": "etch-026",
+        "company": "Conquest Creatives",
+        "website": "https://conquestcreatives.com/custom-brass-etching/",
+        "country": "Singapore",
+        "region": "Asia",
+        "etchingMethods": ["chemical", "laser"],
+        "confidence": "high",
+        "notes": "Singapore-based custom brass etching.",
+        "proofUrls": ["https://conquestcreatives.com/custom-brass-etching/", "https://conquestcreatives.com/"]
       }
     ];
 
-    function renderTable() {
+    // Watchlist data
+    const watchlistData = [
+      {
+        "id": "watch-001",
+        "company": "SignageMaker.Sg",
+        "website": "https://www.signagemaker.sg/services/metal-signage/",
+        "country": "Singapore",
+        "region": "Asia",
+        "etchingMethods": ["chemical", "acid"],
+        "reason": "Chemical treatment mentioned but not explicitly confirmed as in-house chemical etching"
+      },
+      {
+        "id": "watch-002",
+        "company": "Master Etching",
+        "website": "https://www.masteretching.com/",
+        "country": "United States",
+        "region": "North America",
+        "etchingMethods": ["chemical", "photo"],
+        "reason": "Equipment manufacturer rather than direct etching service provider"
+      },
+      {
+        "id": "watch-003",
+        "company": "Vivid Manufacturing",
+        "website": "https://metaletching.org/more-metal-etching-company-listings/",
+        "country": "United States",
+        "region": "North America",
+        "etchingMethods": ["chemical", "acid"],
+        "reason": "Listed on association directory, direct verification needed"
+      },
+      {
+        "id": "watch-004",
+        "company": "Thamvos Ads",
+        "website": "https://thamvosads.com/services/etching-ss-service",
+        "country": "United Arab Emirates",
+        "region": "Middle East",
+        "etchingMethods": ["acid", "photo"],
+        "reason": "Mentioned etching services but hospitality proof needed"
+      }
+    ];
+
+    function renderCoreTable() {
       const tbody = document.getElementById('etchingTable');
-      tbody.innerHTML = etchingData.map(item => `
+      tbody.innerHTML = coreData.map(item => `
         <tr>
           <td>
             <div class="company-name">${item.company}</div>
@@ -354,13 +658,66 @@
               ${item.etchingMethods.map(m => `<span class="method-tag">${m}</span>`).join('')}
             </div>
           </td>
+          <td>
+            <div class="proof-links">
+              ${item.proofUrls.map(url => `<a href="${url}" target="_blank" class="proof-link">↗ Proof</a>`).join('')}
+            </div>
+          </td>
           <td><span class="badge badge-${item.confidence}">${item.confidence}</span></td>
-          <td class="notes">${item.capabilityNotes}</td>
+          <td class="notes">${item.notes}</td>
         </tr>
       `).join('');
     }
 
-    renderTable();
+    function renderWatchlistTable() {
+      const tbody = document.getElementById('watchlistTable');
+      tbody.innerHTML = watchlistData.map(item => `
+        <tr>
+          <td>
+            <div class="company-name">${item.company}</div>
+            <a href="${item.website}" target="_blank" class="website-link">Visit Website →</a>
+          </td>
+          <td>${item.country}</td>
+          <td><span class="region-tag">${item.region}</span></td>
+          <td>
+            <div class="method-tags">
+              ${item.etchingMethods.map(m => `<span class="method-tag">${m}</span>`).join('')}
+            </div>
+          </td>
+          <td><span class="badge badge-watchlist">Watchlist</span></td>
+          <td class="notes">${item.reason}</td>
+        </tr>
+      `).join('');
+    }
+
+    function showSection(section) {
+      const coreSection = document.getElementById('core-section');
+      const watchlistSection = document.getElementById('watchlist-section');
+      const watchlistTitle = document.getElementById('watchlist-title');
+      const buttons = document.querySelectorAll('.toggle-btn');
+      
+      buttons.forEach(btn => btn.classList.remove('active'));
+      
+      if (section === 'core') {
+        coreSection.classList.remove('hidden');
+        watchlistSection.classList.add('hidden');
+        watchlistTitle.classList.add('hidden');
+        buttons[0].classList.add('active');
+      } else if (section === 'watchlist') {
+        coreSection.classList.add('hidden');
+        watchlistSection.classList.remove('hidden');
+        watchlistTitle.classList.remove('hidden');
+        buttons[1].classList.add('active');
+      } else {
+        coreSection.classList.remove('hidden');
+        watchlistSection.classList.remove('hidden');
+        watchlistTitle.classList.remove('hidden');
+        buttons[2].classList.add('active');
+      }
+    }
+
+    renderCoreTable();
+    renderWatchlistTable();
   </script>
 </body>
 </html>

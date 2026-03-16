@@ -1,0 +1,70 @@
+[
+  {
+    "id": "watch-001",
+    "company": "SignageMaker.Sg",
+    "website": "https://www.signagemaker.sg/services/metal-signage/",
+    "country": "Singapore",
+    "region": "Asia",
+    "etchingMethods": ["chemical", "acid"],
+    "status": "watchlist",
+    "reason": "Chemical treatment mentioned but not explicitly confirmed as in-house chemical etching",
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Metal signage services for Singapore commercial sector"
+    },
+    "proofUrls": ["https://www.signagemaker.sg/services/metal-signage/"],
+    "confidence": "medium",
+    "notes": "May provide etching services but proof not fully verified."
+  },
+  {
+    "id": "watch-002",
+    "company": "Master Etching",
+    "website": "https://www.masteretching.com/",
+    "country": "United States",
+    "region": "North America",
+    "etchingMethods": ["chemical", "photo"],
+    "status": "watchlist",
+    "reason": "Equipment manufacturer rather than direct etching service provider",
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Serves signage industry with photo chemical milling"
+    },
+    "proofUrls": ["https://www.masteretching.com/"],
+    "confidence": "medium",
+    "notes": "May offer etching services but primarily an equipment supplier."
+  },
+  {
+    "id": "watch-003",
+    "company": "Vivid Manufacturing",
+    "website": "https://metaletching.org/more-metal-etching-company-listings/",
+    "country": "United States",
+    "region": "North America",
+    "etchingMethods": ["chemical", "acid"],
+    "status": "watchlist",
+    "reason": "Listed on association directory, direct verification needed",
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Product identification nameplates for equipment rebuilders"
+    },
+    "proofUrls": ["https://metaletching.org/more-metal-etching-company-listings/"],
+    "confidence": "low",
+    "notes": "Requires direct website verification."
+  },
+  {
+    "id": "watch-004",
+    "company": "Thamvos Ads",
+    "website": "https://thamvosads.com/services/etching-ss-service",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "etchingMethods": ["acid", "photo"],
+    "status": "watchlist",
+    "reason": "Mentioned etching services but hospitality proof needed",
+    "hospitalitySignal": {
+      "hasHospitalityWork": false,
+      "evidence": "Primarily advertising company"
+    },
+    "proofUrls": ["https://thamvosads.com/services/etching-ss-service"],
+    "confidence": "low",
+    "notes": "Needs hospitality sector verification."
+  }
+]

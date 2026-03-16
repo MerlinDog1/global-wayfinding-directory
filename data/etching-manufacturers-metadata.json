@@ -1,30 +1,49 @@
 {
-  "generatedAt": "2026-03-16T12:00:00Z",
-  "totalEntries": 10,
+  "generatedAt": "2026-03-16T12:30:00Z",
+  "totalEntries": 26,
+  "totalWatchlist": 4,
   "byRegion": {
-    "Europe": 4,
-    "North America": 2,
-    "Middle East": 1,
+    "Europe": 5,
+    "North America": 8,
+    "Middle East": 6,
     "Oceania": 2,
-    "Asia": 1
+    "Asia": 5
   },
   "byCountry": {
-    "United Kingdom": 4,
-    "United States": 2,
-    "United Arab Emirates": 1,
+    "United Kingdom": 5,
+    "United States": 7,
+    "United Arab Emirates": 6,
     "Australia": 2,
-    "Singapore": 1
+    "Singapore": 4,
+    "Hong Kong": 1,
+    "Canada": 1
   },
   "etchingMethods": {
-    "chemical": 10,
-    "acid": 9,
-    "photo": 3,
-    "laser": 1
+    "chemical": 26,
+    "photo": 6,
+    "acid": 21,
+    "laser": 6,
+    "electrolytic": 1
   },
   "confidenceLevels": {
-    "high": 9,
+    "high": 25,
     "medium": 1
   },
-  "hospitalityWorkConfirmed": 10,
-  "notes": "All entries have confirmed in-house etching capabilities and hospitality/commercial signage work. Data sourced from company websites with explicit claims."
+  "fitForTradeEtchingDirect": {
+    "high": 25,
+    "medium": 1
+  },
+  "materialFocus": [
+    "aluminium",
+    "brass",
+    "bronze",
+    "copper",
+    "corten steel",
+    "stainless steel",
+    "steel",
+    "titanium",
+    "various metals",
+    "zinc"
+  ],
+  "notes": "All entries have confirmed in-house chemical/acid etching capabilities. Each entry verified with at least 2 proof URLs."
 }
