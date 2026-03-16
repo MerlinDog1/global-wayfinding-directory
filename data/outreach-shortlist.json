@@ -1753,5 +1753,35 @@
     "fitReason": "Award-winning wayfinding design. Completed The Address Hotels (Dubai), Kidbrooke Village residential. UK-based with verified contact.",
     "confidence": "high",
     "notes": "Public email on contact page. Strong hospitality portfolio."
+  },
+  {
+    "companyId": 141,
+    "company": "Iwaarden",
+    "country": "Netherlands",
+    "website": "https://www.iwaarden.nl/",
+    "email": "info@iwaarden.nl",
+    "source": "Web search - Netherlands hotel signage",
+    "notes": "Luxury hotel project: Pillows Grand Hotel Ter Borch with brass/gold finishes. Verified email.",
+    "priority": "high"
+  },
+  {
+    "companyId": 142,
+    "company": "Karas Prutscher",
+    "country": "Austria",
+    "website": "https://www.karas.at/",
+    "email": "office@prutscher.com",
+    "source": "Web search - Austria hotel signage",
+    "notes": "Vienna hotel signage specialist with brass engraving. Verified email.",
+    "priority": "high"
+  },
+  {
+    "companyId": 143,
+    "company": "TwoWay",
+    "country": "Portugal",
+    "website": "https://twoway.pt/",
+    "email": "geral@twoway.pt",
+    "source": "Web search - Portugal wayfinding",
+    "notes": "Portuguese wayfinding consultancy. Verified email.",
+    "priority": "medium"
   }
 ]

@@ -2302,5 +2302,50 @@
       }
     ],
     "notes": "Award-winning branding & wayfinding. Contact page lists info@airdesign.co.uk for careers and general enquiries"
+  },
+  {
+    "companyId": 141,
+    "company": "Iwaarden",
+    "contacts": [
+      {
+        "name": "Iwaarden Team",
+        "title": "General Enquiries",
+        "email": "info@iwaarden.nl",
+        "linkedin": null,
+        "source": "https://www.iwaarden.nl/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Dutch signage company. Verified email from website. Did Pillows Grand Hotel Ter Borch project."
+  },
+  {
+    "companyId": 142,
+    "company": "Karas Prutscher",
+    "contacts": [
+      {
+        "name": "Prutscher Team",
+        "title": "General Enquiries",
+        "email": "office@prutscher.com",
+        "linkedin": null,
+        "source": "https://www.karas.at/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Vienna-based hotel signage. Verified email from website. Specializes in brass/engraved plaques."
+  },
+  {
+    "companyId": 143,
+    "company": "TwoWay",
+    "contacts": [
+      {
+        "name": "TwoWay Team",
+        "title": "General Enquiries",
+        "email": "geral@twoway.pt",
+        "linkedin": null,
+        "source": "https://twoway.pt/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Portuguese wayfinding consultancy. Verified email from website."
   }
 ]
