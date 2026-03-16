@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-03-16T12:30:00Z",
-  "totalEntries": 26,
+  "generatedAt": "2026-03-16T12:55:00Z",
+  "totalEntries": 29,
   "totalWatchlist": 4,
   "byRegion": {
-    "Europe": 5,
-    "North America": 8,
+    "Europe": 6,
+    "North America": 10,
     "Middle East": 6,
     "Oceania": 2,
     "Asia": 5
   },
   "byCountry": {
-    "United Kingdom": 5,
-    "United States": 7,
+    "United Kingdom": 6,
+    "United States": 9,
     "United Arab Emirates": 6,
     "Australia": 2,
     "Singapore": 4,
@@ -19,20 +19,26 @@
     "Canada": 1
   },
   "etchingMethods": {
-    "chemical": 26,
-    "photo": 6,
+    "chemical": 29,
+    "photo": 9,
     "acid": 21,
     "laser": 6,
     "electrolytic": 1
   },
   "confidenceLevels": {
-    "high": 25,
+    "high": 28,
     "medium": 1
   },
   "fitForTradeEtchingDirect": {
-    "high": 25,
+    "high": 28,
     "medium": 1
   },
+  "godTierCount": 3,
+  "godTierEntries": [
+    "RSI Design (largest etching facility in USA)",
+    "Steel Art Company (trade-only since 1952)",
+    "Etch-Tech (large panel specialist UK)"
+  ],
   "materialFocus": [
     "aluminium",
     "brass",
@@ -45,5 +51,5 @@
     "various metals",
     "zinc"
   ],
-  "notes": "All entries have confirmed in-house chemical/acid etching capabilities. Each entry verified with at least 2 proof URLs."
+  "notes": "All entries have confirmed in-house chemical/acid etching capabilities. Each entry verified with at least 2 proof URLs. Added 3 god-tier entries: RSI Design (USA largest), Steel Art Company (trade-only 70+ years), Etch-Tech (UK large panel specialist)."
 }

@@ -622,5 +622,81 @@
     "fitForTradeEtchingDirect": "high",
     "confidence": "high",
     "notes": "Singapore-based."
+  },
+  {
+    "id": "etch-027",
+    "company": "RSI Design (Rebechini Studios)",
+    "website": "https://www.rsi-design.com",
+    "country": "United States",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": ["chemical", "photo"],
+    "inHouseProof": {
+      "claim": "We have the largest etching equipment in the USA. The largest etching facility in the United States dedicated to signage production.",
+      "sourceUrl": "https://www.rsi-design.com/",
+      "mapquestSource": "https://www.mapquest.com/us/illinois/rebechini-studios-7464063"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Wholesale manufacturer to the trades - produces signage for sign companies. Serves wide variety of industries including hospitality and commercial.",
+      "sourceUrl": "https://www.rsi-design.com/services/signage-and-fabrication"
+    },
+    "proofUrls": ["https://www.rsi-design.com/", "https://www.rsi-design.com/about", "https://www.mapquest.com/us/illinois/rebechini-studios-7464063", "https://www.crunchbase.com/organization/rsi-design"],
+    "materialFocus": ["stainless steel", "brass", "bronze", "copper", "aluminium", "steel", "nickel", "zinc"],
+    "productionScaleSignal": "GOD-TIER: Largest etching facility in USA dedicated to signage production, 20,000 sq ft purpose-built facility, 75 years in business",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "ranking": "god-tier",
+    "notes": "US-based trade-only manufacturer. Celebrating 75 years. Largest etching equipment in USA. 20,000 sq ft facility built 2009-2010 with purpose-built etching equipment. Serves other sign companies as trade supplier."
+  },
+  {
+    "id": "etch-028",
+    "company": "Steel Art Company",
+    "website": "https://www.steelartco.com",
+    "country": "United States",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": ["chemical"],
+    "inHouseProof": {
+      "claim": "Steel Art uses an environmentally friendly etching process. All architectural metals can be used for etched graphics.",
+      "sourceUrl": "https://www.steelartco.com/etching"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Exclusively for the trade since 1952. Typical applications include colorful logos, dedication plaques, charitable recognition plaques, and wayfinding.",
+      "sourceUrl": "https://www.steelartco.com/etching"
+    },
+    "proofUrls": ["https://www.steelartco.com/", "https://www.steelartco.com/etching"],
+    "materialFocus": ["aluminium", "brass", "bronze", "copper", "stainless steel"],
+    "productionScaleSignal": "GOD-TIER: Trade-only since 1952 (70+ years), premier architectural quality signage manufacturer",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "ranking": "god-tier",
+    "notes": "Wholesale to sign professionals only. Over 70 years experience. Lifetime Guarantee on craftsmanship. Environmentally friendly etching process."
+  },
+  {
+    "id": "etch-029",
+    "company": "Etch-Tech",
+    "website": "https://www.etch-tech.co.uk",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": ["photo", "chemical"],
+    "inHouseProof": {
+      "claim": "Large Panel Chemical Etching Specialists. We are uniquely equipped for etching metal large panels. Over 30 years experience in photo chemical etching of metal components.",
+      "sourceUrl": "https://www.etch-tech.co.uk/services/large-panel-etching/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Supplies large panel etched components to construction, private residences, architectural design, retail, galleries, artists, interior specialists, shopfitting.",
+      "sourceUrl": "https://www.etch-tech.co.uk/services/large-panel-etching/"
+    },
+    "proofUrls": ["https://www.etch-tech.co.uk/services/large-panel-etching/", "https://www.etch-tech.co.uk/signs/signage-design/"],
+    "materialFocus": ["stainless steel", "brass", "bronze", "copper", "aluminium"],
+    "productionScaleSignal": "GOD-TIER: UK leading position for large panel etching, unique capability for panels larger than 4m x 2m, curved surfaces",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "ranking": "god-tier",
+    "notes": "Large panel specialist. Notable projects: The Quadrant development London (large panel doors). Advanced process for curved surfaces and complex shapes."
   }
 ]
