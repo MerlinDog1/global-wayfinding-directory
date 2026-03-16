@@ -438,12 +438,12 @@ class BusinessDirectory {
     `;
   }
 
-  getImageSearchUrl(website, company = '') {
+  getImageSearchUrl(website) {
     if (!website) return '';
     try {
       const normalized = website.startsWith('http') ? website : `https://${website}`;
       const host = new URL(normalized).hostname.replace(/^www\./, '');
-      const q = `site:${host} ${company || ''}`.trim();
+      const q = `site:${host}`;
       return `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(q)}`;
     } catch {
       return '';
