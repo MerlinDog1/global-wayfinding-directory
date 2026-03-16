@@ -1604,6 +1604,17 @@
   }
 ];
 
+    function getImageSearchUrl(website) {
+      if (!website) return '';
+      try {
+        const normalized = website.startsWith('http') ? website : `https://${website}`;
+        const host = new URL(normalized).hostname.replace(/^www\./, '');
+        return `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(`site:${host}`)}`;
+      } catch {
+        return '';
+      }
+    }
+
     function renderCoreTable() {
       const tbody = document.getElementById('etchingTable');
       tbody.innerHTML = coreData.map(item => `
@@ -1611,6 +1622,7 @@
           <td>
             <div class="company-name">${item.company}</div>
             <a href="${item.website}" target="_blank" class="website-link">Visit Website →</a>
+            <a href="${getImageSearchUrl(item.website)}" target="_blank" class="website-link">📷 Images →</a>
           </td>
           <td>${item.country}</td>
           <td><span class="region-tag">${item.region}</span></td>
@@ -1637,6 +1649,7 @@
           <td>
             <div class="company-name">${item.company}</div>
             <a href="${item.website}" target="_blank" class="website-link">Visit Website →</a>
+            <a href="${getImageSearchUrl(item.website)}" target="_blank" class="website-link">📷 Images →</a>
           </td>
           <td>${item.country}</td>
           <td><span class="region-tag">${item.region}</span></td>
