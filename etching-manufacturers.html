@@ -315,369 +315,1294 @@
   <script>
     // Core confirmed manufacturers
     const coreData = [
-      {
-        "id": "etch-001",
-        "company": "Trade Etching Direct",
-        "website": "https://www.tradeetching.com",
-        "country": "United Kingdom",
-        "region": "Europe",
-        "etchingMethods": ["chemical", "photo", "acid"],
-        "confidence": "high",
-        "notes": "UKs leading trade supplier. Large panel capability up to 4m x 2m.",
-        "proofUrls": ["https://www.tradeetching.com/etched-metal-signs-nameplates", "https://www.tradeetching.com/chemical-etching-services"]
-      },
-      {
-        "id": "etch-002",
-        "company": "SPT Design",
-        "website": "https://www.sptdesign.co.uk",
-        "country": "United Kingdom",
-        "region": "Europe",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "high",
-        "notes": "Chemical etching on brass, stainless steel, aluminium. Hotel signage specialist.",
-        "proofUrls": ["https://www.sptdesign.co.uk/hotel-signs.php", "https://www.sptdesign.co.uk/etched-brass-plaque.php"]
-      },
-      {
-        "id": "etch-003",
-        "company": "Multitechnic",
-        "website": "https://multitechnic.co.uk",
-        "country": "United Kingdom",
-        "region": "Europe",
-        "etchingMethods": ["chemical", "acid", "photo"],
-        "confidence": "high",
-        "notes": "UK-based etching specialist for hotels and apartments.",
-        "proofUrls": ["https://multitechnic.co.uk/news/etched-brass-signage-hotels-apartments-wayfinding/", "https://multitechnic.co.uk/services/chemical-etching/"]
-      },
-      {
-        "id": "etch-004",
-        "company": "Javik Laser Ltd",
-        "website": "https://www.javik.co.uk",
-        "country": "United Kingdom",
-        "region": "Europe",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "high",
-        "notes": "Chemical etching on stainless steel, aluminium, brass.",
-        "proofUrls": ["https://www.javik.co.uk/chemical-etching/", "https://www.javik.co.uk/"]
-      },
-      {
-        "id": "etch-005",
-        "company": "OTOEL",
-        "website": "https://www.otoel.com",
-        "country": "United Kingdom",
-        "region": "Europe",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "high",
-        "notes": "One of leading centres for chemical etching in Europe. Brass, copper, bronze, titanium.",
-        "proofUrls": ["https://www.otoel.com/blog/otoel-is-the-leading-name-in-chemical-etching-in-the-uk-and-europe", "https://www.otoel.com/"]
-      },
-      {
-        "id": "etch-006",
-        "company": "Masterwork Plaques",
-        "website": "https://www.masterworkplaques.com",
-        "country": "United States",
-        "region": "North America",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "high",
-        "notes": "Chemical etching on bronze, aluminium, stainless steel, copper, brass, zinc.",
-        "proofUrls": ["https://www.masterworkplaques.com/etched-metal-plaques", "https://www.masterworkplaques.com/"]
-      },
-      {
-        "id": "etch-007",
-        "company": "The Sign Maker",
-        "website": "https://www.sign-maker.net",
-        "country": "United States",
-        "region": "North America",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "high",
-        "notes": "Chemical etching on stainless steel and brass.",
-        "proofUrls": ["https://www.sign-maker.net/engraved/etched.htm", "https://www.sign-maker.net/"]
-      },
-      {
-        "id": "etch-008",
-        "company": "Gemini Signage",
-        "website": "https://geminimade.com/signage/plaques-plates/etched-plaques/",
-        "country": "United States",
-        "region": "North America",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "high",
-        "notes": "Proprietary etching process for complex artwork on stainless steel, bronze, brass.",
-        "proofUrls": ["https://geminimade.com/signage/plaques-plates/etched-plaques/", "https://geminimade.com/"]
-      },
-      {
-        "id": "etch-009",
-        "company": "A.R.K. Ramos",
-        "website": "https://arkramos.com/our-work/etched-plaques",
-        "country": "United States",
-        "region": "North America",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "high",
-        "notes": "Premium architectural signage for hotels.",
-        "proofUrls": ["https://arkramos.com/our-work/etched-plaques", "https://arkramos.com/"]
-      },
-      {
-        "id": "etch-010",
-        "company": "Arch and Art",
-        "website": "https://archandart.ae",
-        "country": "United Arab Emirates",
-        "region": "Middle East",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "high",
-        "notes": "In-house etching facility in Abu Dhabi. Fast turnaround 3-5 days.",
-        "proofUrls": ["https://archandart.ae/chemical-etching-in-abu-dhabi.php", "https://archandart.ae/"]
-      },
-      {
-        "id": "etch-011",
-        "company": "Chrysels",
-        "website": "https://www.chrysels.com/products/signage-company-dubai/internal-signage/",
-        "country": "United Arab Emirates",
-        "region": "Middle East",
-        "etchingMethods": ["chemical", "acid", "laser"],
-        "confidence": "high",
-        "notes": "Leading signage manufacturer in Dubai. Hotel signs specialist.",
-        "proofUrls": ["https://www.chrysels.com/products/signage-company-dubai/internal-signage/", "https://www.chrysels.com/"]
-      },
-      {
-        "id": "etch-012",
-        "company": "PhotoEtch",
-        "website": "https://photoetch.com.au",
-        "country": "Australia",
-        "region": "Oceania",
-        "etchingMethods": ["chemical", "photo"],
-        "confidence": "high",
-        "notes": "Australian company since 1984. Chemical etching on stainless steel and brass.",
-        "proofUrls": ["https://photoetch.com.au/", "https://photoetch.com.au/contact/"]
-      },
-      {
-        "id": "etch-013",
-        "company": "Mastercut",
-        "website": "https://www.mastercut.com.au",
-        "country": "Australia",
-        "region": "Oceania",
-        "etchingMethods": ["acid", "chemical", "laser"],
-        "confidence": "high",
-        "notes": "Gold Coast Australia. Acid etching, laser cutting, brake press folding.",
-        "proofUrls": ["https://www.mastercut.com.au/", "https://www.mastercut.com.au/capabilities/"]
-      },
-      {
-        "id": "etch-014",
-        "company": "Lim Sign",
-        "website": "https://www.limsign.com.sg",
-        "country": "Singapore",
-        "region": "Asia",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "medium",
-        "notes": "Singapore-based. Metal etching on stainless steel, brass.",
-        "proofUrls": ["https://www.limsign.com.sg/signage-singapore/signage-metal-etching/", "https://www.limsign.com.sg/"]
-      },
-      {
-        "id": "etch-015",
-        "company": "Million Group",
-        "website": "https://million.com.sg/service/chemical-etching/",
-        "country": "Singapore",
-        "region": "Asia",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "high",
-        "notes": "Singapore-based chemical etching. Brass and steel plaques.",
-        "proofUrls": ["https://million.com.sg/service/chemical-etching/", "https://million.com.sg/"]
-      },
-      {
-        "id": "etch-016",
-        "company": "Brighten Etch and Engraving",
-        "website": "https://www.brightenengrave.com/",
-        "country": "Singapore",
-        "region": "Asia",
-        "etchingMethods": ["chemical", "acid", "laser"],
-        "confidence": "high",
-        "notes": "Singapore-based since 1986. Chemical etching and laser engraving.",
-        "proofUrls": ["https://www.brightenengrave.com/", "https://www.brightenengrave.com/contact-us/"]
-      },
-      {
-        "id": "etch-017",
-        "company": "Daiwa Ltd",
-        "website": "https://www.daiwaltd.com.hk/product/etching-signage?lang=en",
-        "country": "Hong Kong",
-        "region": "Asia",
-        "etchingMethods": ["chemical", "acid", "electrolytic"],
-        "confidence": "high",
-        "notes": "Hong Kong-based. Chemical, acid, and electrolytic etching.",
-        "proofUrls": ["https://www.daiwaltd.com.hk/product/etching-signage?lang=en", "https://www.daiwaltd.com.hk/"]
-      },
-      {
-        "id": "etch-018",
-        "company": "ChemEtch Corporation",
-        "website": "https://chemicaletch.com/",
-        "country": "United States",
-        "region": "North America",
-        "etchingMethods": ["chemical", "acid", "photo"],
-        "confidence": "high",
-        "notes": "20+ years expertise. High-precision chemical etching for hotels.",
-        "proofUrls": ["https://chemicaletch.com/", "https://chemicaletch.com/product/etching-bronze-brass"]
-      },
-      {
-        "id": "etch-019",
-        "company": "New Style Signs",
-        "website": "https://newstylesigns.com/our-signage/metal-plaques/",
-        "country": "Canada",
-        "region": "North America",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "high",
-        "notes": "Toronto-based. Advanced etching and engraving for plaques.",
-        "proofUrls": ["https://newstylesigns.com/our-signage/metal-plaques/", "https://newstylesigns.com/"]
-      },
-      {
-        "id": "etch-020",
-        "company": "Rizq Group",
-        "website": "https://www.rizqgroup.com/metal-etching/",
-        "country": "United Arab Emirates",
-        "region": "Middle East",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "high",
-        "notes": "Dubai-based. Stainless steel and brass etching services.",
-        "proofUrls": ["https://www.rizqgroup.com/metal-etching/", "https://www.rizqgroup.com/"]
-      },
-      {
-        "id": "etch-021",
-        "company": "TriaLame",
-        "website": "https://trialame.com/engraving-and-etching/",
-        "country": "United Arab Emirates",
-        "region": "Middle East",
-        "etchingMethods": ["laser", "chemical", "photo"],
-        "confidence": "high",
-        "notes": "Dubai-based. Laser etching, photo etching.",
-        "proofUrls": ["https://trialame.com/engraving-and-etching/", "https://trialame.com/"]
-      },
-      {
-        "id": "etch-022",
-        "company": "Mockridge",
-        "website": "https://mockridge.com/chemical-etching/",
-        "country": "United States",
-        "region": "North America",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "high",
-        "notes": "Chemical etching process using screen print and acid.",
-        "proofUrls": ["https://mockridge.com/chemical-etching/", "https://mockridge.com/"]
-      },
-      {
-        "id": "etch-023",
-        "company": "NW Etch",
-        "website": "https://www.nwetch.com/photo-etching",
-        "country": "United States",
-        "region": "North America",
-        "etchingMethods": ["photo", "chemical"],
-        "confidence": "high",
-        "notes": "Photochemical machining specialist.",
-        "proofUrls": ["https://www.nwetch.com/photo-etching", "https://www.nwetch.com/"]
-      },
-      {
-        "id": "etch-024",
-        "company": "Supersign LLC",
-        "website": "https://supersignllc.net/ss-etching-plate/",
-        "country": "United Arab Emirates",
-        "region": "Middle East",
-        "etchingMethods": ["chemical", "acid"],
-        "confidence": "high",
-        "notes": "Dubai-based. Stainless steel etching specialist.",
-        "proofUrls": ["https://supersignllc.net/ss-etching-plate/", "https://supersignllc.net/"]
-      },
-      {
-        "id": "etch-025",
-        "company": "Point to Point Advertising",
-        "website": "https://pointtopointuae.com/engraving-and-etching",
-        "country": "United Arab Emirates",
-        "region": "Middle East",
-        "etchingMethods": ["laser", "chemical"],
-        "confidence": "high",
-        "notes": "UAE-based. Fiber laser and chemical etching.",
-        "proofUrls": ["https://pointtopointuae.com/engraving-and-etching", "https://pointtopointuae.com/"]
-      },
-      {
-        "id": "etch-026",
-        "company": "Conquest Creatives",
-        "website": "https://conquestcreatives.com/custom-brass-etching/",
-        "country": "Singapore",
-        "region": "Asia",
-        "etchingMethods": ["chemical", "laser"],
-        "confidence": "high",
-        "notes": "Singapore-based custom brass etching.",
-        "proofUrls": ["https://conquestcreatives.com/custom-brass-etching/", "https://conquestcreatives.com/"]
-      },
-      {
-        "id": "etch-027",
-        "company": "RSI Design (Rebechini Studios)",
-        "website": "https://www.rsi-design.com",
-        "country": "United States",
-        "region": "North America",
-        "etchingMethods": ["chemical", "photo"],
-        "confidence": "high",
-        "ranking": "god-tier",
-        "notes": "US-based trade-only manufacturer. Largest etching facility in USA. 20,000 sq ft purpose-built facility.",
-        "proofUrls": ["https://www.rsi-design.com/", "https://www.rsi-design.com/about"]
-      },
-      {
-        "id": "etch-028",
-        "company": "Steel Art Company",
-        "website": "https://www.steelartco.com",
-        "country": "United States",
-        "region": "North America",
-        "etchingMethods": ["chemical"],
-        "confidence": "high",
-        "ranking": "god-tier",
-        "notes": "Trade-only since 1952. Premier architectural quality signage. Lifetime Guarantee.",
-        "proofUrls": ["https://www.steelartco.com/", "https://www.steelartco.com/etching"]
-      },
-      {
-        "id": "etch-029",
-        "company": "Etch-Tech",
-        "website": "https://www.etch-tech.co.uk",
-        "country": "United Kingdom",
-        "region": "Europe",
-        "etchingMethods": ["photo", "chemical"],
-        "confidence": "high",
-        "ranking": "god-tier",
-        "notes": "UK large panel specialist. Over 30 years experience. Can do panels larger than 4m x 2m.",
-        "proofUrls": ["https://www.etch-tech.co.uk/services/large-panel-etching/", "https://www.etch-tech.co.uk/signs/signage-design/"]
-      }
-    ];
+  {
+    "id": "etch-001",
+    "company": "Trade Etching Direct",
+    "website": "https://www.tradeetching.com",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "photo",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Our purpose built state of the art chemical etching facility is capable of producing runs in the 1000s and we can etch panels in house up to 4m x 2m",
+      "sourceUrl": "https://www.tradeetching.com/etched-metal-signs-nameplates"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Hotel and office signage listed as typical applications",
+      "sourceUrl": "https://www.tradeetching.com/etched-metal-signs-nameplates"
+    },
+    "proofUrls": [
+      "https://www.tradeetching.com/etched-metal-signs-nameplates",
+      "https://www.tradeetching.com/chemical-etching-services"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "brass",
+      "bronze",
+      "copper",
+      "aluminium"
+    ],
+    "productionScaleSignal": "Large scale - runs in 1000s, panels up to 4m x 2m",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "UKs leading trade supplier. Large panel capability."
+  },
+  {
+    "id": "etch-002",
+    "company": "SPT Design",
+    "website": "https://www.sptdesign.co.uk",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "These chemically etched plaques are manufactured to a 1.5mm thickness on the latest CNC engraving and industrial etching machines",
+      "sourceUrl": "https://www.sptdesign.co.uk/hotel-signs.php"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "High end hotel signs - these high end hotel signs really finish off the look and feel of a quality luxury hotel",
+      "sourceUrl": "https://www.sptdesign.co.uk/hotel-signs.php"
+    },
+    "proofUrls": [
+      "https://www.sptdesign.co.uk/hotel-signs.php",
+      "https://www.sptdesign.co.uk/etched-brass-plaque.php"
+    ],
+    "materialFocus": [
+      "brass",
+      "stainless steel",
+      "aluminium",
+      "copper",
+      "bronze"
+    ],
+    "productionScaleSignal": "Bespoke manufacturing to any size",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Chemical etching on brass, stainless steel, aluminium. UK manufacturer specializing in hotel signage."
+  },
+  {
+    "id": "etch-003",
+    "company": "Multitechnic",
+    "website": "https://multitechnic.co.uk",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid",
+      "photo"
+    ],
+    "inHouseProof": {
+      "claim": "Etched brass wayfinding signage hotels, upmarket apartments and offices",
+      "sourceUrl": "https://multitechnic.co.uk/news/etched-brass-signage-hotels-apartments-wayfinding/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Specialist in etched brass signage for hotels and upmarket apartments",
+      "sourceUrl": "https://multitechnic.co.uk/news/etched-brass-signage-hotels-apartments-wayfinding/"
+    },
+    "proofUrls": [
+      "https://multitechnic.co.uk/news/etched-brass-signage-hotels-apartments-wayfinding/",
+      "https://multitechnic.co.uk/services/chemical-etching/"
+    ],
+    "materialFocus": [
+      "brass",
+      "stainless steel",
+      "copper",
+      "bronze"
+    ],
+    "productionScaleSignal": "Sign trade supplier, fast quotes",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "UK-based etching specialist. Fast quotes and reliable delivery."
+  },
+  {
+    "id": "etch-004",
+    "company": "Javik Laser Ltd",
+    "website": "https://www.javik.co.uk",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Chemical etched signs - Each sign is custom-made to your specifications",
+      "sourceUrl": "https://www.javik.co.uk/chemical-etching/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Signage for branding, wayfinding, or decorative purposes - hotels included in typical applications",
+      "sourceUrl": "https://www.javik.co.uk/chemical-etching/"
+    },
+    "proofUrls": [
+      "https://www.javik.co.uk/chemical-etching/",
+      "https://www.javik.co.uk/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "aluminium",
+      "brass"
+    ],
+    "productionScaleSignal": "Custom signage solutions",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Chemical etching on stainless steel, aluminium, brass."
+  },
+  {
+    "id": "etch-005",
+    "company": "OTOEL",
+    "website": "https://www.otoel.com",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Renowned for chemical etching using the latest technology, one of the leading centres for chemical etching in Europe",
+      "sourceUrl": "https://www.otoel.com/blog/otoel-is-the-leading-name-in-chemical-etching-in-the-uk-and-europe"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Materials such as brass, copper, bronze, stainless steel even Titanium, giving your office or award plaques a high-level of prestige",
+      "sourceUrl": "https://www.otoel.com/blog/otoel-is-the-leading-name-in-chemical-etching-in-the-uk-and-europe"
+    },
+    "proofUrls": [
+      "https://www.otoel.com/blog/otoel-is-the-leading-name-in-chemical-etching-in-the-uk-and-europe",
+      "https://www.otoel.com/"
+    ],
+    "materialFocus": [
+      "brass",
+      "copper",
+      "bronze",
+      "stainless steel",
+      "titanium"
+    ],
+    "productionScaleSignal": "Large volumes undertaken, fast lead times",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Northampton facility - one of leading centres for chemical etching in Europe."
+  },
+  {
+    "id": "etch-006",
+    "company": "Masterwork Plaques",
+    "website": "https://www.masterworkplaques.com",
+    "country": "United States",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Etched plaques are created by chemically etching artwork and text into a sheet of metal",
+      "sourceUrl": "https://www.masterworkplaques.com/etched-metal-plaques"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Wayfinding signage, wall plaques listed as common applications",
+      "sourceUrl": "https://www.masterworkplaques.com/etched-metal-plaques"
+    },
+    "proofUrls": [
+      "https://www.masterworkplaques.com/etched-metal-plaques",
+      "https://www.masterworkplaques.com/"
+    ],
+    "materialFocus": [
+      "bronze",
+      "aluminium",
+      "stainless steel",
+      "copper",
+      "brass",
+      "zinc"
+    ],
+    "productionScaleSignal": "Custom plaques, in-house designers",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Chemical etching on bronze, aluminium, stainless steel, copper, brass, zinc."
+  },
+  {
+    "id": "etch-007",
+    "company": "The Sign Maker",
+    "website": "https://www.sign-maker.net",
+    "country": "United States",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Chemically etched stainless steel and brass plaques. Ideal for signs or plaques with detailed images, small letters and several colours",
+      "sourceUrl": "https://www.sign-maker.net/engraved/etched.htm"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Stainless Steel and Brass Plaques and Signs - serves hotel and commercial signage sector",
+      "sourceUrl": "https://www.sign-maker.net/engraved/etched.htm"
+    },
+    "proofUrls": [
+      "https://www.sign-maker.net/engraved/etched.htm",
+      "https://www.sign-maker.net/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "brass"
+    ],
+    "productionScaleSignal": "Detailed plaque work",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Chemical etching on stainless steel and brass."
+  },
+  {
+    "id": "etch-008",
+    "company": "Gemini Signage",
+    "website": "https://geminimade.com/signage/plaques-plates/etched-plaques/",
+    "country": "United States",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Our proprietary etching process allows us to transfer the most complex artwork to a range of metal materials like stainless steel, bronze, or brass",
+      "sourceUrl": "https://geminimade.com/signage/plaques-plates/etched-plaques/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Premium engraving and ADA plastic substrates for the signage, award, and recognition industries",
+      "sourceUrl": "https://geminimade.com/signage/plaques-plates/etched-plaques/"
+    },
+    "proofUrls": [
+      "https://geminimade.com/signage/plaques-plates/etched-plaques/",
+      "https://geminimade.com/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "bronze",
+      "brass"
+    ],
+    "productionScaleSignal": "Same day shipping on most orders",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Proprietary etching process for complex artwork."
+  },
+  {
+    "id": "etch-009",
+    "company": "A.R.K. Ramos",
+    "website": "https://arkramos.com/our-work/etched-plaques",
+    "country": "United States",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "We transfer the design onto the metal sheet using a chemical resistant material, protecting it from the etchant",
+      "sourceUrl": "https://arkramos.com/our-work/etched-plaques"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Custom signage for hotels, architectural signage, award plaques",
+      "sourceUrl": "https://arkramos.com/our-work/etched-plaques"
+    },
+    "proofUrls": [
+      "https://arkramos.com/our-work/etched-plaques",
+      "https://arkramos.com/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "brass",
+      "bronze",
+      "aluminium"
+    ],
+    "productionScaleSignal": "Custom signage from single award to large projects",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Premium architectural signage. Chemical etching process."
+  },
+  {
+    "id": "etch-010",
+    "company": "Arch and Art",
+    "website": "https://archandart.ae",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Our etching and fabrication facility is located in Musaffah, Abu Dhabi, UAE. We offer customized chemical etching for nameplates, branding plates, and decorative signage",
+      "sourceUrl": "https://archandart.ae/chemical-etching-in-abu-dhabi.php"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Hospitality and Retail - Custom branding, room numbers, and luxury signage solutions",
+      "sourceUrl": "https://archandart.ae/chemical-etching-in-abu-dhabi.php"
+    },
+    "proofUrls": [
+      "https://archandart.ae/chemical-etching-in-abu-dhabi.php",
+      "https://archandart.ae/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "aluminium",
+      "brass"
+    ],
+    "productionScaleSignal": "In-house facility, fast turnaround 3-5 days",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "In-house etching facility in Abu Dhabi. Serves hospitality sector."
+  },
+  {
+    "id": "etch-011",
+    "company": "Chrysels",
+    "website": "https://www.chrysels.com/products/signage-company-dubai/internal-signage/",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid",
+      "laser"
+    ],
+    "inHouseProof": {
+      "claim": "Our internal Signage solutions include Etched and Engraved Signs for hotels",
+      "sourceUrl": "https://www.chrysels.com/products/signage-company-dubai/internal-signage/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Hotel Signs, Reception Signs listed as core services",
+      "sourceUrl": "https://www.chrysels.com/products/signage-company-dubai/internal-signage/"
+    },
+    "proofUrls": [
+      "https://www.chrysels.com/products/signage-company-dubai/internal-signage/",
+      "https://www.chrysels.com/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "brass",
+      "aluminium"
+    ],
+    "productionScaleSignal": "Full in-house manufacturing",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Leading visual merchandising and signage manufacturer in Dubai."
+  },
+  {
+    "id": "etch-012",
+    "company": "PhotoEtch",
+    "website": "https://photoetch.com.au",
+    "country": "Australia",
+    "region": "Oceania",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "photo"
+    ],
+    "inHouseProof": {
+      "claim": "We specialise in chemical etching, anodised aluminium printing, and laser engraving",
+      "sourceUrl": "https://photoetch.com.au/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Custom plaques, signage for commercial applications. Australian-owned since 1984",
+      "sourceUrl": "https://photoetch.com.au/"
+    },
+    "proofUrls": [
+      "https://photoetch.com.au/",
+      "https://photoetch.com.au/contact/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "brass"
+    ],
+    "productionScaleSignal": "Established since 1984",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Australian company since 1984. Chemical etching on stainless steel and brass."
+  },
+  {
+    "id": "etch-013",
+    "company": "Mastercut",
+    "website": "https://www.mastercut.com.au",
+    "country": "Australia",
+    "region": "Oceania",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "acid",
+      "chemical",
+      "laser"
+    ],
+    "inHouseProof": {
+      "claim": "Acid etched signs are one of the hardest wearing, longest lasting signs on the market",
+      "sourceUrl": "https://www.mastercut.com.au/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Signs for the sign industry - components and complete ready to install solutions for commercial projects",
+      "sourceUrl": "https://www.mastercut.com.au/"
+    },
+    "proofUrls": [
+      "https://www.mastercut.com.au/",
+      "https://www.mastercut.com.au/capabilities/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "copper",
+      "brass",
+      "corten steel"
+    ],
+    "productionScaleSignal": "Full manufacturing capability",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Gold Coast Australia. Acid etching, laser cutting, brake press folding."
+  },
+  {
+    "id": "etch-014",
+    "company": "Lim Sign",
+    "website": "https://www.limsign.com.sg",
+    "country": "Singapore",
+    "region": "Asia",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Metal etching services - gold brass with etching, silver hairline stainless steel with etching",
+      "sourceUrl": "https://www.limsign.com.sg/signage-singapore/signage-metal-etching/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Signage company in Singapore serving commercial and hospitality sectors",
+      "sourceUrl": "https://www.limsign.com.sg/signage-singapore/signage-metal-etching/"
+    },
+    "proofUrls": [
+      "https://www.limsign.com.sg/signage-singapore/signage-metal-etching/",
+      "https://www.limsign.com.sg/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "brass"
+    ],
+    "productionScaleSignal": "Full service signage",
+    "fitForTradeEtchingDirect": "medium",
+    "confidence": "medium",
+    "notes": "Singapore-based. Metal etching on stainless steel, brass."
+  },
+  {
+    "id": "etch-015",
+    "company": "Million Group",
+    "website": "https://million.com.sg/service/chemical-etching/",
+    "country": "Singapore",
+    "region": "Asia",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "We take great pride in our ability to craft top-quality chemically etched items. From sleek brass and steel plaques to durable sign boards",
+      "sourceUrl": "https://million.com.sg/service/chemical-etching/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Chemical etching services for plaques and sign boards in Singapore",
+      "sourceUrl": "https://million.com.sg/service/chemical-etching/"
+    },
+    "proofUrls": [
+      "https://million.com.sg/service/chemical-etching/",
+      "https://million.com.sg/"
+    ],
+    "materialFocus": [
+      "brass",
+      "steel",
+      "stainless steel"
+    ],
+    "productionScaleSignal": "Full service metal fabrication",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Singapore-based chemical etching."
+  },
+  {
+    "id": "etch-016",
+    "company": "Brighten Etch and Engraving",
+    "website": "https://www.brightenengrave.com/",
+    "country": "Singapore",
+    "region": "Asia",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid",
+      "laser"
+    ],
+    "inHouseProof": {
+      "claim": "We provide high quality products. We have metal engraving, name tag, stainless steel labels, chemical etching",
+      "sourceUrl": "https://www.brightenengrave.com/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Chemical etching and engraving services for commercial clients in Singapore since 1986",
+      "sourceUrl": "https://www.brightenengrave.com/"
+    },
+    "proofUrls": [
+      "https://www.brightenengrave.com/",
+      "https://www.brightenengrave.com/contact-us/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "brass",
+      "aluminium"
+    ],
+    "productionScaleSignal": "Since 1986",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Singapore-based since 1986."
+  },
+  {
+    "id": "etch-017",
+    "company": "Daiwa Ltd",
+    "website": "https://www.daiwaltd.com.hk/product/etching-signage?lang=en",
+    "country": "Hong Kong",
+    "region": "Asia",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid",
+      "electrolytic"
+    ],
+    "inHouseProof": {
+      "claim": "Etching signage uses chemicals, acid or electrolytic methods to create precise lines and patterns on stainless steel or copper sheets",
+      "sourceUrl": "https://www.daiwaltd.com.hk/product/etching-signage?lang=en"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Etching signage services for commercial and architectural applications in Hong Kong",
+      "sourceUrl": "https://www.daiwaltd.com.hk/product/etching-signage?lang=en"
+    },
+    "proofUrls": [
+      "https://www.daiwaltd.com.hk/product/etching-signage?lang=en",
+      "https://www.daiwaltd.com.hk/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "copper"
+    ],
+    "productionScaleSignal": "Full manufacturing capability",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Hong Kong-based. Chemical, acid, and electrolytic etching."
+  },
+  {
+    "id": "etch-018",
+    "company": "ChemEtch Corporation",
+    "website": "https://chemicaletch.com/",
+    "country": "United States",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid",
+      "photo"
+    ],
+    "inHouseProof": {
+      "claim": "Chemical etching enhances advertising with high-precision nameplates, labels, signage, and plaques. We specialize in etching brass, bronze, copper, stainless steel and aluminium",
+      "sourceUrl": "https://chemicaletch.com/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Custom Signage for businesses, offices, hotels, and public spaces. Hotel interiors and elevator decorative panels listed as applications",
+      "sourceUrl": "https://chemicaletch.com/"
+    },
+    "proofUrls": [
+      "https://chemicaletch.com/",
+      "https://chemicaletch.com/product/etching-bronze-brass"
+    ],
+    "materialFocus": [
+      "brass",
+      "bronze",
+      "copper",
+      "stainless steel",
+      "aluminium"
+    ],
+    "productionScaleSignal": "20 years expertise, high precision",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "20+ years expertise in chemical etching."
+  },
+  {
+    "id": "etch-019",
+    "company": "New Style Signs",
+    "website": "https://newstylesigns.com/our-signage/metal-plaques/",
+    "country": "Canada",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Our advanced etching and engraving technologies enable clients to prepare the custom metal plaque",
+      "sourceUrl": "https://newstylesigns.com/our-signage/metal-plaques/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Cast Metal and Acrylic Plaques for Toronto and across Canada, serving commercial and hospitality sectors",
+      "sourceUrl": "https://newstylesigns.com/our-signage/metal-plaques/"
+    },
+    "proofUrls": [
+      "https://newstylesigns.com/our-signage/metal-plaques/",
+      "https://newstylesigns.com/"
+    ],
+    "materialFocus": [
+      "brass",
+      "bronze",
+      "stainless steel",
+      "aluminium"
+    ],
+    "productionScaleSignal": "Full service signage company",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Toronto-based."
+  },
+  {
+    "id": "etch-020",
+    "company": "Rizq Group",
+    "website": "https://www.rizqgroup.com/metal-etching/",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Stainless steel etching services in Dubai and brass etching services in the UAE",
+      "sourceUrl": "https://www.rizqgroup.com/metal-etching/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Metal etching services for signage in Dubai UAE",
+      "sourceUrl": "https://www.rizqgroup.com/metal-etching/"
+    },
+    "proofUrls": [
+      "https://www.rizqgroup.com/metal-etching/",
+      "https://www.rizqgroup.com/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "brass",
+      "aluminium"
+    ],
+    "productionScaleSignal": "Full metal etching services in Dubai",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Dubai-based."
+  },
+  {
+    "id": "etch-021",
+    "company": "TriaLame",
+    "website": "https://trialame.com/engraving-and-etching/",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "laser",
+      "chemical",
+      "photo"
+    ],
+    "inHouseProof": {
+      "claim": "We provide laser etching and engraving. We provide designs in stainless steel, brass, copper and aluminium either by etching or photo etching",
+      "sourceUrl": "https://trialame.com/engraving-and-etching/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Engraving and etching services in Dubai for commercial applications",
+      "sourceUrl": "https://trialame.com/engraving-and-etching/"
+    },
+    "proofUrls": [
+      "https://trialame.com/engraving-and-etching/",
+      "https://trialame.com/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "brass",
+      "copper",
+      "aluminium"
+    ],
+    "productionScaleSignal": "Laser and chemical etching in Dubai",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Dubai-based."
+  },
+  {
+    "id": "etch-022",
+    "company": "Mockridge",
+    "website": "https://mockridge.com/chemical-etching/",
+    "country": "United States",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Chemical etching - a negative image of the design is screen printed to the metal surface. The metal left exposed is then etched away using an acid",
+      "sourceUrl": "https://mockridge.com/chemical-etching/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Chemical etching for labels, plaques or signs - durable, long-lasting solution",
+      "sourceUrl": "https://mockridge.com/chemical-etching/"
+    },
+    "proofUrls": [
+      "https://mockridge.com/chemical-etching/",
+      "https://mockridge.com/"
+    ],
+    "materialFocus": [
+      "brass",
+      "stainless steel",
+      "aluminium"
+    ],
+    "productionScaleSignal": "Industrial nameplates and labels",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Chemical etching process using screen print and acid."
+  },
+  {
+    "id": "etch-023",
+    "company": "NW Etch",
+    "website": "https://www.nwetch.com/photo-etching",
+    "country": "United States",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "photo",
+      "chemical"
+    ],
+    "inHouseProof": {
+      "claim": "Using the photochemical machining process, NW Etch can rapidly produce complex components with high quality, fast turn-around",
+      "sourceUrl": "https://www.nwetch.com/photo-etching"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Photochemical machining for precision components and signage",
+      "sourceUrl": "https://www.nwetch.com/photo-etching"
+    },
+    "proofUrls": [
+      "https://www.nwetch.com/photo-etching",
+      "https://www.nwetch.com/"
+    ],
+    "materialFocus": [
+      "various metals"
+    ],
+    "productionScaleSignal": "High precision, fast turnaround",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Photochemical machining specialist."
+  },
+  {
+    "id": "etch-024",
+    "company": "Supersign LLC",
+    "website": "https://supersignllc.net/ss-etching-plate/",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Leading SS Etching Plate manufacturer in Dubai. High-quality, custom stainless steel etching for durable and precise designs",
+      "sourceUrl": "https://supersignllc.net/ss-etching-plate/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "SS etching plate manufacturer serving Dubai commercial sector",
+      "sourceUrl": "https://supersignllc.net/ss-etching-plate/"
+    },
+    "proofUrls": [
+      "https://supersignllc.net/ss-etching-plate/",
+      "https://supersignllc.net/"
+    ],
+    "materialFocus": [
+      "stainless steel"
+    ],
+    "productionScaleSignal": "Custom etching services",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Dubai-based. Stainless steel etching specialist."
+  },
+  {
+    "id": "etch-025",
+    "company": "Point to Point Advertising",
+    "website": "https://pointtopointuae.com/engraving-and-etching",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "laser",
+      "chemical"
+    ],
+    "inHouseProof": {
+      "claim": "Bronze and copper engraving using fiber laser machine can engrave steel, brass, copper, aluminum",
+      "sourceUrl": "https://pointtopointuae.com/engraving-and-etching"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Engraving and etching company in UAE",
+      "sourceUrl": "https://pointtopointuae.com/engraving-and-etching"
+    },
+    "proofUrls": [
+      "https://pointtopointuae.com/engraving-and-etching",
+      "https://pointtopointuae.com/"
+    ],
+    "materialFocus": [
+      "bronze",
+      "copper",
+      "steel",
+      "brass",
+      "aluminium"
+    ],
+    "productionScaleSignal": "Laser and chemical etching",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "UAE-based. Fiber laser engraving."
+  },
+  {
+    "id": "etch-026",
+    "company": "Conquest Creatives",
+    "website": "https://conquestcreatives.com/custom-brass-etching/",
+    "country": "Singapore",
+    "region": "Asia",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "laser"
+    ],
+    "inHouseProof": {
+      "claim": "Custom brass etching services through traditional chemical etching or modern laser etching techniques",
+      "sourceUrl": "https://conquestcreatives.com/custom-brass-etching/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Custom brass etching for nameplates, signage, and industrial applications",
+      "sourceUrl": "https://conquestcreatives.com/custom-brass-etching/"
+    },
+    "proofUrls": [
+      "https://conquestcreatives.com/custom-brass-etching/",
+      "https://conquestcreatives.com/"
+    ],
+    "materialFocus": [
+      "brass"
+    ],
+    "productionScaleSignal": "Full service fabrication",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Singapore-based."
+  },
+  {
+    "id": "etch-027",
+    "company": "RSI Design (Rebechini Studios)",
+    "website": "https://www.rsi-design.com",
+    "country": "United States",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "photo"
+    ],
+    "inHouseProof": {
+      "claim": "We have the largest etching equipment in the USA. The largest etching facility in the United States dedicated to signage production.",
+      "sourceUrl": "https://www.rsi-design.com/",
+      "mapquestSource": "https://www.mapquest.com/us/illinois/rebechini-studios-7464063"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Wholesale manufacturer to the trades - produces signage for sign companies. Serves wide variety of industries including hospitality and commercial.",
+      "sourceUrl": "https://www.rsi-design.com/services/signage-and-fabrication"
+    },
+    "proofUrls": [
+      "https://www.rsi-design.com/",
+      "https://www.rsi-design.com/about",
+      "https://www.mapquest.com/us/illinois/rebechini-studios-7464063",
+      "https://www.crunchbase.com/organization/rsi-design"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "brass",
+      "bronze",
+      "copper",
+      "aluminium",
+      "steel",
+      "nickel",
+      "zinc"
+    ],
+    "productionScaleSignal": "GOD-TIER: Largest etching facility in USA dedicated to signage production, 20,000 sq ft purpose-built facility, 75 years in business",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "ranking": "god-tier",
+    "notes": "US-based trade-only manufacturer. Celebrating 75 years. Largest etching equipment in USA. 20,000 sq ft facility built 2009-2010 with purpose-built etching equipment. Serves other sign companies as trade supplier."
+  },
+  {
+    "id": "etch-028",
+    "company": "Steel Art Company",
+    "website": "https://www.steelartco.com",
+    "country": "United States",
+    "region": "North America",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical"
+    ],
+    "inHouseProof": {
+      "claim": "Steel Art uses an environmentally friendly etching process. All architectural metals can be used for etched graphics.",
+      "sourceUrl": "https://www.steelartco.com/etching"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Exclusively for the trade since 1952. Typical applications include colorful logos, dedication plaques, charitable recognition plaques, and wayfinding.",
+      "sourceUrl": "https://www.steelartco.com/etching"
+    },
+    "proofUrls": [
+      "https://www.steelartco.com/",
+      "https://www.steelartco.com/etching"
+    ],
+    "materialFocus": [
+      "aluminium",
+      "brass",
+      "bronze",
+      "copper",
+      "stainless steel"
+    ],
+    "productionScaleSignal": "GOD-TIER: Trade-only since 1952 (70+ years), premier architectural quality signage manufacturer",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "ranking": "god-tier",
+    "notes": "Wholesale to sign professionals only. Over 70 years experience. Lifetime Guarantee on craftsmanship. Environmentally friendly etching process."
+  },
+  {
+    "id": "etch-029",
+    "company": "Etch-Tech",
+    "website": "https://www.etch-tech.co.uk",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "photo",
+      "chemical"
+    ],
+    "inHouseProof": {
+      "claim": "Large Panel Chemical Etching Specialists. We are uniquely equipped for etching metal large panels. Over 30 years experience in photo chemical etching of metal components.",
+      "sourceUrl": "https://www.etch-tech.co.uk/services/large-panel-etching/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Supplies large panel etched components to construction, private residences, architectural design, retail, galleries, artists, interior specialists, shopfitting.",
+      "sourceUrl": "https://www.etch-tech.co.uk/services/large-panel-etching/"
+    },
+    "proofUrls": [
+      "https://www.etch-tech.co.uk/services/large-panel-etching/",
+      "https://www.etch-tech.co.uk/signs/signage-design/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "brass",
+      "bronze",
+      "copper",
+      "aluminium"
+    ],
+    "productionScaleSignal": "GOD-TIER: UK leading position for large panel etching, unique capability for panels larger than 4m x 2m, curved surfaces",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "ranking": "god-tier",
+    "notes": "Large panel specialist. Notable projects: The Quadrant development London (large panel doors). Advanced process for curved surfaces and complex shapes."
+  },
+  {
+    "id": "etch-030",
+    "company": "Etsprit",
+    "website": "https://etsprit.nl/",
+    "country": "Netherlands",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Etsprit is de grootste specialist op het gebied van chemisch etsen in Nederland. Wij etsen onder andere op RVS, messing, brons, nieuw zilver en zink",
+      "sourceUrl": "https://etsprit.nl/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Wij maken binnen bewegwijzering voor: Hotels, Ziekenhuizen, Universiteiten, Scholen, Winkelcentra, Parkeergarages, Musea",
+      "sourceUrl": "https://etsprit.nl/bewegwijzering/"
+    },
+    "proofUrls": [
+      "https://etsprit.nl/",
+      "https://etsprit.nl/bewegwijzering/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "brass",
+      "bronze",
+      "copper",
+      "aluminium",
+      "new silver",
+      "zinc"
+    ],
+    "productionScaleSignal": "21+ jaar ervaring, grootste specialist chemisch etsen in Nederland",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Netherlands-based chemical etching specialist. Confirmed hotel wayfinding projects."
+  },
+  {
+    "id": "etch-031",
+    "company": "Patrick de Letter",
+    "website": "https://patrickdeletter.nl/",
+    "country": "Netherlands",
+    "region": "Europe",
+    "etchingConfirmed": true,
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "inHouseProof": {
+      "claim": "Wij etsen, ook wel chemisch etsen genoemd, diverse materialen als RVS, messing, roodkoper en aluminium. Het etsproces is een verfijning van het normale graveerproces",
+      "sourceUrl": "https://patrickdeletter.nl/chemisch-etsen-van-rvs-messing-aluminium/"
+    },
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "The NOX Hotel hebben wij voorzien van messing bewegwijzering. Verwijzingen en kamernummers zijn aan de achterzijde ingegraveerd",
+      "sourceUrl": "https://patrickdeletter.nl/patrick-de-letter-hotelsigns/"
+    },
+    "proofUrls": [
+      "https://patrickdeletter.nl/chemisch-etsen-van-rvs-messing-aluminium/",
+      "https://patrickdeletter.nl/patrick-de-letter-hotelsigns/"
+    ],
+    "materialFocus": [
+      "stainless steel",
+      "brass",
+      "copper",
+      "aluminium"
+    ],
+    "productionScaleSignal": "Chemisch etsen voor grote oplages",
+    "fitForTradeEtchingDirect": "high",
+    "confidence": "high",
+    "notes": "Netherlands-based. Completed hotel projects including The NOX Hotel."
+  }
+];
 
-    // Watchlist data
     const watchlistData = [
-      {
-        "id": "watch-001",
-        "company": "SignageMaker.Sg",
-        "website": "https://www.signagemaker.sg/services/metal-signage/",
-        "country": "Singapore",
-        "region": "Asia",
-        "etchingMethods": ["chemical", "acid"],
-        "reason": "Chemical treatment mentioned but not explicitly confirmed as in-house chemical etching"
-      },
-      {
-        "id": "watch-002",
-        "company": "Master Etching",
-        "website": "https://www.masteretching.com/",
-        "country": "United States",
-        "region": "North America",
-        "etchingMethods": ["chemical", "photo"],
-        "reason": "Equipment manufacturer rather than direct etching service provider"
-      },
-      {
-        "id": "watch-003",
-        "company": "Vivid Manufacturing",
-        "website": "https://metaletching.org/more-metal-etching-company-listings/",
-        "country": "United States",
-        "region": "North America",
-        "etchingMethods": ["chemical", "acid"],
-        "reason": "Listed on association directory, direct verification needed"
-      },
-      {
-        "id": "watch-004",
-        "company": "Thamvos Ads",
-        "website": "https://thamvosads.com/services/etching-ss-service",
-        "country": "United Arab Emirates",
-        "region": "Middle East",
-        "etchingMethods": ["acid", "photo"],
-        "reason": "Mentioned etching services but hospitality proof needed"
-      }
-    ];
+  {
+    "id": "watch-001",
+    "company": "SignageMaker.Sg",
+    "website": "https://www.signagemaker.sg/services/metal-signage/",
+    "country": "Singapore",
+    "region": "Asia",
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "status": "watchlist",
+    "reason": "Chemical treatment mentioned but not explicitly confirmed as in-house chemical etching",
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Metal signage services for Singapore commercial sector"
+    },
+    "proofUrls": [
+      "https://www.signagemaker.sg/services/metal-signage/"
+    ],
+    "confidence": "medium",
+    "notes": "May provide etching services but proof not fully verified."
+  },
+  {
+    "id": "watch-002",
+    "company": "Master Etching",
+    "website": "https://www.masteretching.com/",
+    "country": "United States",
+    "region": "North America",
+    "etchingMethods": [
+      "chemical",
+      "photo"
+    ],
+    "status": "watchlist",
+    "reason": "Equipment manufacturer rather than direct etching service provider",
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Serves signage industry with photo chemical milling"
+    },
+    "proofUrls": [
+      "https://www.masteretching.com/"
+    ],
+    "confidence": "medium",
+    "notes": "May offer etching services but primarily an equipment supplier."
+  },
+  {
+    "id": "watch-003",
+    "company": "Vivid Manufacturing",
+    "website": "https://metaletching.org/more-metal-etching-company-listings/",
+    "country": "United States",
+    "region": "North America",
+    "etchingMethods": [
+      "chemical",
+      "acid"
+    ],
+    "status": "watchlist",
+    "reason": "Listed on association directory, direct verification needed",
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Product identification nameplates for equipment rebuilders"
+    },
+    "proofUrls": [
+      "https://metaletching.org/more-metal-etching-company-listings/"
+    ],
+    "confidence": "low",
+    "notes": "Requires direct website verification."
+  },
+  {
+    "id": "watch-004",
+    "company": "Thamvos Ads",
+    "website": "https://thamvosads.com/services/etching-ss-service",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "etchingMethods": [
+      "acid",
+      "photo"
+    ],
+    "status": "watchlist",
+    "reason": "Mentioned etching services but hospitality proof needed",
+    "hospitalitySignal": {
+      "hasHospitalityWork": false,
+      "evidence": "Primarily advertising company"
+    },
+    "proofUrls": [
+      "https://thamvosads.com/services/etching-ss-service"
+    ],
+    "confidence": "low",
+    "notes": "Needs hospitality sector verification."
+  },
+  {
+    "id": "watch-005",
+    "company": "Holmquistsign",
+    "website": "https://holmquistsign.se/",
+    "country": "Sweden",
+    "region": "Europe",
+    "etchingMethods": [],
+    "status": "watchlist",
+    "reason": "Major Nordic hotel signage provider but etching method not explicitly confirmed (likely laser/engraving)",
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Nordens största leverantör av skyltar och annan visuell kommunikation till hotell. Projects include Hotel Kung Carl"
+    },
+    "proofUrls": [
+      "https://holmquistsign.se/hotellskyltar/",
+      "https://holmquistsign.se/projekt/hotel-kung-carl/"
+    ],
+    "confidence": "medium",
+    "notes": "Largest Nordic hotel signage company. Materials include brass, aluminum. Needs verification of etching vs engraving method."
+  },
+  {
+    "id": "watch-006",
+    "company": "VisualBrand",
+    "website": "https://vb.visualbrand.com.br/",
+    "country": "Brazil",
+    "region": "South America",
+    "etchingMethods": [
+      "chemical",
+      "electrochemical"
+    ],
+    "status": "watchlist",
+    "reason": "Confirmed chemical etching capability but hospitality sector proof needed",
+    "hospitalitySignal": {
+      "hasHospitalityWork": false,
+      "evidence": "Processes include corrosão ou eletro corrosão química on stainless steel, aluminum, bronze, brass"
+    },
+    "proofUrls": [
+      "https://vb.visualbrand.com.br/placa-gravacao-em-baixo-relevo"
+    ],
+    "confidence": "medium",
+    "notes": "Brazilian company with chemical etching. Focus appears more industrial. Needs hospitality verification."
+  },
+  {
+    "id": "watch-007",
+    "company": "Tecgrava",
+    "website": "https://tecgrava.com.br/",
+    "country": "Brazil",
+    "region": "South America",
+    "etchingMethods": [
+      "photo",
+      "laser"
+    ],
+    "status": "watchlist",
+    "reason": "Photo-engraving services but hospitality sector proof needed",
+    "hospitalitySignal": {
+      "hasHospitalityWork": false,
+      "evidence": "Gravação e fotogravação on stainless steel, brass, aluminum. Custom nameplates and badges."
+    },
+    "proofUrls": [
+      "https://tecgrava.com.br/"
+    ],
+    "confidence": "low",
+    "notes": "Brazilian company. Focus on technical engraving. Needs hospitality verification."
+  },
+  {
+    "id": "watch-008",
+    "company": "Rausgebrannt",
+    "website": "https://rausgebrannt.at/",
+    "country": "Austria",
+    "region": "Europe",
+    "etchingMethods": [
+      "laser"
+    ],
+    "status": "watchlist",
+    "reason": "Hotel signage with brass but uses laser methods, not chemical etching",
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Hotelschild aus Messing - created brass hotel signs. Clients include tourism and hospitality sector"
+    },
+    "proofUrls": [
+      "https://rausgebrannt.at/portfolio/hotelschild-aus-messing/",
+      "https://rausgebrannt.at/kundenliste/"
+    ],
+    "confidence": "medium",
+    "notes": "Austrian company. Uses laser cutting and laser engraving, not chemical etching."
+  },
+  {
+    "id": "watch-009",
+    "company": "Nachiappa",
+    "website": "https://www.nachiappa.in/",
+    "country": "India",
+    "region": "Asia",
+    "etchingMethods": [
+      "chemical"
+    ],
+    "status": "watchlist",
+    "reason": "Chemical etching on brass mentioned but export/hospitality verification needed",
+    "hospitalitySignal": {
+      "hasHospitalityWork": true,
+      "evidence": "Usage/Application: Hotel - metal name plates listed. Etched brass signs for malls, offices"
+    },
+    "proofUrls": [
+      "https://www.nachiappa.in/metal-name-boards.html"
+    ],
+    "confidence": "medium",
+    "notes": "Indian manufacturer in Madurai. Brass etching for hotels and commercial use."
+  }
+];
 
     function renderCoreTable() {
       const tbody = document.getElementById('etchingTable');
