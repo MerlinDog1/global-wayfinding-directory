@@ -2272,5 +2272,35 @@
       }
     ],
     "notes": "Regional player covering Costa Rica."
+  },
+  {
+    "companyId": 134,
+    "company": "Jackson Daly",
+    "contacts": [
+      {
+        "name": "Studio Team",
+        "title": "Project Enquiries",
+        "email": "info@jacksondaly.com",
+        "linkedin": "https://www.linkedin.com/company/jackson-daly-limited",
+        "source": "https://jacksondaly.com/contact/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Luxury hotel wayfinding specialist. Contact page lists info@jacksondaly.com and +44 (0)20 7234 0074"
+  },
+  {
+    "companyId": 135,
+    "company": "Air Design",
+    "contacts": [
+      {
+        "name": "Studio Team",
+        "title": "General Enquiries",
+        "email": "info@airdesign.co.uk",
+        "linkedin": null,
+        "source": "https://airdesign.co.uk/contact/",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Award-winning branding & wayfinding. Contact page lists info@airdesign.co.uk for careers and general enquiries"
   }
 ]

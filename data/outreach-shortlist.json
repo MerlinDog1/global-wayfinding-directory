@@ -1727,5 +1727,31 @@
     "fitReason": "Regional firm covering Costa Rica. 20+ years across Central America.",
     "confidence": "medium",
     "notes": "Contact: +502 2362-7041 (Guatemala)"
+  },
+  {
+    "companyId": 134,
+    "company": "Jackson Daly",
+    "country": "UK",
+    "primaryEmail": "info@jacksondaly.com",
+    "backupEmail": "",
+    "primaryContactName": "Studio Team",
+    "primaryContactRole": "Project Enquiries",
+    "contactLinkedIn": "https://www.linkedin.com/company/jackson-daly-limited",
+    "fitReason": "Established luxury hotel wayfinding specialist. Worked on Four Seasons London, One Bishopsgate Plaza. 30+ years hospitality experience.",
+    "confidence": "high",
+    "notes": "Public contact info on website. Strong luxury hospitality signal."
+  },
+  {
+    "companyId": 135,
+    "company": "Air Design",
+    "country": "UK",
+    "primaryEmail": "info@airdesign.co.uk",
+    "backupEmail": "",
+    "primaryContactName": "Studio Team",
+    "primaryContactRole": "General Enquiries",
+    "contactLinkedIn": "",
+    "fitReason": "Award-winning wayfinding design. Completed The Address Hotels (Dubai), Kidbrooke Village residential. UK-based with verified contact.",
+    "confidence": "high",
+    "notes": "Public email on contact page. Strong hospitality portfolio."
   }
 ]
